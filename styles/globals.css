@@ -287,3 +287,32 @@ width: 100%;
 .nav-item{
   margin-left: 15px;
 }
+.section1-title{
+  font-size: 54px;
+}
+.section1-subtitle{
+  font-size: 14px;
+  opacity: 0.4;
+}
+.section1-form-text{
+  font-size: 14px;
+  opacity: 0.6;
+}
+.section-1-form-subtext{
+  font-size: 14px;
+}
+.partners{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  background-color: #121927;
+  height: 70px;
+}
+.partners h2{
+  color: white;
+}
+.footer-outside{
+  background-color: #121927;
+  height: 1000px;
+}

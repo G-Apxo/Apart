@@ -5,17 +5,25 @@ function Partners() {
     <div>
         <Container>
             <Row>
-                <div className='col-3'>
+                <div className='col-3 '>
+                  <div className='partners'>
                     <h2>Partner1</h2>
+                  </div>  
                 </div>
                 <div className='col-3'>
-                <h2>Partner2</h2>
+                <div className='partners'>
+                    <h2>Partner2</h2>
+                  </div>  
                 </div>
                 <div className='col-3'>
-                <h2>Partner3</h2>
+                <div className='partners'>
+                    <h2>Partner3</h2>
+                  </div>  
                 </div>
                 <div className='col-3'>
-                <h2>Partner4</h2>
+                <div className='partners'>
+                    <h2>Partner4</h2>
+                  </div>  
                 </div>
             </Row>
         </Container>
