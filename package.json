@@ -15,6 +15,7 @@
     "next": "^12.1.5",
     "npm-install-global": "^1.0.0",
     "react": "^18.0.0",
+    "react-3d-viewer": "^1.0.12",
     "react-bootstrap": "^2.3.0",
     "react-dom": "^18.0.0",
     "yarn": "^1.22.18"
