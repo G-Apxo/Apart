@@ -2,6 +2,8 @@ import React from 'react'
 import Head from 'next/head'
 import { Nav, Button,Row,Container,input } from 'react-bootstrap'
 import Link from 'next/link'
+import Image from 'next/image'
+import Logo from '../../../assets/logo.svg'
 function Header() {
   return (
     <div>
@@ -15,7 +17,13 @@ function Header() {
     <Row>
       <div className="col-2">
       <Link href="/">
-      <a className="navbar-brand">Apart</a>
+      <a className="navbar-brand">
+      <Image
+      src={Logo}
+      alt="Picture of the author"
+    />
+
+      </a>
     </Link>
       </div>
       <div className="col-6 d-flex justify-content-center">
