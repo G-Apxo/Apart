@@ -3,7 +3,7 @@ import { Nav, Button,Row,Container,input } from 'react-bootstrap'
 function Partners() {
   return (
     <div>
-        <Container>
+        <Container className='partners-container'>
             <Row>
                 <div className='col-3 '>
                   <div className='partners'>
