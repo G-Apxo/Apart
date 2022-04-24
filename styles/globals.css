@@ -332,6 +332,9 @@ width: 100%;
 .languages p {
   color: rgba(255, 255, 255, 0.4);
 }
+.languages .active {
+  color: rgba(255, 255, 255, 1);
+}
 .footer-info{
   display: flex;
   justify-content: center;

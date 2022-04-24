@@ -24,7 +24,7 @@ function footer() {
                 <a href='#'><p>GEO /</p></a>
               </li>
               <li>
-              <a href='#'><p>ENG /</p></a>
+              <a href='#'><p> <span className='active'>ENG</span> /</p></a>
               </li>
               <li>
               <a href='#'><p>RUS /</p></a>
