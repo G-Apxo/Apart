@@ -442,3 +442,18 @@ a.nav-link{
   font-size: 14px;
   /* max-width: 70%; */
 }
+.image__box{
+  background-image: url("../assets/aboutbannerimg.svg");
+  height: 300px;
+}
+.blog-image__content{
+  padding: 30px;
+}
+.blog-image__content h2{
+  color: white;
+  font-size: 18px;
+}
+.blog-image__content p{
+  color: white;
+  font-size: 12px;
+}
