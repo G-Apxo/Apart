@@ -6,10 +6,14 @@ import Blog from '../src/components/Blog/Blog'
 import Partners from '../src/components/partners/partners'
 import Footer from '../src/components/Footer/footer'
 import { About } from './about/About'
+import Layout from '../src/components/Layout/Layout'
 export default function Home() {
 
   return (
     <div>
+      <Layout>
+
+      
       <About/>
       {/* <Header/>
      <Slider/>
@@ -17,6 +21,7 @@ export default function Home() {
       <Blog/>
       <Partners/>
       <Footer/> */}
+      </Layout>
       </div>
   )
 }
