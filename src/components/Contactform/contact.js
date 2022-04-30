@@ -3,7 +3,7 @@ import { Nav, Button,Row,Container,input } from 'react-bootstrap'
 function contact() {
 return (
 <Container>
-   <Row className="justify-content-between">
+   <Row className="justify-content-between container-marginer" >
       <div className='col-4'>
          <h2 className='section1-title'>
          Renewed life of old tbilisi

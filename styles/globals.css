@@ -442,3 +442,20 @@ a.nav-link{
   font-size: 14px;
   /* max-width: 70%; */
 }
+.form-check{
+  margin-top: 20px;
+}
+.form-check-label{
+  font-size: 14px;
+}
+#contact-form{
+  margin-top: 20px;
+}
+.btn-send{
+  margin-top: 20px;
+}
+
+.container-marginer{
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+}
