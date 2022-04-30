@@ -13,13 +13,11 @@ export default function Home() {
     <div>
       <Layout>
 
-      
-      <Header/>
      <Slider/>
        <Contact/>
       <Blog/>
       <Partners/>
-      <Footer/>
+
       </Layout>
       </div>
   )
