@@ -1,5 +1,6 @@
 import React from 'react'
 import { Nav, Button,Row,Container,input } from 'react-bootstrap'
+
 function slider() {
   return (
         <Container>
