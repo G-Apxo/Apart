@@ -51,42 +51,26 @@ function Header() {
           })}
         </ul>
       </nav>
-      {/* <ul className="navbar-nav mr-auto">
-        <li className="nav-item active">
-          <Link href="/">
-            <a className="nav-link">About us</a>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link href="/articles">
-            <a className="nav-link">Projects</a>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link href="/write">
-            <a className="nav-link">Service</a>
-          </Link>
-        </li>
-        <li className="nav-item">
-          <Link href="/write">
-            <a className="nav-link">Contact</a>
-          </Link>
-        </li>
-      </ul> */}
       </div>
       <div class="col-2 d-flex justify-content-end align-items-center">
     <ul className="navbar-nav ">
+      <li className='nav-item text-nowrap'>
+          <select className="Language__select">
+            <option>ENG</option>
+            <option>Geo</option>
+          </select>
+      </li>
         <li className="nav-item text-nowrap">
-        <div class="form-check form-switch">
+        {/* <div class="form-check form-switch">
         <input className="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked/>
-      </div>
+      </div> */}
         </li>
       </ul>
       <ul className="navbar-nav ">
         <li className="nav-item text-nowrap">
-          <Button className="nav-link">
+          <button className="nav-link header_btn">
               Request a call
-          </Button>
+          </button>
         </li>
       </ul>
       </div>
