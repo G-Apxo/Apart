@@ -37,7 +37,7 @@ function Header() {
       </a>
     </Link>
       </div>
-      <div className="col-6 d-flex justify-content-center">
+      <div className="col-8 d-flex justify-content-center">
       <nav>
         <ul className="navbar-nav mr-auto">
           {path.map((value) => {
@@ -74,7 +74,7 @@ function Header() {
         </li>
       </ul> */}
       </div>
-      <div class="col-4 d-flex justify-content-end align-items-center">
+      <div class="col-2 d-flex justify-content-end align-items-center">
     <ul className="navbar-nav ">
         <li className="nav-item text-nowrap">
         <div class="form-check form-switch">
