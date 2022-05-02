@@ -6,7 +6,7 @@ import Image from 'next/image'
 export const AboutBanner = () => {
   return (
     <div>
-        <div className="container">
+      
             <div className="row row-marginer">
             <h1 class="about-title">ABOUT US</h1>
             </div>
@@ -20,6 +20,7 @@ export const AboutBanner = () => {
                     <p className='about--text__ptmod2'>although we are a growing construction company and we have an ongoing, innovative project. We build construction in accordance with the highest standards, which means that our construction sites are distinguished with constructive and seismic sustainability. Each current or future project of the company is distinguished with sophisticated exterior, effective internal planning, and most importantly with the best location. The aim of the company is to create a product that will be tailored to the user's needs and wishes. We would like to have your lucrative investment in the company acquired in the company. What makes us different on the market is: • A high quality that can be found in each detail; • Innovation, which is a successful business success; • Responsibility, without which can not gain customer trust</p>
                 </div>
             </div>
+            <div className="container">
             <div className="row row-marginer">
 
                     <div className="col-6 about--text__left">

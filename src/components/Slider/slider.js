@@ -1,34 +1,70 @@
 import React from 'react'
-import { Nav, Button,Row,Container,input } from 'react-bootstrap'
+import { Nav, Button,Row,Container,input,Carousel, Col } from 'react-bootstrap'
+import Slide1 from '../../../assets/slider.png'
+import Taghi from '../../../assets/taghi.svg'
+import Image from 'next/image'
 
 function slider() {
   return (
-        <Container>
-            <Row>
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
-            <div className="carousel-inner">
-                <div className="carousel-item active">
-                <img src="https://apart.ge/img/projects/bukhaidze-6a.webp" className="d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                <img src="..." className="d-block w-100" alt="..."/>
-                </div>
-                <div className="carousel-item">
-                <img src="..." className="d-block w-100" alt="..."/>
-                </div>
-            </div>
-            <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="sr-only">Next</span>
-            </a>
-            </div>
-            </Row>
-        </Container>
-
+            <Carousel>
+              <Carousel.Item>
+                <Row>
+                  <Col className="col-7 justify-content-center d-flex">
+                  <Image src={Slide1} alt="banner immage" />
+                  </Col>
+                  <Col className='col-5 d-flex align-items-center'>
+                    <div className=''>
+                    <Image src={Taghi} alt="banner immage" />
+                    <h3>OLD TBILISI</h3>
+                    <p>For our team, it is important and a priority to preserve   <br/>the charm of the old city, to use the old
+                    <br/>
+                    <br/>
+                    For our team, it is important and a priority to preserve  <br/> the charm of the old city, to use the old
+                    </p>
+                    </div>
+                
+                  </Col>
+                </Row>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Row>
+                  <Col className="col-7 justify-content-center d-flex">
+                  <Image src={Slide1} alt="banner immage" />
+                  </Col>
+                  <Col className='col-5 d-flex align-items-center'>
+                    <div className=''>
+                    <Image src={Taghi} alt="banner immage" />
+                    <h3>OLD TBILISI</h3>
+                    <p>For our team, it is important and a priority to preserve   <br/>the charm of the old city, to use the old
+                    <br/>
+                    <br/>
+                    For our team, it is important and a priority to preserve  <br/> the charm of the old city, to use the old
+                    </p>
+                    </div>
+                
+                  </Col>
+                </Row>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Row>
+                  <Col className="col-7 justify-content-center d-flex">
+                  <Image src={Slide1} alt="banner immage" />
+                  </Col>
+                  <Col className='col-5 d-flex align-items-center'>
+                    <div className=''>
+                    <Image src={Taghi} alt="banner immage" />
+                    <h3>OLD TBILISI</h3>
+                    <p>For our team, it is important and a priority to preserve   <br/>the charm of the old city, to use the old
+                    <br/>
+                    <br/>
+                    For our team, it is important and a priority to preserve  <br/> the charm of the old city, to use the old
+                    </p>
+                    </div>
+                
+                  </Col>
+                </Row>
+              </Carousel.Item>
+            </Carousel>
   )
 }
 
