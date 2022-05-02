@@ -14,12 +14,13 @@ const path = [
   { uid: 51, name: 'Projects', id: 4, path: 'Projects' },
   { uid: 51, name: 'Investing', id: 5, path: 'Investing' },
   { uid: 61, name: 'Contact', id: 6, path: 'Contact' },
+  { uid: 61, name: 'SingleBlog', id: 6, path: 'SingleBlog' },
 ];
 function Header() {
   return (
     <div>
         <Head>
-        <title>Next and Bootstrap</title>
+        <title>Apart</title>
         <meta name="description" content="A demo about NextJS and Bootstrap 5" />
       </Head>
       

@@ -10,7 +10,7 @@ function slider() {
               <Carousel.Item>
                 <Row>
                   <Col className="col-7 justify-content-center d-flex">
-                  <Image src={Slide1} alt="banner immage" />
+                  <iframe className='iframe_height' src='https://my.spline.design/buildingsunsetcopy-732fc31677457e3f0a96ce5b13f234a9/' frameborder='0' width='100%' height='100%'></iframe>
                   </Col>
                   <Col className='col-5 d-flex align-items-center'>
                     <div className=''>
@@ -29,7 +29,7 @@ function slider() {
               <Carousel.Item>
               <Row>
                   <Col className="col-7 justify-content-center d-flex">
-                  <Image src={Slide1} alt="banner immage" />
+                  <iframe className='iframe_height' src='https://my.spline.design/buildingsunsetcopy-732fc31677457e3f0a96ce5b13f234a9/' frameborder='0' width='100%' height='100%'></iframe>
                   </Col>
                   <Col className='col-5 d-flex align-items-center'>
                     <div className=''>
@@ -48,7 +48,7 @@ function slider() {
               <Carousel.Item>
               <Row>
                   <Col className="col-7 justify-content-center d-flex">
-                  <Image src={Slide1} alt="banner immage" />
+                  <iframe className='iframe_height' src='https://my.spline.design/buildingsunsetcopy-732fc31677457e3f0a96ce5b13f234a9/' frameborder='0' width='100%' height='100%'></iframe>
                   </Col>
                   <Col className='col-5 d-flex align-items-center'>
                     <div className=''>

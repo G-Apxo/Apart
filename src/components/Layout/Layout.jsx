@@ -1,5 +1,5 @@
 // import custom components
-import Footer from "../../components/Footer/footer";
+import Footer_white from "../../components/Footer/Footer_white";
 import Header from "../../components/Header/Header";
 export default function Layout({ children }) {
   // styles the main html tag
@@ -11,7 +11,7 @@ export default function Layout({ children }) {
         <section >{children}</section>
   
       </main>
-      <Footer />
+      <Footer_white />
     </>
   );
 }

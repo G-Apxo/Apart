@@ -9,7 +9,10 @@ body{
 }
 a:hover{text-decoration: none;}
 
-
+a{
+  text-align: none;
+  
+}
 /* Globals type styling */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
@@ -330,10 +333,10 @@ width: 100%;
   list-style: none;
 }
 .languages p {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.4);
 }
 .languages .active {
-  color: rgba(255, 255, 255, 1);
+  color: rgb(0, 0, 0);
 }
 .footer-info{
   display: flex;
@@ -357,6 +360,14 @@ width: 100%;
   color: #FFF;
   list-style: none;
   margin-bottom: 14px;
+}
+.footer-info-ul-white li {
+  color: rgb(0, 0, 0);
+  list-style: none;
+  margin-bottom: 14px;
+}
+.footer-info-title-white{
+  color: black;
 }
 .partners-container{
   margin-bottom: 60px;
@@ -500,4 +511,17 @@ a.nav-link{
 .contact__number h5{
   font-size: 14px;
   color: #000000;
+}
+.Nav__a{
+  color: #000 !important;
+}
+.footer-terms-white{
+  color: black;
+}
+.footer-splitter{
+  border-top: 1px solid #00000040;
+  padding-top: 10px;
+}
+.iframe_height{
+  height: 1000px;
 }
