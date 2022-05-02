@@ -1,11 +1,38 @@
 import React from 'react'
-import { Nav, Button,Row,Container,input } from 'react-bootstrap'
+import { Nav, Button,Row,Container,input,Carousel } from 'react-bootstrap'
+import Slide1 from '../../../assets/slider.png'
+import Image from 'next/image'
 
 function slider() {
   return (
         <Container>
             <Row>
-            <iframe src='https://my.spline.design/cubeaxiswebsiteupdatedinprod-c7eb2ea95c5e22c50b14b5333ee86583/' frameborder='0' width='100%' height='100%'></iframe>
+            <Carousel>
+              <Carousel.Item>
+              <Image src={Slide1} alt="banner immage" />
+                <Carousel.Caption>
+                  <h3>First slide label</h3>
+                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Image src={Slide1} alt="banner immage" />
+
+                <Carousel.Caption>
+                  <h3>Second slide label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Image src={Slide1} alt="banner immage" />
+
+                <Carousel.Caption>
+                  <h3>Third slide label</h3>
+                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+          
             </Row>
         </Container>
 

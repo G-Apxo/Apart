@@ -15,7 +15,7 @@ export default function Home() {
 
      <Slider/>
        <Contact/>
-      {/* <Blog/> */}
+      <Blog/>
       <Partners/>
 
       </Layout>
