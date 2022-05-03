@@ -30,17 +30,17 @@ const SingleBlog = () => {
                 </div>
             <Col className='col-12 d-flex justify-content-center mt-5'>
                 <Col className='col-6'>
-                    <p>
+                    {/* <p>
                     The fact is that real estate is one of the most correct,
-                     secure and reliable areas for investment. Moreover, 
-                     along with investing in gold and silver items, 
+                     secure and reliable areas for investment. Moreover&lsquo; 
+                     along with investing in gold and silver items&lsquo; 
                      real estate is considered to be one of the most profitable ways to increase capital. 
                      For many well-known brands or businesses, which appear as a manufacturing or even food business in various fields, 
                      in fact, the main source of income is the real estate owned by them. 
-                     A clear example of this is such a giant chain of food outlets around the world as McDonald's. 
+                     A clear example of this is such a giant chain of food outlets around the world as McDonald&lsquo;s. 
                      The company owns and rents most of the restaurant buildings to franchisors who have the right to use the brand name. 
                      Consequently, the parent company owns real estate in almost every country in the world and continuously makes a profit from the lease. 
-                     From this point of view, it can be said that McDonald's is a real estate company more than a fast food chain.
+                     From this point of view, it can be said that McDonald&lsquo;s is a real estate company more than a fast food chain.
                     </p>
                     <p>
                     The fact is that real estate is one of the most correct,
@@ -52,8 +52,8 @@ const SingleBlog = () => {
                      A clear example of this is such a giant chain of food outlets around the world as McDonald's. 
                      The company owns and rents most of the restaurant buildings to franchisors who have the right to use the brand name. 
                      Consequently, the parent company owns real estate in almost every country in the world and continuously makes a profit from the lease. 
-                     From this point of view, it can be said that McDonald's is a real estate company more than a fast food chain.
-                    </p>
+                     From this point of view, it can be said that McDonald&lsquo;s is a real estate company more than a fast food chain.
+                    </p> */}
                 </Col>
             </Col>
             <Col xs="3" className='mb-5 mt-5'>
