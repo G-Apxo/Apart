@@ -45,7 +45,7 @@ const Contact = () => {
                               </div>
                                 </Col>
                                 <Col className="col-12">
-                                <button className="btn-send" onclick="document.getElementById('contact-form').submit();">Get contacted</button>
+                                <button className="btn-send" onClick="document.getElementById('contact-form').submit();">Get contacted</button>
                                 </Col>
                             </Row>
 

@@ -23,19 +23,19 @@ return (
             <div className='col-3'>
                <div className="form-check">
                   <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
-                  <label for="updates" className="form-check-label">Studio</label>
+                  <label htmlFor="updates" className="form-check-label">Studio</label>
                </div>
             </div>
             <div className='col-3'>
                <div className="form-check">
                   <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
-                  <label for="updates" className="form-check-label">1 Bedroom</label>
+                  <label htmlFor="updates" className="form-check-label">1 Bedroom</label>
                </div>
             </div>
             <div className='col-6'>
                <div className="form-check">
                   <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
-                  <label for="updates" className="form-check-label">2 and more bedrooms</label>
+                  <label htmlFor="updates" className="form-check-label">2 and more bedrooms</label>
                </div>
             </div>
             <section className="mb-4">
@@ -58,7 +58,7 @@ return (
                         </div>
                      </form>
                      <div className="text-center text-md-left">
-                        <button className="btn-send" onclick="document.getElementById('contact-form').submit();">Get contacted</button>
+                        <button className="btn-send" onClick="document.getElementById('contact-form').submit();">Get contacted</button>
                      </div>
                      <div className="status"></div>
                   </div>
