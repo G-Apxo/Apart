@@ -21,22 +21,22 @@ const Contact = () => {
                             <Row>
                                 <Col className='col-6'>
                                 <div className="md-form mb-0">
-                                 <input type="text" id="name" name="name" class="form-control input__main" placeholder='Phone'/>
+                                 <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
                               </div>
                                 </Col>
                                 <Col className='col-6'>
                                 <div className="md-form mb-0">
-                                 <input type="text" id="name" name="name" class="form-control input__main" placeholder='Phone'/>
+                                 <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
                               </div>
                                 </Col>
                                 <Col className='col-6'>
                                 <div className="md-form mb-0">
-                                 <input type="text" id="name" name="name" class="form-control input__main" placeholder='Phone'/>
+                                 <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
                               </div>
                                 </Col>
                                 <Col className='col-6'>
                                 <div className="md-form mb-0">
-                                 <input type="text" id="name" name="name" class="form-control input__main" placeholder='Phone'/>
+                                 <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
                               </div>
                                 </Col>
                                 <Col className='col-12'>

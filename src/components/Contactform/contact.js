@@ -21,21 +21,21 @@ return (
          <h4 className='section-1-form-subtext'>Apartment type:</h4>
          <Row>
             <div className='col-3'>
-               <div class="form-check">
-                  <input type="checkbox" class="form-check-input" name="updates" id="updates" value="1"/>
-                  <label for="updates" class="form-check-label">Studio</label>
+               <div className="form-check">
+                  <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
+                  <label for="updates" className="form-check-label">Studio</label>
                </div>
             </div>
             <div className='col-3'>
-               <div class="form-check">
-                  <input type="checkbox" class="form-check-input" name="updates" id="updates" value="1"/>
-                  <label for="updates" class="form-check-label">1 Bedroom</label>
+               <div className="form-check">
+                  <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
+                  <label for="updates" className="form-check-label">1 Bedroom</label>
                </div>
             </div>
             <div className='col-6'>
-               <div class="form-check">
-                  <input type="checkbox" class="form-check-input" name="updates" id="updates" value="1"/>
-                  <label for="updates" class="form-check-label">2 and more bedrooms</label>
+               <div className="form-check">
+                  <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
+                  <label for="updates" className="form-check-label">2 and more bedrooms</label>
                </div>
             </div>
             <section className="mb-4">
@@ -45,13 +45,13 @@ return (
                         <div className="row">
                            <div className="col-md-12">
                               <div className="md-form mb-0">
-                                 <input type="text" id="name" name="name" class="form-control input__main" placeholder='Phone'/>
+                                 <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
 
                               </div>
                            </div>
                            <div className="col-md-12">
                               <div className="md-form mb-0">
-                                 <input type="text" id="email" name="email" class="form-control input__main" placeholder='Email'/>
+                                 <input type="text" id="email" name="email" className="form-control input__main" placeholder='Email'/>
 
                               </div>
                            </div>

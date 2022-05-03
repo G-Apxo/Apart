@@ -8,7 +8,7 @@ export const AboutBanner = () => {
     <div>
       
             <div className="row row-marginer">
-            <h1 class="about-title">ABOUT US</h1>
+            <h1 className="about-title">ABOUT US</h1>
             </div>
             <div className="row row-marginer">
                 <div className="col-6 about--img">
@@ -57,7 +57,7 @@ export const AboutBanner = () => {
 
         <div className="container">
             <div className="row row-marginer">
-                <h1 class="about-title">OUR TEAM</h1>
+                <h1 className="about-title">OUR TEAM</h1>
             </div>
             <div className="row row-marginer">
                 <div className="col-3">

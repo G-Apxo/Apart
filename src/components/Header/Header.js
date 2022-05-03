@@ -53,7 +53,7 @@ function Header() {
         </ul>
       </nav>
       </div>
-      <div class="col-2 d-flex justify-content-end align-items-center">
+      <div className="col-2 d-flex justify-content-end align-items-center">
     <ul className="navbar-nav ">
       <li className='nav-item text-nowrap'>
           <select className="Language__select">
@@ -62,7 +62,7 @@ function Header() {
           </select>
       </li>
         <li className="nav-item text-nowrap">
-        {/* <div class="form-check form-switch">
+        {/* <div className="form-check form-switch">
         <input className="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked/>
       </div> */}
         </li>
