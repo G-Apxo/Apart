@@ -9,7 +9,7 @@ const Contact = () => {
                 <Row className='justify-content-between'>
                     <Col className='col-4'>
                         <h6>
-                        Apartment type:
+                        Apartment type  :
                         </h6>
                         <h2>
                         Renewed life of old tbilisi
