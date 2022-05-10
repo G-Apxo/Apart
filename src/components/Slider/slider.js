@@ -1,18 +1,46 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Nav, Button,Row,Container,input,Carousel, Col } from 'react-bootstrap'
 import Slide1 from '../../../assets/slider.png'
 import Taghi from '../../../assets/taghi.svg'
+
 import Image from 'next/image'
+
 
 function slider() {
   return (
-            <Carousel>
+      <Row className='justify-content-between'>
+        <Col xs="5">
+        <Carousel>
               <Carousel.Item>
                 <Row>
-                  <Col className="col-7 justify-content-center d-flex">
-                  <iframe className='iframe_height' src='https://my.spline.design/buildingsunsetcopy-732fc31677457e3f0a96ce5b13f234a9/' frameBorder='0' width='100%' height='100%'></iframe>
+                  <Col className='col-12 d-flex align-items-center justify-content-end'>
+                  <Image src={Slide1} alt="banner immage" />
                   </Col>
-                  <Col className='col-5 d-flex align-items-center'>
+                </Row>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Row>
+                  <Col className='col-12 d-flex align-items-center justify-content-end'>
+                  <Image src={Slide1} alt="banner immage" />
+                
+                  </Col>
+                </Row>
+              </Carousel.Item>
+              <Carousel.Item>
+              <Row>
+                  <Col className='col-12 d-flex align-items-center justify-content-end'>
+                  <Image src={Slide1} alt="banner immage" />
+                
+                  </Col>
+                </Row>
+              </Carousel.Item>
+            </Carousel>
+        </Col>
+        <Col xs="5" className='d-flex justify-content-start align-items-center'>
+        <Carousel>
+              <Carousel.Item>
+                <Row>
+                  <Col className='col-12 d-flex align-items-center'>
                     <div className=''>
                     <Image src={Taghi} alt="banner immage" />
                     <h3>OLD TBILISI</h3>
@@ -28,10 +56,7 @@ function slider() {
               </Carousel.Item>
               <Carousel.Item>
               <Row>
-                  <Col className="col-7 justify-content-center d-flex">
-                  <iframe className='iframe_height' src='https://my.spline.design/buildingsunsetcopy-732fc31677457e3f0a96ce5b13f234a9/' frameBorder='0' width='100%' height='100%'></iframe>
-                  </Col>
-                  <Col className='col-5 d-flex align-items-center'>
+                  <Col className='col-12 d-flex align-items-center'>
                     <div className=''>
                     <Image src={Taghi} alt="banner immage" />
                     <h3>OLD TBILISI</h3>
@@ -47,10 +72,7 @@ function slider() {
               </Carousel.Item>
               <Carousel.Item>
               <Row>
-                  <Col className="col-7 justify-content-center d-flex">
-                  <iframe className='iframe_height' src='https://my.spline.design/buildingsunsetcopy-732fc31677457e3f0a96ce5b13f234a9/' frameBorder='0' width='100%' height='100%'></iframe>
-                  </Col>
-                  <Col className='col-5 d-flex align-items-center'>
+                  <Col className='col-12 d-flex align-items-center'>
                     <div className=''>
                     <Image src={Taghi} alt="banner immage" />
                     <h3>OLD TBILISI</h3>
@@ -65,6 +87,9 @@ function slider() {
                 </Row>
               </Carousel.Item>
             </Carousel>
+        </Col>
+      </Row>
+  
   )
 }
 
