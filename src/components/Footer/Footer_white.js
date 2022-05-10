@@ -44,26 +44,26 @@ return (
          </div>
       </Row>
       <Row className='footer-info footer-splitter'>
-         <div className='col-lg-3'>
-            <ul className='footer-info-ul-white-white'>
+        <div className='col-lg-3'>
+            <ul className='footer-info-ul-white'>
                <p className='footer-info-title-white'>
-                  COMPANY
+                  Products
                </p>
                <li>
-                  ABOUT
+                  Updates
                </li>
                <li>
-                  BLOG
+                  Security
                </li>
                <li>
-                  JOIN US
+                  Extension
                </li>
             </ul>
          </div>
          <div className='col-lg-3'>
             <nav>
                <ul className='footer-info-ul-white'>
-                  <p className='footer-info-title'>
+                  <p className='footer-info-title-white'>
                      PRODUCTS
                   </p>
                   {path.map((value) => {
@@ -80,7 +80,7 @@ return (
          </div>
          <div className='col-lg-3'>
             <ul className='footer-info-ul-white'>
-               <p className='footer-info-title'>
+               <p className='footer-info-title-white'>
                   INDUSTRIES
                </p>
                <li>

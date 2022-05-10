@@ -361,6 +361,10 @@ width: 100%;
   list-style: none;
   margin-bottom: 14px;
 }
+.footer-info-ul-white {
+  transform: translateX(30%);
+  margin-top: 30px;
+}
 .footer-info-ul-white li {
   color: rgb(0, 0, 0);
   list-style: none;
