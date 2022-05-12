@@ -4,6 +4,11 @@ function contact() {
 return (
 <Container>
    <Row className="justify-content-between container-marginer" >
+      <div className='col-1'>
+         <p>
+            About us
+         </p>
+      </div>
       <div className='col-4'>
          <h2 className='section1-title'>
          Renewed life of old tbilisi

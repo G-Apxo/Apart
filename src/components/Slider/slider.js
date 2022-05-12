@@ -8,7 +8,27 @@ import Image from 'next/image'
 
 function slider() {
   return (
+    <Container>
       <Row className='justify-content-between'>
+          <Col xs="2">
+            <ul className='custom__li'>
+              <li>
+                Apart
+              </li>
+              <li>
+              Old city panorama
+              </li>
+              <li>
+                Apart
+              </li>
+              <li>
+                Apart
+              </li>
+              <li>
+                Apart
+              </li>
+            </ul>
+          </Col>
         <Col xs="5">
         <Carousel>
               <Carousel.Item>
@@ -89,6 +109,7 @@ function slider() {
             </Carousel>
         </Col>
       </Row>
+      </Container>
   
   )
 }
