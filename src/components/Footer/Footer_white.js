@@ -1,115 +1,50 @@
-import React from 'react'
-import { Nav, Button,Row,Container,input,Col } from 'react-bootstrap'
-import Image from 'next/image'
-import Img from '../../../assets/logo.svg'
+import React from "react";
+import { Nav, Button, Row, Container, input, Col } from "react-bootstrap";
+import Image from "next/image";
+import Img from "../../../assets/logo.svg";
 import Link from "next/link";
 const path = [
-  { uid: 31, name: 'Blog', id: 2, path: 'Blog' },
-  { uid: 41, name: 'About us', id: 3, path: 'About' },
-  { uid: 51, name: 'Projects', id: 4, path: 'Projects' },
-  { uid: 51, name: 'Investing', id: 5, path: 'Investing' },
-  { uid: 61, name: 'Contact', id: 6, path: 'Contact' },
+  { uid: 31, name: "Blog", id: 2, path: "Blog" },
+  { uid: 41, name: "About us", id: 3, path: "About" },
+  { uid: 51, name: "Projects", id: 4, path: "Projects" },
+  { uid: 51, name: "Investing", id: 5, path: "Investing" },
+  { uid: 61, name: "Contact", id: 6, path: "Contact" },
 ];
 function Footer_white() {
-return (
-<div className='footer-outside-white'>
-   <Container fluid className='footer-container'>
-      <Row className='mt-5'>
-         <div className='col-lg-3'>
-         </div>
-         <div className='col-lg-6 footer-logo'>
-            <Image
-               src={Img}
-               alt="Logo"
-               />
-         </div>
-         <div className='col-lg-3'>
-            <ul className='languages'>
-               <li>
-                  <a href='#'>
-                     <p>GEO /</p>
-                  </a>
-               </li>
-               <li>
-                  <a href='#'>
-                     <p> <span className='active'>ENG</span> /</p>
-                  </a>
-               </li>
-               <li>
-                  <a href='#'>
-                     <p>RUS /</p>
-                  </a>
-               </li>
-            </ul>
-         </div>
-      </Row>
-      <Row className='footer-info footer-splitter'>
-        <div className='col-lg-3'>
-            <ul className='footer-info-ul-white'>
-               <p className='footer-info-title-white'>
-                  Products
-               </p>
-               <li>
-                  Updates
-               </li>
-               <li>
-                  Security
-               </li>
-               <li>
-                  Extension
-               </li>
-            </ul>
-         </div>
-         <div className='col-lg-3'>
-            <nav>
-               <ul className='footer-info-ul-white'>
-                  <p className='footer-info-title-white'>
-                     PRODUCTS
-                  </p>
-                  {path.map((value) => {
-                  return (
-                  <li key={value.uid}>
-                     <Link href={value.path}>
-                     <a className="Nav__a"> {value.name} </a>
-                     </Link>
-                  </li>
-                  );
-                  })}
-               </ul>
-            </nav>
-         </div>
-         <div className='col-lg-3'>
-            <ul className='footer-info-ul-white'>
-               <p className='footer-info-title-white'>
-                  INDUSTRIES
-               </p>
-               <li>
-                  STARTUPS
-               </li>
-               <li>
-                  CAPITAL
-               </li>
-               <li>
-                  EQUILITY
-               </li>
-            </ul>
-         </div>
-      </Row>
-      <Row className='footer-splitter'>
-             <Col xs="6">
-             <p className='footer--terms__mod'>
-               All rights reserved. The copyright notice generally consists of three elements
+  return (
+    <div className="footer-outside-white">
+      <Container fluid>
+        <Row>
+          <Col md={2}>
+            <p className="copyright">&copy; Apart Development, all rights reserved</p>
+          </Col>
+          <Col md={2}>
+            <p className="policy">Policy regarding the processing of personal data</p>
+          </Col>
+          <Col md={2}>
+            <p>
+              <a href="tel:+995 544 44 44 31">+995 544 44 44 31</a>
             </p>
-             </Col>
-           
-             <Col xs="6" className='d-flex justify-content-end'>
-             <p className='footer--terms__terms__mod'>Terms and Conditions</p>
-             </Col>
-             
-           
-      </Row>
-   </Container>
-</div>
-)
+            <p>
+              <a href="mailto:info@apart.ge">info@apart.ge</a>
+            </p>
+          </Col>
+          <Col md={2}>
+            <div class="box">
+              <p className="social">Facebook</p>
+              <p className="social">Instagram</p>
+              <p className="social">Youtube</p>
+              <p className="social">Pinterest</p>
+            </div>
+          </Col>
+
+          <Col md={4}>
+            <p className="languages">geo /eng / rus</p>
+            <p className="languages">Terms and Conditions</p>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
 }
-export default Footer_white
+export default Footer_white;
