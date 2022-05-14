@@ -333,7 +333,7 @@ a {
   font-size: 14px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   list-style: none;
   opacity: 0.6;
 }
@@ -553,7 +553,13 @@ a.nav-link {
 .box {
   display: flex;
   flex-wrap: wrap;
+  font-size: 14px;
 }
 .box > * {
-  flex: 1 1 100px;
+  flex: 1 1 90px;
+}
+.infos--white > a {
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
 }

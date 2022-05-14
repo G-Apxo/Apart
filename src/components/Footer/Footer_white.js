@@ -13,7 +13,7 @@ const path = [
 function Footer_white() {
   return (
     <div className="footer-outside-white">
-      <Container fluid>
+      <Container>
         <Row>
           <Col md={2}>
             <p className="copyright">&copy; Apart Development, all rights reserved</p>
@@ -22,10 +22,10 @@ function Footer_white() {
             <p className="policy">Policy regarding the processing of personal data</p>
           </Col>
           <Col md={2}>
-            <p>
+            <p className="infos--white">
               <a href="tel:+995 544 44 44 31">+995 544 44 44 31</a>
             </p>
-            <p>
+            <p className="infos--white">
               <a href="mailto:info@apart.ge">info@apart.ge</a>
             </p>
           </Col>
