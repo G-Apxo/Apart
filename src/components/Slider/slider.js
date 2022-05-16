@@ -54,7 +54,7 @@ function slider() {
               </Col>
               <Col xs="3" className="d-flex">
               <Col className='col-12 d-flex align-items-center'>
-                <div className=''>
+                <div className='test'>
                 <Image src={Taghi} alt="banner immage" />
                 <h3>OLD TBILISI</h3>
                 <p>For our team, it is important and a priority to preserve   <br/>the charm of the old city, to use the old

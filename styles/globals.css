@@ -32,16 +32,21 @@ a {
 .slide {
   transform: scale(0.5);
   transition: transform 300ms;
-  opacity: 0.5;
+  opacity: 0.3;
+}
+.slide .test{
+  display: none;
 }
 
-.activeSlide {
+.activeSlide{
   width: 900px !important;
   margin-left: -20vh;
   transform: scale(1.2);
   opacity: 1;
 }
-
+.activeSlide .test{
+  display: block;
+}
 .arrow {
   background-color: #fff;
   position: absolute;
