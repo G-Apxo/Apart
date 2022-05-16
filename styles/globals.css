@@ -17,6 +17,56 @@ a {
 }
 /* Globals type styling */
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.App {
+  height: 570px;
+}
+
+.slide img {
+  width: 20rem;
+  margin: 0 auto;
+}
+
+.slide {
+  transform: scale(0.5);
+  transition: transform 300ms;
+  opacity: 0.5;
+}
+
+.activeSlide {
+  width: 900px !important;
+  margin-left: -20vh;
+  transform: scale(1.2);
+  opacity: 1;
+}
+
+.arrow {
+  background-color: #fff;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrow svg {
+  transition: color 300ms;
+}
+
+.arrow svg:hover {
+  color: #68edff;
+}
+
+.next {
+  right: 15%;
+  top: 50%;
+}
+
+.prev {
+  left: 15%;
+  top: 50%;
+}
+
 h1,
 h2,
 h3,
