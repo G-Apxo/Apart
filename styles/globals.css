@@ -454,9 +454,9 @@ a.nav-link {
 }
 .btn-send {
   width: 100%;
-  background-color: #000;
-  border: none;
-  color: white;
+  background-color: #fff;
+  border: 1px solid black;
+  color: #000;
   height: 40px;
   /* max-width: 70%; */
 }
