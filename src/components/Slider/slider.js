@@ -44,6 +44,7 @@ function slider() {
   };
 
   return (
+    <div className="custom_row">
     <div className="App">
       <Slider {...settings}>
         {images.map((img, idx) => (
@@ -52,7 +53,7 @@ function slider() {
               <Col xs="7">
               <Image src={Slide1} alt="banner immage" />
               </Col>
-              <Col xs="3" className="d-flex">
+              <Col xs="4" className="d-flex">
               <Col className='col-12 d-flex align-items-center'>
                 <div className='test'>
                 <Image src={Taghi} alt="banner immage" />
@@ -70,6 +71,7 @@ function slider() {
           </div>
         ))}
       </Slider>
+    </div>
     </div>
   );
 }
