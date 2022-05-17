@@ -24,6 +24,7 @@ a {
 .App {
   height: 570px;
   width: 140%;
+  margin-left: 15%;
 }
 .custom_row{
   display: flex;
@@ -69,7 +70,7 @@ a {
 }
 
 .next {
-  right: 15%;
+  right: 28%;
   top: 50%;
 }
 
