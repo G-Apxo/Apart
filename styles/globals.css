@@ -569,12 +569,7 @@ a.nav-link {
 }
 .contact__info {
   height: auto;
-  background: rgba(0, 0, 0, 0.04);
-  margin-top: -6px;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-top: 23px;
-  padding-bottom: 23px;
 }
 .contact__number h3 {
   font-size: 14px;
@@ -624,4 +619,11 @@ a.nav-link {
   font-size: 14px;
   color: #000;
   text-decoration: none;
+}
+.cover{
+  height: 300px;
+  background-image: url("../assets/cover.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
