@@ -522,9 +522,10 @@ a.nav-link {
 }
 .btn-send {
   width: 100%;
-  background-color: #fff;
-  border: 1px solid black;
-  color: #000;
+  background-color: #fff !important;
+  border: 1px solid black !important;
+  color: #000 !important;
+  border-radius: 0px !important;
   height: 40px;
   /* max-width: 70%; */
 }

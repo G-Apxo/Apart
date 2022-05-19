@@ -75,31 +75,31 @@ return (
                <p>Leave us your contact information and our team will reach out to you.</p>
                   <Col xs="6" >
                   <div className="md-form mb-0">
-                     <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
+                  <Form.Control type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
                   </div>
                   </Col>
                   <Col xs="6" >
                   <div className="md-form mb-0">
-                     <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
+                  <Form.Control type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
                   </div>
                   </Col>
                   <Col xs="6" >
                   <div className="md-form mb-0">
-                     <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
+                  <Form.Control type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
                   </div>
                   </Col>
                   <Col xs="6">
                   <div className="md-form mb-0">
-                     <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
+                  <Form.Control type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
                   </div>
                   </Col>
                   <Col xs="12">
                   <div className="md-form mb-0">
-                     <input className="textarea__input" placeholder='phone' rows="4" cols="39"/>
+                  <Form.Control type="text" id="name" name="name" className="form-control input__main" placeholder='Phone' rows="4" cols="39"/>
                   </div>
                   </Col>
                   <Col xs="12">
-                  <button className="btn-send">Get contacted</button>
+                  <Button className="btn-send">Get contacted</Button>
                   </Col>
                </Row>
             </Form>
