@@ -13,14 +13,14 @@ import Slide1 from "../../../assets/slider.png";
 import Taghi from "../../../assets/taghi.svg";
 
 import Image from "next/image";
-const Model = () => {
-  const gltf = useLoader(GLTFLoader, "./scene.gltf");
-  return (
-    <>
-      <primitive position={[0, 0, 0]} object={gltf.scene} scale={1} />
-    </>
-  );
-};
+// const Model = () => {
+//   const gltf = useLoader(GLTFLoader, "./scene.gltf");
+//   return (
+//     <>
+//       <primitive position={[0, 0, 0]} object={gltf.scene} scale={1} />
+//     </>
+//   );
+// };
 const images = [Slide1, celebrating, education, taken];
 function slider() {
   const NextArrow = ({ onClick }) => {
