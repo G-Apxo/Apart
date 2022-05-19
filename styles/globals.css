@@ -8,6 +8,9 @@ body {
   background: #fff;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  background-image: url('../assets/backgound.svg');
+  background-repeat: no-repeat;
+
 }
 a:hover {
   text-decoration: none;
