@@ -15,8 +15,6 @@ export default function About() {
         />
       </Head>
       {/* Layout wayper in nextjs */}
-
-      
       <Layout>
         <AboutBanner/>
       </Layout>

@@ -1,191 +1,168 @@
 import React from 'react'
-import { Nav, Button,Row,Container,input } from 'react-bootstrap'
+import { Nav, Button,Row,Container, Col,input } from 'react-bootstrap'
 import BannerImg from '../../../assets/aboutbannerimg.svg'
+import Beqa from '../../../assets/beqa.svg'
+import Beqafull from '../../../assets/beqafull.svg'
 import Image from 'next/image'
-
+import Quote from '../../../assets/quote.svg'
+import Video from '../../../assets/video.svg'
 export const AboutBanner = () => {
-  return (
-    <div>
-      
-            <div className="row row-marginer">
-            <h1 className="about-title">ABOUT US</h1>
+return (
+<div>
+    <Container className="mt-5">
+    <Row className="row-marginer">
+        <Col xs="2">
+        <h1 className="about-title">ABOUT US</h1>
+        </Col>
+        <Col xs="3">
+        <Image src={Beqa} alt="banner immage" />
+        </Col>
+        <Col xs="5" className="align-items-center d-flex">
+            <div>
+            <p>
+            “ started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi. Project perfectly suits the architectural style of Old Tbilisi, It is located on Bukhaidze Street, in the historical part of Tbilisi. Our goal ”
+            </p>
+            <h2>
+            Beka Khoperia
+            </h2>
+            <h3>
+            Founder
+            </h3>
             </div>
-            <div className="row row-marginer">
-                <div className="col-6 about--img">
-                    <Image src={BannerImg} alt="banner immage" />
-                </div>
-                <div className="col-6 about--text">
-                    <h3 className='about--text__hmod'>About Apart Development</h3>
-                    <p className='about--text__ptmod'>The company Apart Development was founded on April 15 2019</p>
-                    {/* <p className='about--text__ptmod2'>although we are a growing construction company and we have an ongoing, innovative project. We build construction in accordance with the highest standards, which means that our construction sites are distinguished with constructive and seismic sustainability. Each current or future project of the company is distinguished with sophisticated exterior, effective internal planning, and most importantly with the best location. The aim of the company is to create a product that will be tailored to the user's needs and wishes. We would like to have your lucrative investment in the company acquired in the company. What makes us different on the market is: • A high quality that can be found in each detail; • Innovation, which is a successful business success; • Responsibility, without which can not gain customer trust</p> */}
-                </div>
-            </div>
-            <div className="container">
-            <div className="row row-marginer">
+        </Col>
+        <Col xs="2">
+        <Image src={Quote} alt="banner immage" />
+        </Col>
+    </Row>
+    <Row className="justify-content-between">
+        <Col xs="3">
+            <hr/>
+        </Col>
+        <Col xs="3">
+            <hr/>
+        </Col>
+    </Row>
+    <Row>
+        <Col xs="2">
+        <h3 className='about--text__hmod'>
+               In 2020 Apart Development
+            </h3>
+        </Col>
+        <Col xs="4">
+        <p className='about--text__ptmod2'>
+            started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi. Project perfectly suits the architectural style of Old Tbilisi, It is located on Bukhaidze Street, in the historical part of Tbilisi. Our goal is to match the exterior of the project perfectly with the wider city planning, which is why the Old City Panorama project includes three buildings and is only eight floors high. The project is also important because it has many sights close to it: one of the most important attractions of the city, the Holy Trinity Cathedral, just 250 meters away, the historic Metekhi Fortress and Temple, and Narikala and Rike Park.
+        </p>
+        </Col>
+        <Col xs="2">
+        <h3 className='about--text__hmod'>
+            Another advantage
+        </h3>
+        </Col>
+        <Col xs="4">
+        <p className='about--text__ptmod__mod'>
+        OLD CITY PANORAMA is the amazing views and greenery of Old Tbilisi. For residents on the first floor, living in “townhouse” type dwellings, we have individual yards. The area includes a swimming pool, spa, gym equipment and a cafe-bar. The apartments are being delivered both in green frame condition and with complete renovation. Buying an apartment with Apart Development is a sensible investment, as we also offer rental service to our customers if they wish, which means that the apartment owner can turn their real estate into a source of income without a lot of effort. Our goal is to continue to strive for progress, to contribute to the urban development of Tbilisi, which means that we want to cover the territories of Old Tbilisi, replace damaged buildings with new residential complexes, which will be the best example of combining the Old Tbilisi architectural style with the new. We want to give new life to Old Tbilisi and create a service focused on the wishes and needs of customers. Apart Development will establish a new lifestyle in Old Tbilisi.
+        </p>
+        </Col>
+    </Row>
+    <Col xs="12" className='mt-5'>
+    <Image src={Video} alt="banner immage" />
+    </Col>
+    </Container>
+    <section className="cover">
 
-                    <div className="col-6 about--text__left">
-                        <h3 className='about--text__hmod'>
-                        In 2020 Apart Development
-                        </h3>
-                        <p className='about--text__ptmod2'>
-                        started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi. Project perfectly suits the architectural style of Old Tbilisi, It is located on Bukhaidze Street, in the historical part of Tbilisi. Our goal is to match the exterior of the project perfectly with the wider city planning, which is why the Old City Panorama project includes three buildings and is only eight floors high. The project is also important because it has many sights close to it: one of the most important attractions of the city, the Holy Trinity Cathedral, just 250 meters away, the historic Metekhi Fortress and Temple, and Narikala and Rike Park.
-                        </p>
-                    </div>
-                    <div className="col-6 about--text__right">
-                        <h3  className='about--text__hmod'>
-                        In 2020 Apart Development
-                        </h3>
-                        <p className='about--text__ptmod__mod'>
-                        started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi. Project perfectly suits the architectural style of Old Tbilisi, It is located on Bukhaidze Street, in the historical part of Tbilisi. Our goal is to match the exterior of the project perfectly with the wider city planning, which is why the Old City Panorama project includes three buildings and is only eight floors high. The project is also important because it has many sights close to it: one of the most important attractions of the city, the Holy Trinity Cathedral, just 250 meters away, the historic Metekhi Fortress and Temple, and Narikala and Rike Park.
-                        </p>
-                    </div>
-
-                
-            </div>
-
-            <div className="row justify-content-between">
-                    <div className="col-4">
-                        <hr />
-                    </div>
-                    <div className="col-4">
-                        <hr />
-                    </div>
-            </div>
-
-        </div>
-
-
-        <div className="container">
-            <div className="row row-marginer">
-                <h1 className="about-title">OUR TEAM</h1>
-            </div>
-            <div className="row row-marginer">
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-            </div>
-
-            <div className="row row-marginer">
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-            </div>
-
-            <div className="row row-marginer">
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-            </div>
-
-            <div className="row row-marginer">
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-                <div className="col-3">
-                <Image src={BannerImg} alt="banner immage" /> 
-                <h3>
-                Beka Khoperia
-                </h3>
-                <p>Founder</p>
-                </div>
-            </div>
-        </div>
-
-
-
-    </div>
-  )
+    </section>
+    <Container>
+        <Row className="row-marginer">
+        <h1 >OUR TEAM</h1>
+        </Row>
+        <Row>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+            <Col xs="3">
+            <Image src={Beqafull} alt="banner immage" />
+            <h3>
+               Beka Khoperia
+            </h3>
+            <p>Founder</p>
+            </Col>
+        </Row>
+    </Container>
+ 
+</div>
+)
 }

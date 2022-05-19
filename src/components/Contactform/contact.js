@@ -1,15 +1,15 @@
 import React from 'react'
-import { Nav, Button,Row,Container,input } from 'react-bootstrap'
+import { Nav, Button,Row,Container,input,Col,Form } from 'react-bootstrap'
 function contact() {
 return (
 <Container>
    <Row className="justify-content-between container-marginer" >
-      <div className='col-1'>
+      <Col xs="1">
          <p>
             About us
          </p>
-      </div>
-      <div className='col-4'>
+      </Col>
+      <Col xs="4"  >
          <h2 className='section1-title'>
          Renewed life of old tbilisi
          </h2>
@@ -18,59 +18,81 @@ return (
             to use the old architectural fragments in the modern construction, 
             and at the same time to bring new life to the forgotten neighborhoods.
          </p>
-      </div>
-      <div className='col-5'>
+      </Col>
+      <Col xs="5">
          <p className='section1-form-text'>
             Leave us your contact information and our team will reach out to you.
          </p>
          <h4 className='section-1-form-subtext'>Apartment type:</h4>
          <Row>
-            <div className='col-3'>
-               <div className="form-check">
-                  <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
-                  <label htmlFor="updates" className="form-check-label">Studio</label>
-               </div>
-            </div>
-            <div className='col-3'>
-               <div className="form-check">
-                  <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
-                  <label htmlFor="updates" className="form-check-label">1 Bedroom</label>
-               </div>
-            </div>
-            <div className='col-6'>
-               <div className="form-check">
-                  <input type="checkbox" className="form-check-input" name="updates" id="updates" value="1"/>
-                  <label htmlFor="updates" className="form-check-label">2 and more bedrooms</label>
-               </div>
-            </div>
-            <section className="mb-4">
-               <div className="row">
-                  <div className="col-md-12 mb-md-0 mb-5">
-                     <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                        <div className="row">
-                           <div className="col-md-12">
-                              <div className="md-form mb-0">
-                                 <input type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
-
-                              </div>
-                           </div>
-                           <div className="col-md-12">
-                              <div className="md-form mb-0">
-                                 <input type="text" id="email" name="email" className="form-control input__main" placeholder='Email'/>
-
-                              </div>
-                           </div>
-                        </div>
-                     </form>
-                     <div className="text-center text-md-left">
-                        <button className="btn-send" onClick="document.getElementById('contact-form').submit();">Get contacted</button>
-                     </div>
-                     <div className="status"></div>
+            <Col xs="3">
+               <Form>
+               {['checkbox'].map((type) => (
+                  <div key={`inline-${type}`} className="mb-3">
+                     <Form.Check
+                     inline
+                     label="Studio"
+                     name="group1"
+                     type={type}
+                     id={`inline-${type}-1`}
+                     />
                   </div>
-               </div>
-            </section>
+               ))}
+               </Form>
+            </Col>
+            <Col xs="3">
+               <Form>
+               {['checkbox'].map((type) => (
+                  <div key={`inline-${type}`} className="mb-3">
+                     <Form.Check
+                     inline
+                     label="1 Bedroom"
+                     name="group1"
+                     type={type}
+                     id={`inline-${type}-2`}
+                     />
+                  </div>
+               ))}
+               </Form>
+            </Col>
+            <Col xs="6" className='col-6'>
+            <Form>
+               {['checkbox'].map((type) => (
+                  <div key={`inline-${type}`} className="mb-3">
+                     <Form.Check
+                     inline
+                     label="2 and more bedrooms"
+                     name="group1"
+                     type={type}
+                     id={`inline-${type}-2`}
+                     />
+                  </div>
+               ))}
+               </Form>
+            </Col>
+               <Row className="mb-4">
+                  <Col xs="12" className="mb-md-0 mb-5">
+                     <Form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <Row>
+                           <Col xs="12">
+                              <div className="md-form mb-0">
+                                 <Form.Control type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
+                              </div>
+                           </Col>
+                           <Col xs="12" >
+                              <div className="md-form mb-0">
+                                 <Form.Control type="text" id="email" name="email" className="form-control input__main" placeholder='Email'/>
+                              </div>
+                           </Col>
+                        </Row>
+                     </Form>
+                     <div className="text-center text-md-left">
+                        <Button className="btn-send">Get contacted</Button>
+                     </div>
+                  </Col>
+               </Row>
          </Row>
-      </div>
+      </Col>
    </Row>
 </Container>
 )

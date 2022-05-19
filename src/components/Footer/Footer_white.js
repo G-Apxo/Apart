@@ -23,14 +23,14 @@ function Footer_white() {
           </Col>
           <Col md={2}>
             <p className="infos--white">
-              <a href="tel:+995 544 44 44 31">+995 544 44 44 31</a>
+              <a >+995 544 44 44 31</a>
             </p>
             <p className="infos--white">
-              <a href="mailto:info@apart.ge">info@apart.ge</a>
+              <a >info@apart.ge</a>
             </p>
           </Col>
           <Col md={2}>
-            <div class="box">
+            <div className="box">
               <p className="social">Facebook</p>
               <p className="social">Instagram</p>
               <p className="social">Youtube</p>

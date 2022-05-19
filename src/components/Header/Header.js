@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import { Nav, Button,Row,Container,input } from 'react-bootstrap'
+import { Nav, Button,Row,Container,input,Col,Navbar,FormSelect } from 'react-bootstrap'
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '../../../assets/logo.svg'
@@ -23,11 +23,9 @@ function Header() {
         <title>Apart</title>
         <meta name="description" content="A demo about NextJS and Bootstrap 5" />
       </Head>
-      
-  <div>
     <Container>
     <Row>
-      <div className="col-2">
+      <Col xs="2">
       <Link href="/">
       <a className="navbar-brand">
       <Image
@@ -37,9 +35,9 @@ function Header() {
 
       </a>
     </Link>
-      </div>
-      <div className="col-8 d-flex justify-content-center">
-      <nav>
+      </Col>
+      <Col xs="8" className="d-flex justify-content-center">
+      <Navbar>
         <ul className="navbar-nav mr-auto">
           {path.map((value) => {
             return (
@@ -51,15 +49,15 @@ function Header() {
             );
           })}
         </ul>
-      </nav>
-      </div>
-      <div className="col-2 d-flex justify-content-end align-items-center">
+      </Navbar>
+      </Col>
+      <Col xs="2" className="d-flex justify-content-end align-items-center">
     <ul className="navbar-nav ">
       <li className='nav-item text-nowrap'>
-          <select className="Language__select">
+          <FormSelect className="Language__select">
             <option>ENG</option>
             <option>Geo</option>
-          </select>
+          </FormSelect>
       </li>
         <li className="nav-item text-nowrap">
         {/* <div className="form-check form-switch">
@@ -69,26 +67,16 @@ function Header() {
       </ul>
       <ul className="navbar-nav ">
         <li className="nav-item text-nowrap">
-          <button className="nav-link header_btn">
+          <Button className="nav-link header_btn">
               Request a call
-          </button>
+          </Button>
         </li>
       </ul>
-      </div>
+      </Col>
     </Row>
     </Container>
   </div>
-
-    </div>
   )
 }
 
 export default Header
-
-// export default function Header() {
-//   return (
-//     <header>
-    
-//     </header>
-//   );
-// }

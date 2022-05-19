@@ -8,6 +8,9 @@ body {
   background: #fff;
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
+  background-image: url('../assets/backgound.svg');
+  background-repeat: no-repeat;
+
 }
 a:hover {
   text-decoration: none;
@@ -497,16 +500,19 @@ a.nav-link {
 .header_btn {
   width: 120px;
   height: 30px;
-  border: 1px solid #121927;
-  background-color: transparent;
+  border: 1px solid #121927 !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
   text-align: center;
   padding: 0 !important;
   color: black !important;
 }
 .Language__select {
-  background: transparent;
-  border: none;
-  font-size: 12px;
+  background: transparent !important;
+  border: none !important;
+  font-size: 12px !important;
+  width: 50px !important;
+  padding: 0px !important;
 }
 .input__main {
   height: 40px;
@@ -516,9 +522,10 @@ a.nav-link {
 }
 .btn-send {
   width: 100%;
-  background-color: #fff;
-  border: 1px solid black;
-  color: #000;
+  background-color: #fff !important;
+  border: 1px solid black !important;
+  color: #000 !important;
+  border-radius: 0px !important;
   height: 40px;
   /* max-width: 70%; */
 }
@@ -569,12 +576,7 @@ a.nav-link {
 }
 .contact__info {
   height: auto;
-  background: rgba(0, 0, 0, 0.04);
-  margin-top: -6px;
-  padding-left: 50px;
-  padding-right: 50px;
   padding-top: 23px;
-  padding-bottom: 23px;
 }
 .contact__number h3 {
   font-size: 14px;
@@ -624,4 +626,11 @@ a.nav-link {
   font-size: 14px;
   color: #000;
   text-decoration: none;
+}
+.cover{
+  height: 300px;
+  background-image: url("../assets/cover.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
 }
