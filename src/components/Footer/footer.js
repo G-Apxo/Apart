@@ -26,17 +26,17 @@ return (
          <div className='col-lg-3'>
             <ul className='languages'>
                <li>
-                  <a href='#'>
+                  <a >
                      <p>GEO /</p>
                   </a>
                </li>
                <li>
-                  <a href='#'>
+                  <a >
                      <p> <span className='active'>ENG</span> /</p>
                   </a>
                </li>
                <li>
-                  <a href='#'>
+                  <a>
                      <p>RUS /</p>
                   </a>
                </li>

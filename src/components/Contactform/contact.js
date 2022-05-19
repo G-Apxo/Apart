@@ -63,7 +63,7 @@ return (
                         </div>
                      </form>
                      <div className="text-center text-md-left">
-                        <button className="btn-send" onClick="document.getElementById('contact-form').submit();">Get contacted</button>
+                        <button className="btn-send">Get contacted</button>
                      </div>
                      <div className="status"></div>
                   </div>

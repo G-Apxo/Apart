@@ -500,16 +500,19 @@ a.nav-link {
 .header_btn {
   width: 120px;
   height: 30px;
-  border: 1px solid #121927;
-  background-color: transparent;
+  border: 1px solid #121927 !important;
+  background-color: transparent !important;
+  border-radius: 0px !important;
   text-align: center;
   padding: 0 !important;
   color: black !important;
 }
 .Language__select {
-  background: transparent;
-  border: none;
-  font-size: 12px;
+  background: transparent !important;
+  border: none !important;
+  font-size: 12px !important;
+  width: 50px !important;
+  padding: 0px !important;
 }
 .input__main {
   height: 40px;
