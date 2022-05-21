@@ -640,3 +640,24 @@ a.nav-link {
 
   background: #f5f5f5;
 }
+.container-borderer {
+  border-top: 1px solid black;
+}
+.container-borderer:last-child {
+  border-bottom: 1px solid black;
+}
+.project--location__mod {
+  max-width: 50%;
+}
+.project--see {
+  display: block;
+  border-bottom: 1px solid black;
+  max-width: 36%;
+  margin-bottom: 10px;
+}
+/* .project--see img {
+  margin-left: 2px;
+} */
+.form-row {
+  margin-bottom: 60px;
+}
