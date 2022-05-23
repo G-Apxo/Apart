@@ -1,8 +1,8 @@
 import React from "react";
 import { Nav, Button, Row, Container, input, Col, Navbar, FormSelect } from "react-bootstrap";
 import Image from "next/image";
-import Taghi from "../assets/taghi.svg";
-import Bukhaidze from "../assets/cover.svg";
+import Taghi from "../assets/Taghi_old_tbilisi.svg";
+import Bukhaidze from "../assets/projects_floor.png";
 import Layout from "../src/components/Layout/Layout";
 import { Form } from "react-bootstrap";
 
@@ -45,7 +45,9 @@ const ProjectsFloor = () => {
           </Col>
         </Row>
         <Col xs="12" className="mt-5">
-          <Image src={Bukhaidze} />
+          <div className="projects__image">
+          <Image  src={Bukhaidze} />
+          </div>
         </Col>
         <Row className="justify-content-between mt-5">
           <Col xs="3">
@@ -55,7 +57,7 @@ const ProjectsFloor = () => {
             <hr />
           </Col>
         </Row>
-        <Row className=" mt-5 form-row">
+       
           {/* <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control type="text" placeholder="Name" />
             <Form.Control type="mail" placeholder="Email" />
@@ -66,13 +68,18 @@ const ProjectsFloor = () => {
           <Button variant="primary" type="submit">
             Submit
           </Button> */}
-
-          <form action="/send-data-here" method="post">
-            <label htmlFor="name"></label>
+        <form action="/send-data-here" method="post">
+        <Row className=" mt-5 form-row align-items-center">
+        <Col xs="3">
+        <label htmlFor="name"></label>
             <input type="text" id="name" name="name" placeholder="Name" />
-            <label htmlFor="email"></label>
+        </Col>
+        <Col xs="3">
+        <label htmlFor="email"></label>
             <input type="mail" id="email" name="email" placeholder="Email" />
-            <label htmlFor="tel"></label>
+          </Col>
+          <Col xs="3">
+          <label htmlFor="tel"></label>
             <input
               type="tel"
               id="phone"
@@ -81,9 +88,13 @@ const ProjectsFloor = () => {
               pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
               required
             />
-            <button type="submit">Submit</button>
+          </Col>
+          <Col xs="3">
+          <Button className="btn-send">Request call</Button>
+          </Col>
+          </Row>
           </form>
-        </Row>
+       
         <Row className="justify-content-between">
           <Col xs="5">
             <h3>About this project</h3>

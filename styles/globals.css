@@ -667,3 +667,13 @@ a.nav-link {
 .fuul__width img{
   object-fit: cover;
 }
+.projects__image img{
+  object-fit: cover;
+  width: 100%;
+}
+.projects__image span{
+  width: 100% !important; 
+}
+.form__Height{
+  height: 50px !important;
+}

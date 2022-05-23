@@ -10,8 +10,7 @@ export default function Home() {
   return (
     <div>
       <Layout>
-        {/* <Test/> */}
-        {/* <Slider/> */}
+        <Slider/>
         <Contact/>
         <Partners/>
         <Projectsmap/>
