@@ -68,11 +68,11 @@ const ProjectsFloor = () => {
           </Button> */}
 
           <form action="/send-data-here" method="post">
-            <label for="name"></label>
+            <label htmlFor="name"></label>
             <input type="text" id="name" name="name" placeholder="Name" />
-            <label for="email"></label>
+            <label htmlFor="email"></label>
             <input type="mail" id="email" name="email" placeholder="Email" />
-            <label for="tel"></label>
+            <label htmlFor="tel"></label>
             <input
               type="tel"
               id="phone"
