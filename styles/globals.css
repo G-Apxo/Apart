@@ -470,8 +470,10 @@ a {
   margin-right: 60px;
 }
 .about-title {
-  text-align: center;
+  text-align: left;
   font-size: 32px;
+  margin-bottom: 60px;
+  margin-top: 120px;
 }
 .row-marginer {
   margin-top: 40px;
@@ -661,19 +663,31 @@ a.nav-link {
 .form-row {
   margin-bottom: 60px;
 }
-.fuul__width span{
+.fuul__width span {
   width: 100% !important;
 }
-.fuul__width img{
+.fuul__width img {
   object-fit: cover;
 }
-.projects__image img{
+.projects__image img {
   object-fit: cover;
   width: 100%;
 }
-.projects__image span{
-  width: 100% !important; 
+.projects__image span {
+  width: 100% !important;
 }
-.form__Height{
+.form__Height {
   height: 50px !important;
+}
+.sixty-row {
+  margin: 60px 0 !important;
+}
+.hundredtwenty {
+  margin: 120px 0;
+}
+.hundredtwenty-bot {
+  margin-bottom: 120px;
+}
+.sixty-row:last-child {
+  margin-bottom: 120px !important;
 }
