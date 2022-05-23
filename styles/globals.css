@@ -661,3 +661,9 @@ a.nav-link {
 .form-row {
   margin-bottom: 60px;
 }
+.fuul__width span{
+  width: 100% !important;
+}
+.fuul__width img{
+  object-fit: cover;
+}

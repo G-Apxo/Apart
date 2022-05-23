@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import {
   Nav,
   Button,
@@ -49,62 +49,16 @@ const Projects = () => {
             </div>
           </Col>
           <Col xs="9">
-            <Carousel>
-              <Carousel.Item>
+            <Carousel style={{opacity:1}}>
+              <Carousel.Item className="fuul__width">
+                  <Image src={Slide1} alt="banner immage" />
+              </Carousel.Item>
+              <Carousel.Item className="fuul__width">
                 <Row>
                   <Image src={Slide1} alt="banner immage" />
                 </Row>
               </Carousel.Item>
-              <Carousel.Item>
-                <Row>
-                  <Image src={Slide1} alt="banner immage" />
-                </Row>
-              </Carousel.Item>
-              <Carousel.Item>
-                <Row>
-                  <Image src={Slide1} alt="banner immage" />
-                </Row>
-              </Carousel.Item>
-            </Carousel>
-          </Col>
-        </Row>
-      </Container>
-      <Container className="container-borderer">
-        <Row>
-          <Col xs="3">
-            <div className="mb-5">
-              <p>Done</p>
-              <h3>
-                OLD CITY <br /> PANORAMA
-              </h3>
-            </div>
-            <div className="mt-5">
-              <p>Location</p>
-              <h3 className="project--location__mod">Tbilisi,georgia,bukhaidze 6a</h3>
-            </div>
-            <div className="mt-5">
-              <p>Create date</p>
-              <h3>2022</h3>
-            </div>
-            <div>
-              <i className="project--see">
-                See Projects <Image src={Vector} />
-              </i>
-            </div>
-          </Col>
-          <Col xs="9">
-            <Carousel>
-              <Carousel.Item>
-                <Row>
-                  <Image src={Slide1} alt="banner immage" />
-                </Row>
-              </Carousel.Item>
-              <Carousel.Item>
-                <Row>
-                  <Image src={Slide1} alt="banner immage" />
-                </Row>
-              </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item className="fuul__width">
                 <Row>
                   <Image src={Slide1} alt="banner immage" />
                 </Row>
@@ -137,18 +91,18 @@ const Projects = () => {
             </div>
           </Col>
           <Col xs="9">
-            <Carousel>
-              <Carousel.Item>
+            <Carousel style={{opacity:1}}>
+              <Carousel.Item className="fuul__width">
                 <Row>
                   <Image src={Slide1} alt="banner immage" />
                 </Row>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item className="fuul__width">
                 <Row>
                   <Image src={Slide1} alt="banner immage" />
                 </Row>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item className="fuul__width">
                 <Row>
                   <Image src={Slide1} alt="banner immage" />
                 </Row>
@@ -181,18 +135,62 @@ const Projects = () => {
             </div>
           </Col>
           <Col xs="9">
-            <Carousel>
-              <Carousel.Item>
+            <Carousel style={{opacity:1}}>
+              <Carousel.Item className="fuul__width">
                 <Row>
                   <Image src={Slide1} alt="banner immage" />
                 </Row>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item className="fuul__width">
                 <Row>
                   <Image src={Slide1} alt="banner immage" />
                 </Row>
               </Carousel.Item>
-              <Carousel.Item>
+              <Carousel.Item className="fuul__width">
+                <Row>
+                  <Image src={Slide1} alt="banner immage" />
+                </Row>
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+        </Row>
+      </Container>
+      <Container className="container-borderer">
+        <Row>
+          <Col xs="3">
+            <div className="mb-5">
+              <p>Done</p>
+              <h3>
+                OLD CITY <br /> PANORAMA
+              </h3>
+            </div>
+            <div className="mt-5">
+              <p>Location</p>
+              <h3 className="project--location__mod">Tbilisi,georgia,bukhaidze 6a</h3>
+            </div>
+            <div className="mt-5">
+              <p>Create date</p>
+              <h3>2022</h3>
+            </div>
+            <div>
+              <i className="project--see">
+                See Projects <Image src={Vector} />
+              </i>
+            </div>
+          </Col>
+          <Col xs="9">
+            <Carousel style={{opacity:1}}>
+              <Carousel.Item className="fuul__width">
+                <Row>
+                  <Image src={Slide1} alt="banner immage" />
+                </Row>
+              </Carousel.Item>
+              <Carousel.Item className="fuul__width">
+                <Row>
+                  <Image src={Slide1} alt="banner immage" />
+                </Row>
+              </Carousel.Item>
+              <Carousel.Item className="fuul__width">
                 <Row>
                   <Image src={Slide1} alt="banner immage" />
                 </Row>
