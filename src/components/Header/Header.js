@@ -16,6 +16,7 @@ const path = [
   { uid: 61, name: "Contact", id: 6, path: "Contact" },
   { uid: 61, name: "SingleBlog", id: 6, path: "SingleBlog" },
   { uid: 62, name: "ProjectsFloor", id: 7, path: "ProjectsFloor" },
+  { uid: 63, name: "ProjectsFloorSelector", id: 8, path: "ProjectsFloorSelector" },
 ];
 function Header() {
   return (
