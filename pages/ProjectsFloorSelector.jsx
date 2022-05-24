@@ -4,51 +4,86 @@ import Image from "next/image";
 import Taghi from "../assets/Taghi_old_tbilisi.svg";
 import Bukhaidze from "../assets/projects_floor.png";
 import Layout from "../src/components/Layout/Layout";
+import RoomImage from "../assets/apart assets/projects room/Asset41.png";
+import RoomImageModel from "../assets/apart assets/projects room/apex.png";
+import Vector from "../assets/seeprjvector.png";
+
 import { Form } from "react-bootstrap";
 
 const ProjectsFloorSelector = () => {
   return (
     <Layout>
       <Container>
-        <Row className="mt-5">
-          <Col xs="2">
-            <p>Go back</p>
+        <Row>
+          <Col xs="6">
+            <p>Go back </p>
+            <Image src={RoomImage} alt="banner immage" className="rooom-select-img" />
+          </Col>
+          <Col xs="6">
+            <h3>Project : TAGI</h3>
+            <p>Chose your appartment</p>
+
+            <Row>
+              <Col xs="6">
+                <Form.Select aria-label="Default select example">
+                  <option>Chose floor 1-10</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </Form.Select>
+              </Col>
+              <Col xs="6">
+                {" "}
+                <Form.Select aria-label="Default select example">
+                  <option>Chose floor 1-10</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </Form.Select>
+              </Col>
+              <Row>
+                <Col xs="12">
+                  <Image src={RoomImageModel} alt="RoomImageModel immage" className="room--image--model" />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4">
+                  <hr />
+                  <p>Apartment number</p>
+                  <p>N323</p>
+                </Col>
+                <Col xs="4">
+                  <hr />
+                  <p>Total area</p>
+                  <p>81.18 m2</p>
+                </Col>
+                <Col xs="4">
+                  <hr />
+                  <p>BALCONY AREA</p>
+                  <p>15.57 m2</p>
+                </Col>
+              </Row>
+              <Row>
+                <Col xs="4">
+                  <hr />
+                  <p>Living Area</p>
+                  <p>65.61 m2</p>
+                </Col>
+                <Col xs="4">
+                  <hr />
+                  <p>Total area</p>
+                  <p>65.61 m2</p>
+                </Col>
+                <Col xs="4">
+                  <hr />
+                  <p>SQ.M . Price</p>
+                  <p>2,200$</p>
+                </Col>
+              </Row>
+            </Row>
           </Col>
         </Row>
-        <Row className="justify-content-between mt-5">
-          <Col xs="2">
-            <Image src={Taghi} />
-          </Col>
-          <Col xs="3">
-            <h2>Choose Apartment</h2>
-          </Col>
-        </Row>
-        <Row className="justify-content-between mt-5">
-          <Col xs="2">
-            <hr />
-            <p>Tree’s planted</p>
-            <h3>132</h3>
-          </Col>
-          <Col xs="3">
-            <hr />
-            <p>exhibition spaces</p>
-            <h3>3245 m2</h3>
-          </Col>
-          <Col xs="4">
-            <h3>Chose Apartment</h3>
-            <Form.Select aria-label="Default select example">
-              <option>Chose floor 1-10</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </Form.Select>
-          </Col>
-        </Row>
-        <Col xs="12" className="mt-5">
-          <div className="projects__image">
-            <Image src={Bukhaidze} />
-          </div>
-        </Col>
+
         <Row className="justify-content-between mt-5">
           <Col xs="3">
             <hr />
