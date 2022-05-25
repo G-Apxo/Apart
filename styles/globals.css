@@ -49,7 +49,7 @@ a {
 
 .activeSlide {
   width: 900px !important;
-  margin-left: -15vh;
+  margin-left: 50vh;
   transform: scale(1.2);
   opacity: 1;
 }
@@ -696,11 +696,4 @@ a.nav-link {
 }
 .room--image--model {
   margin-top: 20%;
-}
-.test_test{
-  width: 500px;
-}
-.col_height{
-  height: 500px;
-  width: 100%;
 }
