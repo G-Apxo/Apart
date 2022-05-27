@@ -648,9 +648,9 @@ a.nav-link {
 .container-borderer:last-child {
   border-bottom: 1px solid black;
 }
-.project--location__mod {
+/* .project--location__mod {
   max-width: 50%;
-}
+} */
 .project--see {
   display: block;
   border-bottom: 1px solid black;
@@ -696,4 +696,37 @@ a.nav-link {
 }
 .room--image--model {
   margin-top: 20%;
+}
+.projects--title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+.projects--title p {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.projects--texts__basics {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+
+  color: #121927;
+}
+
+.projects--texts__op {
+  opacity: 0.6;
+}
+.projects--legend__top {
+  margin-top: 100px;
+}
+.projects--legend__bot {
+  margin-top: 30px;
 }
