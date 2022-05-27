@@ -49,7 +49,7 @@ a {
 
 .activeSlide {
   width: 900px !important;
-  margin-left: 50vh;
+  margin-left: -15vh;
   transform: scale(1.2);
   opacity: 1;
 }

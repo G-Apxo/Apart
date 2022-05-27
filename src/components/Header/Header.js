@@ -9,14 +9,14 @@ import Logo from "../../../assets/logo.svg";
 
 const path = [
   { uid: 21, name: " Home", id: 1, path: "/" },
-  { uid: 31, name: "Blog", id: 2, path: "Blog" },
-  { uid: 41, name: "About us", id: 3, path: "About" },
-  { uid: 51, name: "Projects", id: 4, path: "Projects" },
-  { uid: 51, name: "Investing", id: 5, path: "Investing" },
-  { uid: 61, name: "Contact", id: 6, path: "Contact" },
-  { uid: 61, name: "SingleBlog", id: 6, path: "SingleBlog" },
-  { uid: 62, name: "ProjectsFloor", id: 7, path: "ProjectsFloor" },
-  { uid: 63, name: "ProjectsFloorSelector", id: 8, path: "ProjectsFloorSelector" },
+  { uid: 31, name: "Blog", id: 2, path: "/Blog" },
+  { uid: 41, name: "About us", id: 3, path: "/About" },
+  { uid: 51, name: "Projects", id: 4, path: "/Projects" },
+  { uid: 52, name: "Investing", id: 5, path: "/Investing" },
+  { uid: 61, name: "Contact", id: 6, path: "/Contact" },
+  { uid: 62, name: "SingleBlog", id: 6, path: "/SingleBlog" },
+  { uid: 63, name: "ProjectsFloor", id: 7, path: "/ProjectsFloor" },
+  { uid: 64, name: "ProjectsFloorSelector", id: 8, path: "/ProjectsFloorSelector" },
 ];
 function Header() {
   return (

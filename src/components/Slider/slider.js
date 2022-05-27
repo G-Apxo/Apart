@@ -4,11 +4,14 @@ import Slider from "react-slick";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { Row, Col } from "react-bootstrap";
 import Slide1 from "../../../assets/slider.png";
+import Slide2 from "../../../assets/slider.png";
+import Slide3 from "../../../assets/slider.png";
+import Slide4 from "../../../assets/slider.png";
 import Taghi from "../../../assets/taghi.svg";
 
 import Image from "next/image";
 
-const images = [Slide1, Slide1, Slide1, Slide1];
+const images = [Slide1, Slide2, Slide3, Slide4];
 function Dslider() {
   const NextArrow = ({ onClick }) => {
     return (
@@ -32,7 +35,7 @@ function Dslider() {
     infinite: true,
     lazyLoad: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,
     nextArrow: <NextArrow />,
@@ -48,14 +51,15 @@ function Dslider() {
             <div style={{ width: 100 }} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
               <Row className="justify-content-between">
                 <Col xs="7">
-                  <iframe
-                    allowfullscreen
+                <Image src={img} alt={img} />
+                  {/* <iframe
+                    allowFullScreen
                     width="640"
                     height="480"
                     loading="lazy"
-                    frameborder="0"
+                    frameBorder="0"
                     src="https://p3d.in/e/4WKt1+spin+load+nopan+norotate+controls,border,loader-hidden"
-                  ></iframe>
+                  ></iframe> */}
                 </Col>
                 <Col xs="4" className="d-flex">
                   <Col className="col-12 d-flex align-items-center">
