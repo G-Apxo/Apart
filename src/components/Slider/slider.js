@@ -51,15 +51,15 @@ function Dslider() {
             <div style={{ width: 100 }} key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
               <Row className="justify-content-between">
                 <Col xs="7">
-                <Image src={img} alt={img} />
-                  {/* <iframe
+                {/* <Image src={img} alt={img} /> */}
+                  <iframe
                     allowFullScreen
                     width="640"
                     height="480"
                     loading="lazy"
                     frameBorder="0"
                     src="https://p3d.in/e/4WKt1+spin+load+nopan+norotate+controls,border,loader-hidden"
-                  ></iframe> */}
+                  ></iframe>
                 </Col>
                 <Col xs="4" className="d-flex">
                   <Col className="col-12 d-flex align-items-center">
