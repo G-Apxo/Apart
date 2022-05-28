@@ -19,9 +19,7 @@ const ProjectsFloor = () => {
           <Col xs="2">
             <Image src={Taghi} />
           </Col>
-          <Col xs="3">
-            <h2>Choose Apartment</h2>
-          </Col>
+          <Col xs="3"></Col>
         </Row>
         <Row className="justify-content-between mt-5">
           <Col xs="2">
@@ -36,6 +34,7 @@ const ProjectsFloor = () => {
           </Col>
           <Col xs="4">
             <h3>Chose Apartment</h3>
+            <p>Chose floor</p>
             <Form.Select aria-label="Default select example">
               <option>Chose floor 1-10</option>
               <option value="1">One</option>
@@ -46,7 +45,7 @@ const ProjectsFloor = () => {
         </Row>
         <Col xs="12" className="mt-5">
           <div className="projects__image">
-          <Image  src={Bukhaidze} />
+            <Image src={Bukhaidze} />
           </div>
         </Col>
         <Row className="justify-content-between mt-5">
@@ -57,8 +56,8 @@ const ProjectsFloor = () => {
             <hr />
           </Col>
         </Row>
-       
-          {/* <Form.Group className="mb-3" controlId="formBasicEmail">
+
+        {/* <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control type="text" placeholder="Name" />
             <Form.Control type="mail" placeholder="Email" />
             <Form.Control type="tel" placeholder="+( ___ )     Phone number" required />
@@ -69,32 +68,32 @@ const ProjectsFloor = () => {
             Submit
           </Button> */}
         <form action="/send-data-here" method="post">
-        <Row className=" mt-5 form-row align-items-center">
-        <Col xs="3">
-        <label htmlFor="name"></label>
-            <input type="text" id="name" name="name" placeholder="Name" />
-        </Col>
-        <Col xs="3">
-        <label htmlFor="email"></label>
-            <input type="mail" id="email" name="email" placeholder="Email" />
-          </Col>
-          <Col xs="3">
-          <label htmlFor="tel"></label>
-            <input
-              type="tel"
-              id="phone"
-              name="phone"
-              placeholder="+( ___ )     Phone number"
-              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
-              required
-            />
-          </Col>
-          <Col xs="3">
-          <Button className="btn-send">Request call</Button>
-          </Col>
+          <Row className=" mt-5 form-row align-items-center">
+            <Col xs="3">
+              <label htmlFor="name"></label>
+              <input type="text" id="name" name="name" placeholder="Name" />
+            </Col>
+            <Col xs="3">
+              <label htmlFor="email"></label>
+              <input type="mail" id="email" name="email" placeholder="Email" />
+            </Col>
+            <Col xs="3">
+              <label htmlFor="tel"></label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="+( ___ )     Phone number"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+            </Col>
+            <Col xs="3">
+              <Button className="btn-send">Request call</Button>
+            </Col>
           </Row>
-          </form>
-       
+        </form>
+
         <Row className="justify-content-between">
           <Col xs="5">
             <h3>About this project</h3>
