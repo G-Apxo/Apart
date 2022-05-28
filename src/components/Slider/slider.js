@@ -58,7 +58,7 @@ function Dslider() {
                     height="480"
                     loading="lazy"
                     frameBorder="0"
-                    src="https://p3d.in/e/4WKt1+spin+load+nopan+norotate+controls,border,loader-hidden"
+                    src="https://p3d.in/e/M6xbJ+load+nopan+nozoom+controls,border,loader-hidden"
                   ></iframe>
                 </Col>
                 <Col xs="4" className="d-flex">
