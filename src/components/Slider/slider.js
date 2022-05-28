@@ -48,7 +48,7 @@ function Dslider() {
       <div className="App">
         <Slider {...settings}>
           {images.map((img, idx) => (
-            <div style={{ width: 100 }} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+            <div style={{ width: 100 }} key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
               <Row className="justify-content-between">
                 <Col xs="7">
                 <Image src={img} alt={img} />
