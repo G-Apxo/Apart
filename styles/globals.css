@@ -10,6 +10,7 @@ body {
   overflow-x: hidden;
   background-image: url("../assets/backgound.svg");
   background-repeat: no-repeat;
+  font-family: rockridge;
 }
 a:hover {
   text-decoration: none;
@@ -22,6 +23,12 @@ a {
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+
+@font-face {
+  font-family: 'rockridge';
+  src: url('../Fonts/rockridge-webfont.woff');
+  font-weight: 400;
+  font-style: normal;}
 
 .App {
   height: 570px;
