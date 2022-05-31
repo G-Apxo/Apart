@@ -60,6 +60,15 @@ a {
   transform: scale(1.2);
   opacity: 1;
 }
+@media screen  and (max-width: 568px) {
+  body{
+    width: 100vh;
+  }
+  .activeSlide {
+    width: auto !important;
+    opacity: 1;
+  }
+}
 .activeSlide .test {
   display: block;
 }

@@ -50,7 +50,7 @@ function Dslider() {
           {images.map((img, idx) => (
             <div style={{ width: 100 }} key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
               <Row className="justify-content-between">
-                <Col xs="7">
+                <Col xs="7" className="col-7">
                 {/* <Image src={img} alt={img} /> */}
                   <iframe
                     allowFullScreen
@@ -61,7 +61,7 @@ function Dslider() {
                     src="https://p3d.in/e/M6xbJ+load+nopan+nozoom+controls,border,loader-hidden"
                   ></iframe>
                 </Col>
-                <Col xs="4" className="d-flex">
+                <Col xs="4" className="d-flex col-4">
                   <Col className="col-12 d-flex align-items-center">
                     <div className="test">
                       <Image src={Taghi} alt="banner immage" />

@@ -9,7 +9,7 @@ return (
             About us
          </p>
       </Col>
-      <Col xs="4"  >
+      <Col xs="4" className='col-4' >
          <h2 className='section1-title'>
          Renewed life of old tbilisi
          </h2>
@@ -19,7 +19,7 @@ return (
             and at the same time to bring new life to the forgotten neighborhoods.
          </p>
       </Col>
-      <Col xs="5">
+      <Col xs="5" className='col-5'>
          <p className='section1-form-text'>
             Leave us your contact information and our team will reach out to you.
          </p>
