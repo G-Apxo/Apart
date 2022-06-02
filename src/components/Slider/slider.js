@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Slider from "react-slick";
-
+import D3scene from "../3dscene/3dscene";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { Row, Col } from "react-bootstrap";
 import Slide1 from "../../../assets/slider.png";
@@ -64,7 +64,7 @@ function Dslider() {
                 <Col xs="4" className="d-flex col-4">
                   <Col className="col-12 d-flex align-items-center">
                     <div className="test">
-                      <Image src={Taghi} alt="banner immage" />
+                      {/* <Image src={Taghi} alt="banner immage" />
                       <h3>OLD TBILISI</h3>
                       <p>
                         For our team, it is important and a priority to preserve <br />
@@ -73,7 +73,8 @@ function Dslider() {
                         <br />
                         For our team, it is important and a priority to preserve <br /> the charm of the old
                         city, to use the old
-                      </p>
+                      </p> */}
+                      <D3scene />
                     </div>
                   </Col>
                 </Col>
