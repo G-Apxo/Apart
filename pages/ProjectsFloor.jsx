@@ -5,6 +5,7 @@ import Taghi from "../assets/Taghi_old_tbilisi.svg";
 import Bukhaidze from "../assets/projects_floor.png";
 import Layout from "../src/components/Layout/Layout";
 import { Form } from "react-bootstrap";
+import Link from "next/link";
 
 const ProjectsFloor = () => {
   return (
@@ -45,7 +46,9 @@ const ProjectsFloor = () => {
         </Row>
         <Col xs="12" className="mt-5">
           <div className="projects__image">
-            <Image src={Bukhaidze} />
+          <Link href="/ProjectsFloorSelector">
+            <Image className="cursor" src={Bukhaidze} />
+            </Link>
           </div>
         </Col>
         <Row className="justify-content-between mt-5">

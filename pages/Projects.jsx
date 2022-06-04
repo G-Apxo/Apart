@@ -18,6 +18,7 @@ import Vector from "../assets/seeprjvector.png";
 import Bukh from "../assets/apart assets/projects/Frame154.png";
 
 import Image from "next/image";
+import Link from "next/link";
 const Projects = () => {
   return (
     <Layout>
@@ -29,13 +30,14 @@ const Projects = () => {
       <Container className="container-borderer">
         <Row>
           <Col xs="3">
-            <div className="mb-5 projects--title">
+            <Link href="/ProjectsFloor">
+            <div className="mb-5 projects--title cursor">
               <p>Done</p>
-
               <h3>
                 OLD CITY <br /> PANORAMA
               </h3>
             </div>
+            </Link>
             <div className="projects--legend__top projects--texts__basics">
               <p className="projects--texts__op">Location</p>
               <h3 className="project--location__mod projects--texts__basics">Tbilisi,georgia,bukhaidze 6a</h3>
@@ -45,9 +47,11 @@ const Projects = () => {
               <h3 className="projects--texts__basics">2022</h3>
             </div>
             <div>
-              <i className="project--see">
-                See Projects <Image src={Vector} />
+              <Link href="/ProjectsFloor">
+              <i className="project--see cursor">
+                View Projects <Image src={Vector} />
               </i>
+              </Link>
             </div>
           </Col>
           <Col xs="9">

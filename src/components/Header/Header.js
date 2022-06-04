@@ -14,9 +14,9 @@ const path = [
   { uid: 51, name: "Projects", id: 4, path: "/Projects" },
   { uid: 52, name: "Investing", id: 5, path: "/Investing" },
   { uid: 61, name: "Contact", id: 6, path: "/Contact" },
-  { uid: 62, name: "SingleBlog", id: 6, path: "/SingleBlog" },
-  { uid: 63, name: "ProjectsFloor", id: 7, path: "/ProjectsFloor" },
-  { uid: 64, name: "ProjectsFloorSelector", id: 8, path: "/ProjectsFloorSelector" },
+  // { uid: 62, name: "SingleBlog", id: 6, path: "/SingleBlog" },
+  // { uid: 63, name: "ProjectsFloor", id: 7, path: "/ProjectsFloor" },
+  // { uid: 64, name: "ProjectsFloorSelector", id: 8, path: "/ProjectsFloorSelector" },
 ];
 function Header() {
   return (

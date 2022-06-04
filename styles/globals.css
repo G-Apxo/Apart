@@ -672,7 +672,7 @@ a.nav-link {
 .project--see {
   display: block;
   border-bottom: 1px solid black;
-  max-width: 42%;
+  max-width: 48%;
   margin-bottom: 10px;
   line-height: 2rem;
 }
@@ -796,4 +796,7 @@ h2{
 }
 .nav-link{
   font-size: 12px;
+}
+.cursor{
+  cursor: pointer;
 }
