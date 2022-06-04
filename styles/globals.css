@@ -800,18 +800,15 @@ h2 {
 .cursor {
   cursor: pointer;
 }
-<<<<<<< Updated upstream
-.mt-120{
+.mt-120 {
   margin-top: 120px;
 }
-.mb-120{
+.mb-120 {
   margin-bottom: 120px;
 }
-.custom_ol{
+.custom_ol {
   list-style: url("../assets/line.svg") !important;
 }
-=======
 .full_width {
   object-fit: cover;
 }
->>>>>>> Stashed changes
