@@ -55,7 +55,8 @@ function Dslider() {
             >
               <Row>
                 <Col xs="7" className="col-7">
-                  <Image src={img} alt={img} />
+                <iframe width="230" height="129" src="https://embed.imajize.com/6729823" frameborder="0" scrolling="no"  allowfullscreen></iframe>
+                  {/* <Image src={img} alt={img} /> */}
                   {/* <iframe
                     allowFullScreen
                     width="640"

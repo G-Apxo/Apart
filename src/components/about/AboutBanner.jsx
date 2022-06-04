@@ -80,7 +80,7 @@ export const AboutBanner = () => {
       </Container>
       <section className="cover mt-120"></section>
       <Container className="mb-120 mt-120" >
-        <Row className="row-marginer mb-60 mt-60">
+        <Row className="row-marginer mb-60 ">
           <h1>OUR TEAM</h1>
         </Row>
         <Row className="sixty-row">
