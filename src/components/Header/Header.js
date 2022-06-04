@@ -58,12 +58,24 @@ function Header() {
                   <option>Geo</option>
                 </FormSelect>
               </li>
-              <li className="nav-item text-nowrap">
-                {/* <div className="form-check form-switch">
-        <input className="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked/>
-      </div> */}
-              </li>
             </ul>
+            <ol className="d-flex navbar-nav mr-auto custom_ol align-items-center">
+              <li className="nav-item text-nowrap">
+                <a className="nav-link">
+                  +995 32 2 11 11 44
+                </a>
+              </li>
+              <li className="nav-item text-nowrap">
+              <a className="nav-link">
+              Viber
+                </a>
+              </li>
+              <li className="nav-item text-nowrap">
+              <a className="nav-link">
+              Whatsapp
+                </a>
+              </li>
+            </ol>
           </Col>
         </Row>
       </Container>

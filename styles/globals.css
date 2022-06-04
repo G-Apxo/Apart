@@ -806,3 +806,6 @@ h2{
 .mb-120{
   margin-bottom: 120px;
 }
+.custom_ol{
+  list-style: url("../assets/line.svg") !important;
+}
