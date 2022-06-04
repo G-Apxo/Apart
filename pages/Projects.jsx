@@ -21,7 +21,7 @@ import Image from "next/image";
 const Projects = () => {
   return (
     <Layout>
-      <Container>
+      <Container className="projects-title-distance">
         <Row>
           <h3 className="text-center">PROJECTS</h3>
         </Row>

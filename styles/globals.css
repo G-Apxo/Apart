@@ -25,10 +25,11 @@ a {
 @import "~slick-carousel/slick/slick-theme.css";
 
 @font-face {
-  font-family: 'rockridge';
-  src: url('Fonts/rockridge-webfont.woff');
+  font-family: "rockridge";
+  src: url("Fonts/rockridge-webfont.woff");
   font-weight: 400;
-  font-style: normal;}
+  font-style: normal;
+}
 
 .App {
   height: 570px;
@@ -60,8 +61,8 @@ a {
   transform: scale(1.2);
   opacity: 1;
 }
-@media screen  and (max-width: 568px) {
-  body{
+@media screen and (max-width: 568px) {
+  body {
     width: 100vh;
   }
   .activeSlide {
@@ -239,9 +240,9 @@ a {
   right: 0;
 }
 
-.carousel-control.left span,
+/* .carousel-control.left span,
 .carousel-control.right span {
-}
+} */
 
 .carousel-control.left span:hover,
 .carousel-control.right span:hover {
@@ -296,8 +297,8 @@ a {
   background-color: #fff;
   overflow: hidden;
 }
-.post .content {
-}
+/* .post .content {
+} */
 
 .post .post-img-content img {
   position: relative;
@@ -389,14 +390,14 @@ a {
 .section-1-form-subtext {
   font-size: 14px;
 }
-.partners {
-  /* display: flex;
+/* .partners {
+  display: flex;
   align-items: center;
   justify-content: center;
   padding: 0 10px;
   background-color: #121927;
-  height: 70px; */
-}
+  height: 70px;
+} */
 .partners h2 {
   color: white;
 }
@@ -544,6 +545,7 @@ a.nav-link {
   color: #000 !important;
   border-radius: 0px !important;
   height: 40px;
+  margin: 0 !important;
   /* max-width: 70%; */
 }
 .about--text__ptmod__mod {
@@ -670,8 +672,9 @@ a.nav-link {
 .project--see {
   display: block;
   border-bottom: 1px solid black;
-  max-width: 36%;
+  max-width: 42%;
   margin-bottom: 10px;
+  line-height: 2rem;
 }
 /* .project--see img {
   margin-left: 2px;
@@ -759,4 +762,7 @@ a.nav-link {
   line-height: 14px;
 
   color: #121927;
+}
+.projects-title-distance {
+  margin: 120px 0;
 }
