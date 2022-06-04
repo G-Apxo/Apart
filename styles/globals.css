@@ -800,3 +800,9 @@ h2{
 .cursor{
   cursor: pointer;
 }
+.mt-120{
+  margin-top: 120px;
+}
+.mb-120{
+  margin-bottom: 120px;
+}

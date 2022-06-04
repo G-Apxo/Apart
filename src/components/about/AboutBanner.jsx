@@ -31,7 +31,7 @@ export const AboutBanner = () => {
             <Image src={Quote} alt="banner immage" />
           </Col>
         </Row>
-        <Row className="justify-content-between sixty-row">
+        <Row className="justify-content-between mb-60 mt-60">
           <Col xs="3">
             <hr />
           </Col>
@@ -39,7 +39,7 @@ export const AboutBanner = () => {
             <hr />
           </Col>
         </Row>
-        <Row className="sixty-row ">
+        <Row className="mb-60 mt-60 ">
           <Col xs="2">
             <h3 className="about--text__hmod">In 2020 Apart Development</h3>
           </Col>
@@ -74,13 +74,13 @@ export const AboutBanner = () => {
             </p>
           </Col>
         </Row>
-        <Col xs="12" className="mt-5">
+        <Col xs="12" className="mb-60 mt-60">
           <Image src={Video} alt="banner immage" />
         </Col>
       </Container>
-      <section className="cover"></section>
-      <Container>
-        <Row className="row-marginer sixty-row">
+      <section className="cover mt-120"></section>
+      <Container className="mb-120 mt-120" >
+        <Row className="row-marginer mb-60 mt-60">
           <h1>OUR TEAM</h1>
         </Row>
         <Row className="sixty-row">
