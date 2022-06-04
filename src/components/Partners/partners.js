@@ -8,8 +8,7 @@ import Tbc from '../../../assets/tbc.svg'
 import Image from 'next/image'
 function Partners() {
   return (
-    <div>
-        <Container className='partners-container'>
+        <Container className='partners-container mb-60 mt-60'>
             <Row className="justify-content-between align-items-center">
               <Col xs="2">
                 <div className='partners'>
@@ -40,7 +39,6 @@ function Partners() {
                 </div>
             </Row>
         </Container>
-    </div>
   )
 }
 

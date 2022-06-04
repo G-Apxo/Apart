@@ -11,7 +11,7 @@ export default function Home() {
       <Layout>
         <Slider/>
         <Contact/>
-        <Partners/>
+        <Partners />
         <Projectsmap/>
       </Layout>
       </div>

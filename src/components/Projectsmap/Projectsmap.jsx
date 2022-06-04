@@ -3,7 +3,7 @@ import { Nav , Button, Row,Container,Col, Carousel, Form,FormGroup, Label, Input
 const Projectsmap = () => {
   return (
     <div>
-        <Container>
+        <Container className="mb-60 mt-60">
             <Row>
                 <Col xs="2">
                   <p>Projects Map</p>

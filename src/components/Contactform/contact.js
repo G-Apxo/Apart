@@ -2,14 +2,14 @@ import React from 'react'
 import { Nav, Button,Row,Container,input,Col,Form } from 'react-bootstrap'
 function contact() {
 return (
-<Container>
-   <Row className="justify-content-between container-marginer" >
+<Container className='container-marginer'>
+   <Row className="justify-content-between" >
       <Col xs="1">
          <p>
             About us
          </p>
       </Col>
-      <Col xs="4" className='col-4' >
+      <Col xs="4" className='col-4'  >
          <h2 className='section1-title'>
          Renewed life of old tbilisi
          </h2>
@@ -19,7 +19,7 @@ return (
             and at the same time to bring new life to the forgotten neighborhoods.
          </p>
       </Col>
-      <Col xs="5" className='col-5'>
+      <Col xs="5" className='col-5 padding-0'>
          <p className='section1-form-text'>
             Leave us your contact information and our team will reach out to you.
          </p>
@@ -70,8 +70,8 @@ return (
                ))}
                </Form>
             </Col>
-               <Row className="mb-4">
-                  <Col xs="12" className="mb-md-0 mb-5">
+               <Row className="mb-60 padding-0">
+                  <Col xs="12" className="mb-md-0 mb-5 padding-0">
                      <Form id="contact-form" name="contact-form" action="mail.php" method="POST">
                         <Row>
                            <Col xs="12">

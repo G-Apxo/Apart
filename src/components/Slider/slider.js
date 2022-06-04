@@ -53,7 +53,7 @@ function Dslider() {
               key={idx}
               className={idx === imageIndex ? "slide activeSlide" : "slide"}
             >
-              <Row className="justify-content-between">
+              <Row>
                 <Col xs="7" className="col-7">
                   <Image src={img} alt={img} />
                   {/* <iframe
@@ -67,10 +67,9 @@ function Dslider() {
                 </Col>
                 <Col xs="4" className="d-flex col-4">
                   <Col className="col-12 d-flex align-items-center">
-                    <div className="test">
+                    <div className="test ">
                       <Image src={Taghi} alt="banner immage" />
-                      <h3>OLD TBILISI</h3>
-                      <p>
+                      <p className="mt-40">
                         For our team, it is important and a priority to preserve <br />
                         the charm of the old city, to use the old
                         <br />
