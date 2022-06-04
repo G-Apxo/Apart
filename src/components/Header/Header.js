@@ -8,11 +8,12 @@ import Logo from "../../../assets/logo.svg";
 // import Link from 'next/link';
 
 const path = [
-  { uid: 21, name: " Home", id: 1, path: "/" },
-  { uid: 31, name: "Blog", id: 2, path: "/Blog" },
+  // { uid: 21, name: " Home", id: 1, path: "/" },
   { uid: 41, name: "About us", id: 3, path: "/About" },
-  { uid: 51, name: "Projects", id: 4, path: "/Projects" },
   { uid: 52, name: "Investing", id: 5, path: "/Investing" },
+  { uid: 51, name: "Projects", id: 4, path: "/Projects" },
+  { uid: 31, name: "Blog", id: 2, path: "/Blog" },
+
   { uid: 61, name: "Contact", id: 6, path: "/Contact" },
   // { uid: 62, name: "SingleBlog", id: 6, path: "/SingleBlog" },
   // { uid: 63, name: "ProjectsFloor", id: 7, path: "/ProjectsFloor" },
@@ -61,11 +62,6 @@ function Header() {
                 {/* <div className="form-check form-switch">
         <input className="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked/>
       </div> */}
-              </li>
-            </ul>
-            <ul className="navbar-nav ">
-              <li className="nav-item text-nowrap">
-                <Button className="nav-link header_btn">Request a call</Button>
               </li>
             </ul>
           </Col>
