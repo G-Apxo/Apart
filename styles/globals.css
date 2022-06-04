@@ -47,7 +47,7 @@ a {
 }
 
 .slide {
-  transform: scale(0.9);
+  /* transform: scale(0.9); */
   transition: transform 300ms;
   opacity: 0.3;
 }
@@ -766,40 +766,41 @@ a.nav-link {
 .projects-title-distance {
   margin: 120px 0;
 }
-.mb-60{
+.mb-60 {
   margin-bottom: 60px;
 }
-.padding-0{
+.padding-0 {
   padding: 0 !important;
 }
-.mt-60{
+.mt-60 {
   padding-top: 60px;
 }
-.mt-40{
+.mt-40 {
   padding-top: 40px;
 }
-.mt-20{
+.mt-20 {
   padding-top: 20px;
 }
-.mt-10{
+.mt-10 {
   padding-top: 10px;
 }
 
-p{
+p {
   font-size: 12px;
 }
-h1{
+h1 {
   font-size: 42;
 }
-h2{
+h2 {
   font-size: 24px;
 }
-.nav-link{
+.nav-link {
   font-size: 12px;
 }
-.cursor{
+.cursor {
   cursor: pointer;
 }
+<<<<<<< Updated upstream
 .mt-120{
   margin-top: 120px;
 }
@@ -809,3 +810,8 @@ h2{
 .custom_ol{
   list-style: url("../assets/line.svg") !important;
 }
+=======
+.full_width {
+  object-fit: cover;
+}
+>>>>>>> Stashed changes

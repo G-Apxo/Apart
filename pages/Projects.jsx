@@ -31,12 +31,12 @@ const Projects = () => {
         <Row>
           <Col xs="3">
             <Link href="/ProjectsFloor">
-            <div className="mb-5 projects--title cursor">
-              <p>Done</p>
-              <h3>
-                OLD CITY <br /> PANORAMA
-              </h3>
-            </div>
+              <div className="mb-5 projects--title cursor">
+                <p>Done</p>
+                <h3>
+                  OLD CITY <br /> PANORAMA
+                </h3>
+              </div>
             </Link>
             <div className="projects--legend__top projects--texts__basics">
               <p className="projects--texts__op">Location</p>
@@ -48,25 +48,25 @@ const Projects = () => {
             </div>
             <div>
               <Link href="/ProjectsFloor">
-              <i className="project--see cursor">
-                View Projects <Image src={Vector} />
-              </i>
+                <i className="project--see cursor">
+                  View Projects <Image src={Vector} />
+                </i>
               </Link>
             </div>
           </Col>
           <Col xs="9">
             <Carousel style={{ opacity: 1 }}>
               <Carousel.Item className="fuul__width">
-                <Image src={Slide1} alt="banner immage" />
+                <Image src={Slide1} alt="banner immage" className="full_width" />
               </Carousel.Item>
               <Carousel.Item className="fuul__width">
                 <Row>
-                  <Image src={Slide1} alt="banner immage" />
+                  <Image src={Slide1} alt="banner immage " className="full_width" />
                 </Row>
               </Carousel.Item>
               <Carousel.Item className="fuul__width">
                 <Row>
-                  <Image src={Slide1} alt="banner immage" />
+                  <Image src={Slide1} alt="banner immage" className="full_width" />
                 </Row>
               </Carousel.Item>
             </Carousel>
