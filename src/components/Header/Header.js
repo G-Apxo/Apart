@@ -35,7 +35,7 @@ function Header() {
               </a>
             </Link>
           </Col>
-          <Col xs="8" className="d-flex justify-content-center">
+          <Col xs="7" className="d-flex justify-content-center">
             <Navbar>
               <ul className="navbar-nav mr-auto">
                 {path.map(value => {
@@ -50,7 +50,7 @@ function Header() {
               </ul>
             </Navbar>
           </Col>
-          <Col xs="2" className="d-flex justify-content-end align-items-center">
+          <Col xs="3" className="d-flex justify-content-end align-items-center">
             <ul className="navbar-nav ">
               <li className="nav-item text-nowrap">
                 <FormSelect className="Language__select">
