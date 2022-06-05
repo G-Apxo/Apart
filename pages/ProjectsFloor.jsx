@@ -20,7 +20,10 @@ const ProjectsFloor = () => {
           <Col xs="2">
             <Image src={Taghi} />
           </Col>
-          <Col xs="3"></Col>
+          <Col xs="4">
+          <h3 className="projects-floor-title">Chose Apartment</h3>
+            <p>Chose floor</p>
+          </Col>
         </Row>
         <Row className="justify-content-between mt-5">
           <Col xs="2">
@@ -34,8 +37,7 @@ const ProjectsFloor = () => {
             <h3>3245 m2</h3>
           </Col>
           <Col xs="4">
-            <h3 className="projects-floor-title">Chose Apartment</h3>
-            <p>Chose floor</p>
+           
             <Form.Select aria-label="Default select example">
               <option>Chose floor 1-10</option>
               <option value="1">One</option>
