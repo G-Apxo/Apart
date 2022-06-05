@@ -21,7 +21,9 @@ import Image from "next/image";
 import Link from "next/link";
 const Projects = () => {
   return (
-    <Layout>
+    <Layout className="line-test">
+      <div className="line-creator"></div>
+
       <Container className="projects-title-distance">
         <Row>
           <h3 className="text-center">PROJECTS</h3>
@@ -60,7 +62,7 @@ const Projects = () => {
                   </Link>
                 </div>
               </Col>
-              <Col xs="9">
+              <Col xs="9" className="projects-margin-fixer">
                 <Carousel style={{ opacity: 1 }}>
                   <Carousel.Item className="fuul__width">
                     <Image src={Slide1} alt="banner immage" className="full_width" />
