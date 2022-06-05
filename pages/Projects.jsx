@@ -27,52 +27,60 @@ const Projects = () => {
           <h3 className="text-center">PROJECTS</h3>
         </Row>
       </Container>
-      <Container className="container-borderer">
-        <Row>
-          <Col xs="3">
-            <Link href="/ProjectsFloor">
-              <div className="mb-5 projects--title cursor">
-                <p>Done</p>
-                <h3>
-                  OLD CITY <br /> PANORAMA
-                </h3>
-              </div>
-            </Link>
-            <div className="projects--legend__top projects--texts__basics">
-              <p className="projects--texts__op">Location</p>
-              <h3 className="project--location__mod projects--texts__basics">Tbilisi,georgia,bukhaidze 6a</h3>
-            </div>
-            <div className="projects--legend__bot">
-              <p className="projects--texts__op">Create date</p>
-              <h3 className="projects--texts__basics">2022</h3>
-            </div>
-            <div>
-              <Link href="/ProjectsFloor">
-                <i className="project--see cursor">
-                  View Projects <Image src={Vector} />
-                </i>
-              </Link>
-            </div>
-          </Col>
-          <Col xs="9">
-            <Carousel style={{ opacity: 1 }}>
-              <Carousel.Item className="fuul__width">
-                <Image src={Slide1} alt="banner immage" className="full_width" />
-              </Carousel.Item>
-              <Carousel.Item className="fuul__width">
-                <Row>
-                  <Image src={Slide1} alt="banner immage " className="full_width" />
-                </Row>
-              </Carousel.Item>
-              <Carousel.Item className="fuul__width">
-                <Row>
-                  <Image src={Slide1} alt="banner immage" className="full_width" />
-                </Row>
-              </Carousel.Item>
-            </Carousel>
-          </Col>
-        </Row>
-      </Container>
+      <div className="parent1313">
+        <div className="test1313">
+          <Container className="container-borderer">
+            <Row>
+              <Col xs="3">
+                <Link href="/ProjectsFloor">
+                  <div className="mb-5 projects--title cursor">
+                    <p>Done</p>
+                    <h3>
+                      OLD CITY <br /> PANORAMA
+                    </h3>
+                  </div>
+                </Link>
+                <div className="projects--legend__top projects--texts__basics">
+                  <p className="projects--texts__op">Location</p>
+                  <h3 className="project--location__mod projects--texts__basics">
+                    Tbilisi,georgia
+                    <br />
+                    bukhaidze 6a
+                  </h3>
+                </div>
+                <div className="projects--legend__bot">
+                  <p className="projects--texts__op projects--texts__create">Create date</p>
+                  <h3 className="projects--texts__basics ">2022</h3>
+                </div>
+                <div>
+                  <Link href="/ProjectsFloor">
+                    <i className="project--see cursor">
+                      View Projects <Image src={Vector} />
+                    </i>
+                  </Link>
+                </div>
+              </Col>
+              <Col xs="9">
+                <Carousel style={{ opacity: 1 }}>
+                  <Carousel.Item className="fuul__width">
+                    <Image src={Slide1} alt="banner immage" className="full_width" />
+                  </Carousel.Item>
+                  <Carousel.Item className="fuul__width">
+                    <Row>
+                      <Image src={Slide1} alt="banner immage " className="full_width" />
+                    </Row>
+                  </Carousel.Item>
+                  <Carousel.Item className="fuul__width">
+                    <Row>
+                      <Image src={Slide1} alt="banner immage" className="full_width" />
+                    </Row>
+                  </Carousel.Item>
+                </Carousel>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </div>
       <Container className="container-borderer">
         <Row>
           <Col xs="3">
@@ -83,7 +91,11 @@ const Projects = () => {
             </div>
             <div className="projects--legend__top projects--texts__basics">
               <p className="projects--texts__op">Location</p>
-              <h3 className="project--location__mod projects--texts__basics">Tbilisi,georgia,bukhaidze 6a</h3>
+              <h3 className="project--location__mod projects--texts__basics">
+                Tbilisi,georgia
+                <br />
+                bukhaidze 6a
+              </h3>
             </div>
             <div className="projects--legend__bot">
               <p className="projects--texts__op">Create date</p>
@@ -126,7 +138,9 @@ const Projects = () => {
             </div>
             <div className="projects--legend__top projects--texts__basics">
               <p className="projects--texts__op">Location</p>
-              <h3 className="project--location__mod projects--texts__basics">Tbilisi,georgia,bukhaidze 6a</h3>
+              <h3 className="project--location__mod projects--texts__basics">
+                Tbilisi,georgia<br></br>bukhaidze 6a
+              </h3>
             </div>
             <div className="projects--legend__bot">
               <p className="projects--texts__op">Create date</p>
@@ -169,7 +183,11 @@ const Projects = () => {
             </div>
             <div className="projects--legend__top projects--texts__basics">
               <p className="projects--texts__op">Location</p>
-              <h3 className="project--location__mod projects--texts__basics">Tbilisi,georgia,bukhaidze 6a</h3>
+              <h3 className="project--location__mod projects--texts__basics">
+                Tbilisi,georgia
+                <br />
+                bukhaidze 6a
+              </h3>
             </div>
             <div className="projects--legend__bot">
               <p className="projects--texts__op">Create date</p>

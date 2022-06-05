@@ -107,15 +107,16 @@ const ProjectsFloorSelector = () => {
           <Row className=" mt-5 form-row align-items-center">
             <Col xs="3">
               <label htmlFor="name"></label>
-              <input type="text" id="name" name="name" placeholder="Name" />
+              <input className="btn-test" type="text" id="name" name="name" placeholder="Name" />
             </Col>
             <Col xs="3">
               <label htmlFor="email"></label>
-              <input type="mail" id="email" name="email" placeholder="Email" />
+              <input className="btn-test" type="mail" id="email" name="email" placeholder="Email" />
             </Col>
             <Col xs="3">
               <label htmlFor="tel"></label>
               <input
+                className="btn-test"
                 type="tel"
                 id="phone"
                 name="phone"
@@ -133,7 +134,7 @@ const ProjectsFloorSelector = () => {
         <Row className="justify-content-between">
           <Col xs="5">
             <h3>About this project</h3>
-            <p>
+            <p className="projects--floor-about-text">
               started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi. Project
               perfectly suits the architectural style of Old Tbilisi, It is located on Bukhaidze Street, in
               the historical part of Tbilisi. Our goal is to match the exterior of the project perfectly with
@@ -145,16 +146,38 @@ const ProjectsFloorSelector = () => {
             <Col xs="12">
               <Row>
                 <h3>Advantages</h3>
+                <h5 className="projects-floor-first-one">Fisrt one</h5>
                 <Col xs="4">
-                  <h5>Fisrt one</h5>
                   <h5>Big brain</h5>
                 </Col>
                 <Col xs="4">
-                  <h5>Fisrt one</h5>
                   <h5>Big brain</h5>
                 </Col>
                 <Col xs="4">
-                  <h5>Fisrt one</h5>
+                  <h5>Big brain</h5>
+                </Col>
+              </Row>
+              <Row>
+                <h5 className="projects-floor-first-one">Fisrt one</h5>
+                <Col xs="4">
+                  <h5>Big brain</h5>
+                </Col>
+                <Col xs="4">
+                  <h5>Big brain</h5>
+                </Col>
+                <Col xs="4">
+                  <h5>Big brain</h5>
+                </Col>
+              </Row>
+              <Row>
+                <h5 className="projects-floor-first-one">Fisrt one</h5>
+                <Col xs="4">
+                  <h5>Big brain</h5>
+                </Col>
+                <Col xs="4">
+                  <h5>Big brain</h5>
+                </Col>
+                <Col xs="4">
                   <h5>Big brain</h5>
                 </Col>
               </Row>

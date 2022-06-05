@@ -10,25 +10,70 @@ export default function Blog() {
           <Container>
             <h2 className="row-marginer">Blog</h2>
             <Row>
-              <Link href="/SingleBlog">
-              <Col className="col-6 cursor">
-                <div className="image__box">
-                  <div className="blog-image__content">
-                    <p>blog desc</p>
-                    <h2>blog1</h2>
+              <Link className="blog-single-blog" href="/SingleBlog">
+                <Col className="col-6 cursor">
+                  <div className="image__box blog__1">
+                    <div className="blog-image__content">
+                      {/* ar mushaobs css */}
+                      <p>November 23. 2021</p>
+                      <h2>Bukhaidze I Turn 6 our new project</h2>
+                    </div>
                   </div>
-                </div>
-              </Col>
+                </Col>
+              </Link>
+              <Link className="blog-single-blog" href="/SingleBlog">
+                <Col className="col-6 cursor">
+                  <div className="image__box blog__2">
+                    <div className="blog-image__content">
+                      <p>November 23. 2021</p>
+                      <h2>Bukhaidze I Turn 6 our new project</h2>
+                    </div>
+                  </div>
+                </Col>
+              </Link>
+            </Row>
+            <Row>
+              <Link className="blog-single-blog" href="/SingleBlog">
+                <Col className="col-6 cursor">
+                  <div className="image__box blog__3">
+                    <div className="blog-image__content">
+                      <p>November 23. 2021</p>
+                      <h2>Bukhaidze I Turn 6 our new project</h2>
+                    </div>
+                  </div>
+                </Col>
+              </Link>
+              <Link className="blog-single-blog" href="/SingleBlog">
+                <Col className="col-6 cursor">
+                  <div className="image__box blog__4">
+                    <div className="blog-image__content">
+                      <p>November 23. 2021</p>
+                      <h2>Bukhaidze I Turn 6 our new project</h2>
+                    </div>
+                  </div>
+                </Col>
+              </Link>
+            </Row>
+            <Row>
+              <Link href="/SingleBlog">
+                <Col className="col-6 cursor">
+                  <div className="image__box blog__5">
+                    <div className="blog-image__content">
+                      <p>November 23. 2021</p>
+                      <h2>Bukhaidze I Turn 6 our new project</h2>
+                    </div>
+                  </div>
+                </Col>
               </Link>
               <Link href="/SingleBlog">
-              <Col className="col-6 cursor">
-                <div className="image__box">
-                  <div className="blog-image__content">
-                    <p>blog desc</p>
-                    <h2>blog1</h2>
+                <Col className="col-6 cursor">
+                  <div className="image__box blog__6">
+                    <div className="blog-image__content">
+                      <p>November 23. 2021</p>
+                      <h2>Bukhaidze I Turn 6 our new project</h2>
+                    </div>
                   </div>
-                </div>
-              </Col>
+                </Col>
               </Link>
             </Row>
           </Container>
