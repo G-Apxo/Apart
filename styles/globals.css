@@ -726,6 +726,7 @@ a.nav-link {
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
+  margin-top: 30px;
 }
 .projects--title p {
   margin-top: 1rem;
@@ -821,8 +822,12 @@ h2 {
 .test1313 {
   border: 1px solid rgba(0, 0, 0, 0.2);
 }
-projects--texts__create {
+
+.projects--texts__create {
   margin: 0;
+}
+.projects--texts__date {
+  margin-bottom: 60px;
 }
 .btn-test {
   width: 90%;
