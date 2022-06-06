@@ -677,7 +677,7 @@ a.nav-link {
 .project--see {
   display: block;
   border-bottom: 1px solid black;
-  max-width: 48%;
+  max-width: 38%;
   margin-bottom: 10px;
   line-height: 2rem;
 }
@@ -722,6 +722,7 @@ a.nav-link {
   margin-top: 20%;
 }
 .projects--title {
+  max-width: 65%;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
