@@ -7,7 +7,7 @@ import Image from "next/image";
 import Team1 from "../../../assets/team/team1.jpg";
 import Team2 from "../../../assets/team/team2.jpg";
 import Team3 from "../../../assets/team/team3.jpg";
-// import Team4 from "../../../assets/team/team4.jpg";
+import Team4 from "../../../assets/team/team4.jpeg";
 import Team5 from "../../../assets/team/team5.jpg";
 import Team6 from "../../../assets/team/team6.jpg";
 import Team7 from "../../../assets/team/team7.jpg";
@@ -121,10 +121,12 @@ export const AboutBanner = () => {
             <p>Founder</p>
           </Col>
           <Col xs="3">
-            <Image src={Team3} alt="banner immage" />
+            <Image src={Team4} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
+        </Row>
+        <Row className="sixty-row">
           <Col xs="3">
             <Image src={Team5} alt="banner immage" />
             <h3>Beka Khoperia</h3>
@@ -145,6 +147,8 @@ export const AboutBanner = () => {
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
+        </Row>
+        <Row className="sixty-row">
           <Col xs="3">
             <Image src={Team9} alt="banner immage" />
             <h3>Beka Khoperia</h3>
@@ -165,6 +169,8 @@ export const AboutBanner = () => {
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
+        </Row>
+        <Row className="sixty-row">
           <Col xs="3">
             <Image src={Team13} alt="banner immage" />
             <h3>Beka Khoperia</h3>
@@ -185,6 +191,8 @@ export const AboutBanner = () => {
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
+        </Row>
+        <Row className="sixty-row">
           <Col xs="3">
             <Image src={Team17} alt="banner immage" />
             <h3>Beka Khoperia</h3>
@@ -205,6 +213,8 @@ export const AboutBanner = () => {
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
+        </Row>
+        <Row className="sixty-row">
           <Col xs="3">
             <Image src={Team21} alt="banner immage" />
             <h3>Beka Khoperia</h3>
