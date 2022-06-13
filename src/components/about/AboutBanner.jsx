@@ -165,6 +165,51 @@ export const AboutBanner = () => {
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
+          <Col xs="3">
+            <Image src={Team13} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
+          <Col xs="3">
+            <Image src={Team14} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
+          <Col xs="3">
+            <Image src={Team15} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
+          <Col xs="3">
+            <Image src={Team16} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
+          <Col xs="3">
+            <Image src={Team17} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
+          <Col xs="3">
+            <Image src={Team18} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
+          <Col xs="3">
+            <Image src={Team19} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
+          <Col xs="3">
+            <Image src={Team20} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
+          <Col xs="3">
+            <Image src={Team21} alt="banner immage" />
+            <h3>Beka Khoperia</h3>
+            <p>Founder</p>
+          </Col>
         </Row>
       </Container>
     </div>
