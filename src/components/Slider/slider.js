@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Slider from "react-slick";
+import Test from "../Test/Test";
 // import D3scene from "../3dscene/3dscene";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { Row, Col } from "react-bootstrap";
@@ -55,7 +56,7 @@ function Dslider() {
             >
               <Row>
                 <Col xs="7" className="col-7">
-                <iframe width="400" height="400" src="https://embed.imajize.com/6729823" frameBorder="0" scrolling="no"  allowFullScreen></iframe>
+               <Test/>
                  {/* <Image src={img} alt={img} /> */}
                   {/* <iframe
                     allowFullScreen

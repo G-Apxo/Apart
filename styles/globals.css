@@ -677,7 +677,7 @@ a.nav-link {
 .project--see {
   display: block;
   border-bottom: 1px solid black;
-  max-width: 38%;
+  max-width: 50%;
   margin-bottom: 10px;
   line-height: 2rem;
 }
@@ -867,10 +867,10 @@ h2 {
 }
 .line-creator {
   border-left: 1px solid rgba(0, 0, 0, 0.2);
-  height: 181%;
+  height: 133.4vh;
   position: absolute;
   margin-left: 30%;
-  top: 38.7%;
+  top: 26vh;
 }
 .projects-margin-fixer {
   padding-bottom: 30px;
