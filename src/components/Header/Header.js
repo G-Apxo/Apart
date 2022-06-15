@@ -23,7 +23,71 @@ function Header() {
         <meta name="description" content="A demo about NextJS and Bootstrap 5" />
       </Head>
       <Container>
-        <Row>
+      <section className="top-nav">
+    <div>
+    <Link href="/" className="cursor">
+              <a className="navbar-brand">
+                <Image src={Logo} alt="Picture of the author" />
+              </a>
+    </Link>
+    </div>
+    <input id="menu-toggle" type="checkbox" />
+    <label className='menu-button-container' htmlFor="menu-toggle">
+    <div className='menu-button'></div>
+  </label>
+    <ul className="menu">
+      <li className="nav-item text-nowrap">
+    <a className="nav-link text-white" href="/About">
+    About us
+      </a>
+    </li>
+    <li className="nav-item text-nowrap">
+    <a className="nav-link text-white" href="/Investing">
+    Investing
+      </a>
+    </li>
+    <li className="nav-item text-nowrap">
+    <a className="nav-link text-white" href="/Projects">
+    Projects
+      </a>
+    </li>
+    <li className="nav-item text-nowrap">
+    <a className="nav-link text-white" href="/Blog">
+    Blog
+      </a>
+    </li>
+    <li className="nav-item text-nowrap">
+    <a className="nav-link text-white" href="/Contact" >
+    Contact
+      </a>
+    </li>
+      <li >
+      <FormSelect className="Language__select text-white">
+        <option>ENG</option>
+        <option>Geo</option>
+      </FormSelect>
+    </li>
+    <li className="nav-item text-nowrap">
+      <a className="nav-link text-white">
+        +995 32 2 11 11 44
+      </a>
+    </li>
+    <li className="nav-item text-nowrap">
+    <a className="nav-link text-white">
+    Viber
+      </a>
+    </li>
+    <li className="nav-item text-nowrap">
+    <a className="nav-link text-white" >
+    Whatsapp
+      </a>
+    </li>
+    </ul>
+
+  </section>
+      </Container>
+      <Container className="desktop_Menu">
+        <Row >
           <Col xs="2" lg="2" md="2" sm="2" xl="2" xxl="2">
             <Link href="/">
               <a className="navbar-brand">
@@ -32,7 +96,7 @@ function Header() {
             </Link>
           </Col>
           <Col xs="7" lg="7" md="7" sm="7" xl="7" xxl="7" className="d-flex justify-content-center">
-            <Navbar expand="lg" >
+            <Navbar  >
               <ul className="navbar-nav mr-auto">
                 {path.map(value => {
                   return (
