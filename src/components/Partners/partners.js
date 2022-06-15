@@ -10,7 +10,7 @@ function Partners() {
   return (
         <Container className='partners-container mb-60 mt-60'>
             <Row className="justify-content-between align-items-center">
-              <Col xs="2">
+              <Col xs="12" lg="2" md="2" sm="2" xl="2" xxl="2" >
                 <div className='partners'>
                   <p>
                   Sponsors

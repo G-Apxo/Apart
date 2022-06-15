@@ -5,7 +5,7 @@ function Blog() {
     <div>
         <Container>
           <Row>
-            <Col className="col-6">
+            <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
               <div className="image__box">
                 <h2>
                   blog1
@@ -13,7 +13,7 @@ function Blog() {
                 <p>blog desc</p>
               </div>
             </Col>
-            <Col className="col-6">
+            <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
 
             <div className="image__box">
             <h2>

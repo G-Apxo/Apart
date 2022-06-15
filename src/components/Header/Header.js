@@ -13,11 +13,7 @@ const path = [
   { uid: 52, name: "Investing", id: 5, path: "/Investing" },
   { uid: 51, name: "Projects", id: 4, path: "/Projects" },
   { uid: 31, name: "Blog", id: 2, path: "/Blog" },
-
   { uid: 61, name: "Contact", id: 6, path: "/Contact" },
-  // { uid: 62, name: "SingleBlog", id: 6, path: "/SingleBlog" },
-  // { uid: 63, name: "ProjectsFloor", id: 7, path: "/ProjectsFloor" },
-  // { uid: 64, name: "ProjectsFloorSelector", id: 8, path: "/ProjectsFloorSelector" },
 ];
 function Header() {
   return (
@@ -28,15 +24,15 @@ function Header() {
       </Head>
       <Container>
         <Row>
-          <Col xs="2">
+          <Col xs="2" lg="2" md="2" sm="2" xl="2" xxl="2">
             <Link href="/">
               <a className="navbar-brand">
                 <Image src={Logo} alt="Picture of the author" />
               </a>
             </Link>
           </Col>
-          <Col xs="7" className="d-flex justify-content-center">
-            <Navbar>
+          <Col xs="7" lg="7" md="7" sm="7" xl="7" xxl="7" className="d-flex justify-content-center">
+            <Navbar expand="lg" >
               <ul className="navbar-nav mr-auto">
                 {path.map(value => {
                   return (
@@ -50,7 +46,7 @@ function Header() {
               </ul>
             </Navbar>
           </Col>
-          <Col xs="3" className="d-flex justify-content-end align-items-center">
+          <Col xs="3" lg="3" md="3" sm="3" xl="3" xxl="3" className="d-flex justify-content-end align-items-center">
             <ul className="navbar-nav ">
               <li className="nav-item text-nowrap">
                 <FormSelect className="Language__select">

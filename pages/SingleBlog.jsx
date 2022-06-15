@@ -12,20 +12,20 @@ const SingleBlog = () => {
           <Col className="col-12">
             <Image src={BannerImg} alt="banner immage" />
           </Col>
-          <div className="row align-items-end mt-5">
-            <div className="col-4">
+          <Row className="align-items-center mt-5">
+            <Col xs="2" lg="4" md="4" sm="4" xl="4" xxl="4">
               <hr />
-            </div>
-            <div className="col-4">
+            </Col>
+            <Col xs="8" lg="4" md="4" sm="4" xl="4" xxl="4">
               <p className="text-center">November 23. 2021</p>
               <h4 className="text-center">WHY IS THE REAL ESTATE THE SAFEST INVESTMENT?</h4>
-            </div>
-            <div className="col-4">
+            </Col>
+            <Col xs="2" lg="4" md="4" sm="4" xl="4" xxl="4">
               <hr />
-            </div>
-          </div>
+            </Col>
+          </Row>
           <Col className="col-12 d-flex justify-content-center mt-5">
-            <Col className="col-6">
+            <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
               <p>
                 The fact is that real estate is one of the most correct, secure and reliable areas for
                 investment. Moreover&lsquo; along with investing in gold and silver items&lsquo; real estate
@@ -77,12 +77,12 @@ const SingleBlog = () => {
               </p>
             </Col>
           </Col>
-          <Col xs="3" className="mb-5 mt-5">
+          <Col  xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mb-5 mt-5">
             <h2>Recent Blogs</h2>
             <hr />
           </Col>
           <Row>
-            <Col xs="6">
+            <Col  xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mt-5">
               <div className="image__box">
                 <div className="blog-image__content">
                   <p>blog desc</p>
@@ -90,7 +90,7 @@ const SingleBlog = () => {
                 </div>
               </div>
             </Col>
-            <Col xs="6">
+            <Col  xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mb-5 mt-5">
               <div className="image__box">
                 <div className="blog-image__content">
                   <p>blog desc</p>

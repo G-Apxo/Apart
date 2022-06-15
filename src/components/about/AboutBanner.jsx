@@ -32,12 +32,11 @@ export const AboutBanner = () => {
     <div>
       <Container className="mt-5">
         <h1 className="about-title">ABOUT US</h1>
-        <Row className="row-marginer">
-          <Col xs="2"></Col>
-          <Col xs="3">
+        <Row className="row-marginer justify-content-end">
+          <Col xs="12" lg="3" md="3" sm="3" xl="3" xxl="3" className="d-flex justify-content-center">
             <Image src={Beqa} alt="banner immage" />
           </Col>
-          <Col xs="5" className="align-items-center d-flex">
+          <Col xs="12" lg="5" md="5" sm="5" xl="5" xxl="5" className="align-items-center d-flex mt-5">
             <div>
               <p>
                 “ started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi.
@@ -48,23 +47,25 @@ export const AboutBanner = () => {
               <h3>Founder</h3>
             </div>
           </Col>
-          <Col xs="2">
+          <Col xs="2" className="no_mobile">
             <Image src={Quote} alt="banner immage" />
           </Col>
         </Row>
         <Row className="justify-content-between mb-60 mt-60">
-          <Col xs="3">
+          <Col  xs="5" lg="3" md="3" sm="3" xl="3" xxl="3">
             <hr />
           </Col>
-          <Col xs="3">
+          <Col  xs="5" lg="3" md="3" sm="3" xl="3" xxl="3">
             <hr />
           </Col>
         </Row>
         <Row className="mb-60 mt-60 ">
-          <Col xs="2">
+          <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" >
+          <Row >
+          <Col xs="12" lg="12" md="12" sm="12" xl="12" xxl="12">
             <h3 className="about--text__hmod">In 2020 Apart Development</h3>
           </Col>
-          <Col xs="4">
+          <Col xs="12" lg="12" md="12" sm="12" xl="12" xxl="12">
             <p className="about--text__ptmod2">
               started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi. Project
               perfectly suits the architectural style of Old Tbilisi, It is located on Bukhaidze Street, in
@@ -75,10 +76,14 @@ export const AboutBanner = () => {
               away, the historic Metekhi Fortress and Temple, and Narikala and Rike Park.
             </p>
           </Col>
-          <Col xs="2">
+          </Row>
+          </Col>
+          <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
+          <Row>
+        <Col xs="12" lg="12" md="12" sm="12" xl="12" xxl="12" className="mt-60 ">
             <h3 className="about--text__hmod">Another advantage</h3>
           </Col>
-          <Col xs="4">
+          <Col xs="12" lg="12" md="12" sm="12" xl="12" xxl="12">
             <p className="about--text__ptmod__mod ">
               OLD CITY PANORAMA is the amazing views and greenery of Old Tbilisi. For residents on the first
               floor, living in “townhouse” type dwellings, we have individual yards. The area includes a
@@ -95,6 +100,10 @@ export const AboutBanner = () => {
             </p>
           </Col>
         </Row>
+            </Col>
+        </Row>
+       
+      
         <Col xs="12" className="mb-60 mt-60">
           <Image src={Video} alt="banner immage" />
         </Col>
@@ -105,117 +114,117 @@ export const AboutBanner = () => {
           <h1>OUR TEAM</h1>
         </Row>
         <Row className="sixty-row">
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team1} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
-            <Image src={Team2} alt="banner immage" />
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team2} alt="banner immage"/>
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team3} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team4} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
         </Row>
         <Row className="sixty-row">
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team5} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team6} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team7} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team8} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
         </Row>
         <Row className="sixty-row">
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team9} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team10} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team11} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team12} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
         </Row>
         <Row className="sixty-row">
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team13} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team14} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team15} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team16} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
         </Row>
         <Row className="sixty-row">
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team17} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team18} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team19} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team20} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
         </Row>
         <Row className="sixty-row">
-          <Col xs="3">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team21} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>

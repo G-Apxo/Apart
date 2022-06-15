@@ -1,9 +1,9 @@
 import { useState } from "react";
 import Slider from "react-slick";
-import Test from "../Test/Test";
+// import Test from "../Test/Test";
 // import D3scene from "../3dscene/3dscene";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col,Container } from "react-bootstrap";
 import Slide1 from "../../../assets/slider.png";
 import Slide2 from "../../../assets/slider.png";
 import Slide3 from "../../../assets/slider.png";
@@ -54,22 +54,22 @@ function Dslider() {
               key={idx}
               className={idx === imageIndex ? "slide activeSlide" : "slide"}
             >
+              <Container>
               <Row>
-                <Col xs="7" className="col-7">
-               <Test/>
-                 {/* <Image src={img} alt={img} /> */}
-                  {/* <iframe
+                <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" >
+                 <Image src={img} alt={img} />
+                   {/* <iframe
                     allowFullScreen
                     width="640"
                     height="480"
                     loading="lazy"
                     frameBorder="0"
                     src="https://p3d.in/e/M6xbJ+load+nopan+nozoom+controls,border,loader-hidden"
-                  ></iframe> */}
+                  ></iframe>  */}
                 </Col>
-                <Col xs="4" className="d-flex col-4">
-                  <Col className="col-12 d-flex align-items-center">
-                    <div className="test ">
+                <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="d-flex">
+                  <Col className="d-flex align-items-center">
+                    <div className="test">
                       <Image src={Taghi} alt="banner immage" />
                       <p className="mt-40">
                         For our team, it is important and a priority to preserve <br />
@@ -79,11 +79,11 @@ function Dslider() {
                         For our team, it is important and a priority to preserve <br /> the charm of the old
                         city, to use the old
                       </p>
-                      {/* <D3scene /> */}
                     </div>
                   </Col>
                 </Col>
               </Row>
+              </Container>
             </div>
           ))}
         </Slider>

@@ -11,7 +11,7 @@ export default function Blog() {
             <h2 className="row-marginer">Blog</h2>
             <Row>
               <Link className="blog-single-blog" href="/SingleBlog">
-                <Col className="col-6 cursor">
+                <Col className="cursor mt-5" xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
                   <div className="image__box blog__1">
                     <div className="blog-image__content">
                       {/* ar mushaobs css */}
@@ -22,7 +22,7 @@ export default function Blog() {
                 </Col>
               </Link>
               <Link className="blog-single-blog" href="/SingleBlog">
-                <Col className="col-6 cursor">
+                <Col className="cursor mt-5" xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
                   <div className="image__box blog__2">
                     <div className="blog-image__content">
                       <p>November 23. 2021</p>
@@ -34,7 +34,7 @@ export default function Blog() {
             </Row>
             <Row>
               <Link className="blog-single-blog" href="/SingleBlog">
-                <Col className="col-6 cursor">
+                <Col className="cursor mt-5" xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
                   <div className="image__box blog__3">
                     <div className="blog-image__content">
                       <p>November 23. 2021</p>
@@ -44,7 +44,7 @@ export default function Blog() {
                 </Col>
               </Link>
               <Link className="blog-single-blog" href="/SingleBlog">
-                <Col className="col-6 cursor">
+                <Col className="cursor mt-5" xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
                   <div className="image__box blog__4">
                     <div className="blog-image__content">
                       <p>November 23. 2021</p>
@@ -56,7 +56,7 @@ export default function Blog() {
             </Row>
             <Row>
               <Link href="/SingleBlog">
-                <Col className="col-6 cursor">
+                <Col className="cursor mt-5" xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
                   <div className="image__box blog__5">
                     <div className="blog-image__content">
                       <p>November 23. 2021</p>
@@ -66,7 +66,7 @@ export default function Blog() {
                 </Col>
               </Link>
               <Link href="/SingleBlog">
-                <Col className="col-6 cursor">
+                <Col className="cursor mt-5" xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
                   <div className="image__box blog__6">
                     <div className="blog-image__content">
                       <p>November 23. 2021</p>

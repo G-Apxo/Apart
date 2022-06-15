@@ -2,14 +2,16 @@ import React from 'react'
 import { Nav, Button,Row,Container,input,Col,Form } from 'react-bootstrap'
 function contact() {
 return (
-<Container className='container-marginer'>
+<Container className='container-marginer additional__padding'>
    <Row className="justify-content-between" >
-      <Col xs="1">
+      <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
+         <Row>
+      <Col xs="12" lg="3" md="3" sm="3" xl="3" xxl="3">
          <p>
             About us
          </p>
       </Col>
-      <Col xs="4" className='col-4'  >
+      <Col xs="12" lg="9" md="9" sm="9" xl="9" xxl="9">
          <h2 className='section1-title'>
          Renewed life of old tbilisi
          </h2>
@@ -19,7 +21,10 @@ return (
             and at the same time to bring new life to the forgotten neighborhoods.
          </p>
       </Col>
-      <Col xs="5" className='col-5 padding-0'>
+      </Row>
+      </Col>
+      <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
+      <Col xs="12" className='col-5 padding-0'>
          <p className='section1-form-text'>
             Leave us your contact information and our team will reach out to you.
          </p>
@@ -70,10 +75,9 @@ return (
                ))}
                </Form>
             </Col>
-               <Row className="mb-60 padding-0">
-                  <Col xs="12" className="mb-md-0 mb-5 padding-0">
-                     <Form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                        <Row>
+               <Col className="mb-60">
+                  <div xs="12" className="mb-md-0 mb-5">
+                     <Form id="contact-form" name="contact-form" action="mail.php" method="POST">      
                            <Col xs="12">
                               <div className="md-form mb-0">
                                  <Form.Control type="text" id="name" name="name" className="form-control input__main" placeholder='Phone'/>
@@ -84,14 +88,14 @@ return (
                                  <Form.Control type="text" id="email" name="email" className="form-control input__main" placeholder='Email'/>
                               </div>
                            </Col>
-                        </Row>
                      </Form>
                      <div className="text-center text-md-left">
                         <Button className="btn-send">Get contacted</Button>
                      </div>
-                  </Col>
-               </Row>
+                  </div>
+               </Col>
          </Row>
+      </Col>
       </Col>
    </Row>
 </Container>

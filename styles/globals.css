@@ -61,15 +61,7 @@ a {
   transform: scale(1.2);
   opacity: 1;
 }
-@media screen and (max-width: 568px) {
-  body {
-    width: 100vh;
-  }
-  .activeSlide {
-    width: auto !important;
-    opacity: 1;
-  }
-}
+
 .activeSlide .test {
   display: block;
 }
@@ -513,7 +505,7 @@ a.nav-link {
 }
 .about--text__ptmod2 {
   font-size: 14px;
-  max-width: 70%;
+  /* max-width: 70%; */
 }
 .header_btn {
   width: 120px;
@@ -875,4 +867,48 @@ h2 {
 .projects-margin-fixer {
   padding-bottom: 30px;
   padding-top: 30px;
+}
+.parent_only_mobile{
+  display: none;
+}
+.parent_only_desktop{
+  display: block;
+}
+@media screen and (max-width: 568px) {
+  .parent_only_mobile{
+    display: block;
+  }
+  .project--see{
+    max-width: 70%;
+  }
+  .parent_only_desktop{
+    display: none;
+  }
+  body {
+    width: auto;
+  }
+  .section1-title{
+    font-size: 25px;
+  }
+  .App {
+    width: 100%;
+    margin: 0;
+  }
+  .activeSlide {
+    width: 100vw !important;
+    opacity: 1;
+    margin-left: -10vh;
+  }
+  .test{
+    height: 30vh;
+  }
+  .arrow{
+    display: none;
+  }
+  .additional__padding{
+    padding-top: 150px;
+  }
+  .no_mobile{
+    display: none;
+  }
 }
