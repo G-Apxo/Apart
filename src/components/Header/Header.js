@@ -37,29 +37,42 @@ function Header() {
   </label>
     <ul className="menu">
       <li className="nav-item text-nowrap">
-    <a className="nav-link text-white" href="/About">
+    <Link className="nav-link text-white" href="/About">
+    <p className="nav-link text-white">
     About us
-      </a>
+      </p>
+      </Link>
     </li>
     <li className="nav-item text-nowrap">
-    <a className="nav-link text-white" href="/Investing">
+    <Link className="nav-link text-white" href="/Investing">
+    
+    <p className="nav-link text-white">
     Investing
-      </a>
+      </p>
+      </Link>
     </li>
     <li className="nav-item text-nowrap">
-    <a className="nav-link text-white" href="/Projects">
+    <Link className="nav-link text-white" href="/Projects">
+    <p className="nav-link text-white">
     Projects
-      </a>
+      </p>
+   
+      </Link>
     </li>
     <li className="nav-item text-nowrap">
-    <a className="nav-link text-white" href="/Blog">
-    Blog
-      </a>
+    <Link  href="/Blog">
+      <p className="nav-link text-white">
+      Blog
+      </p>
+   
+      </Link>
     </li>
     <li className="nav-item text-nowrap">
-    <a className="nav-link text-white" href="/Contact" >
+    <Link className="nav-link text-white" href="/Contact" >
+    <p className="nav-link text-white">
     Contact
-      </a>
+      </p>
+      </Link>
     </li>
       <li >
       <FormSelect className="Language__select text-white">
