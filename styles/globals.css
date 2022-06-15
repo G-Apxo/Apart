@@ -877,8 +877,14 @@ h2 {
 .desktop_Menu{
   display: block;
 }
+.mobile_menu{
+  display: none;
+}
 @media screen and (max-width: 568px) {
   .parent_only_mobile{
+    display: block;
+  }
+  .mobile_menu{
     display: block;
   }
   .desktop_Menu{

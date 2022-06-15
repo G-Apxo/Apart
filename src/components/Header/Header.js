@@ -22,7 +22,7 @@ function Header() {
         <title>Apart</title>
         <meta name="description" content="A demo about NextJS and Bootstrap 5" />
       </Head>
-      <Container>
+      <Container className="mobile_menu">
       <section className="top-nav">
     <div>
     <Link href="/" className="cursor">
