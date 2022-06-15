@@ -4,27 +4,27 @@ import BannerImg from "../../../assets/aboutbannerimg.svg";
 import Beqa from "../../../assets/beqa.svg";
 import Beqafull from "../../../assets/beqafull.svg";
 import Image from "next/image";
-import Team1 from "../../../assets/team/team1.jpg";
-import Team2 from "../../../assets/team/team2.jpg";
-import Team3 from "../../../assets/team/team3.jpg";
-import Team4 from "../../../assets/team/team4.jpeg";
-import Team5 from "../../../assets/team/team5.jpg";
-import Team6 from "../../../assets/team/team6.jpg";
-import Team7 from "../../../assets/team/team7.jpg";
-import Team8 from "../../../assets/team/team8.jpg";
-import Team9 from "../../../assets/team/team9.jpg";
-import Team10 from "../../../assets/team/team10.jpg";
-import Team11 from "../../../assets/team/team11.jpg";
-import Team12 from "../../../assets/team/team12.jpg";
-import Team13 from "../../../assets/team/team13.jpg";
-import Team14 from "../../../assets/team/team14.jpg";
-import Team15 from "../../../assets/team/team15.jpg";
-import Team16 from "../../../assets/team/team16.jpg";
-import Team17 from "../../../assets/team/team17.jpg";
-import Team18 from "../../../assets/team/team18.jpg";
-import Team19 from "../../../assets/team/team19.jpg";
-import Team20 from "../../../assets/team/team20.jpg";
-import Team21 from "../../../assets/team/team21.jpg";
+// import Team1 from "../../../assets/team/team1.jpg";
+// import Team2 from "../../../assets/team/team2.jpg";
+// import Team3 from "../../../assets/team/team3.jpg";
+// import Team4 from "../../../assets/team/team4.jpeg";
+// import Team5 from "../../../assets/team/team5.jpg";
+// import Team6 from "../../../assets/team/team6.jpg";
+// import Team7 from "../../../assets/team/team7.jpg";
+// import Team8 from "../../../assets/team/team8.jpg";
+// import Team9 from "../../../assets/team/team9.jpg";
+// import Team10 from "../../../assets/team/team10.jpg";
+// import Team11 from "../../../assets/team/team11.jpg";
+// import Team12 from "../../../assets/team/team12.jpg";
+// import Team13 from "../../../assets/team/team13.jpg";
+// import Team14 from "../../../assets/team/team14.jpg";
+// import Team15 from "../../../assets/team/team15.jpg";
+// import Team16 from "../../../assets/team/team16.jpg";
+// import Team17 from "../../../assets/team/team17.jpg";
+// import Team18 from "../../../assets/team/team18.jpg";
+// import Team19 from "../../../assets/team/team19.jpg";
+// import Team20 from "../../../assets/team/team20.jpg";
+// import Team21 from "../../../assets/team/team21.jpg";
 import Quote from "../../../assets/quote.svg";
 import Video from "../../../assets/video.svg";
 export const AboutBanner = () => {
@@ -115,11 +115,11 @@ export const AboutBanner = () => {
         </Row>
         <Row className="sixty-row">
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team1} alt="banner immage" />
+            <Image src={Beqafull} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
           </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+          {/* <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team2} alt="banner immage"/>
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
@@ -228,8 +228,8 @@ export const AboutBanner = () => {
             <Image src={Team21} alt="banner immage" />
             <h3>Beka Khoperia</h3>
             <p>Founder</p>
-          </Col>
-        </Row>
+          </Col>*/}
+        </Row> 
       </Container>
     </div>
   );
