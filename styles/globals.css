@@ -33,7 +33,7 @@ a {
 
 .App {
   height: 570px;
-  width: 100%;
+  width: 140%;
   margin-left: 15%;
 }
 .custom_row {
@@ -56,8 +56,8 @@ a {
 }
 
 .activeSlide {
-  /* width: 900px !important;
-  margin-left: -15vh; */
+  width: 900px !important;
+  margin-left: -15vh;
   transform: scale(1.2);
   opacity: 1;
 }
