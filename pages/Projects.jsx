@@ -73,7 +73,7 @@ const Projects = () => {
                   </h3>
                   <Link href="/ProjectsFloor">
                     <i className="project--see cursor">
-                      View Projects <Image src={Vector} />
+                      View Projects <Image src={Vector} alt="arrow" className="arrow" />
                     </i>
                   </Link>
                 </div>

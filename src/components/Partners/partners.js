@@ -19,22 +19,22 @@ function Partners() {
               </Col>
                 <div className='col-2 '>
                   <div className='partners'>
-                  <Image src={Apart_showroom} alt="banner immage" />
+                  <Image src={Apart_showroom} alt="banner immage" className='partners_wite' />
                   </div>  
                 </div>
                 <div className='col-2'>
                 <div className='partners'>
-                <Image src={Greenlife} alt="banner immage" />
+                <Image src={Greenlife} alt="banner immage" className='partners_wite'/>
                   </div>  
                 </div>
                 <div className='col-2'>
                 <div className='partners'>
-                <Image src={Malongo} alt="banner immage" />
+                <Image src={Malongo} alt="banner immage" className='partners_wite'/>
                   </div>  
                 </div>
                 <div className='col-2'>
                 <div className='partners'>
-                <Image src={Tbc} alt="banner immage" />
+                <Image src={Tbc} alt="banner immage" className='partners_wite'/>
                   </div>  
                 </div>
             </Row>

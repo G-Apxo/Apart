@@ -823,7 +823,6 @@ h2 {
   margin-bottom: 60px;
 }
 .btn-test {
-  width: 90%;
   padding: 6px;
 }
 .projects--floor-about-text {
@@ -1046,15 +1045,20 @@ h2 {
   }
   
 }
+
 .form-switch .form-check-input{
   background-image: url("../assets/sun.svg") !important;
   border-radius: 0em !important;
   width: 60px !important;
   height: 30px;
+  background-size: 30%;
 }
 .form-switch .form-check-input:checked{
-  background-color: black;
+  background-color: #121927;
+  border: 1px solid #32343982;
   background-image: url("../assets/moon.svg") !important;
+  background-size: 30%;
+  background-position-x: -5% ;
 }
 
 .form-select{
@@ -1075,6 +1079,7 @@ h2 {
   color: white;
 }
 .dark-mode .form-select{
+  background-color: transparent;
   color: white;
 }
 .dark-mode .section1-title{
@@ -1087,5 +1092,56 @@ h2 {
   color: white;
 }
 .dark-mode .section-1-form-subtext{
+  color: white;
+}
+.dark-mode .Taghi{
+filter: brightness(0) invert(1);
+}
+.dark-mode .form-check-input{
+  background-color: transparent !important;
+  border: 1px solid white;
+}
+.dark-mode .form-control{
+  background-color: transparent !important;
+  border: 1px solid white !important;; 
+}
+.dark-mode .btn-send{
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+.dark-mode .partners_wite{
+  filter: brightness(0) invert(1);
+}
+.dark-mode .about-title{
+  color: white;
+}
+.dark-mode h3{
+  color: white;
+}
+.dark-mode h1{
+  color: white;
+}
+.dark-mode h2{
+  color: white;
+}
+.dark-mode h5{
+  color: white;
+}
+.dark-mode h4{
+  color: white;
+}
+.dark-mode .project--see{
+  border-bottom: 1px solid white;
+}
+.dark-mode .arrow{
+  filter: brightness(0) invert(1);
+}
+.dark-mode .btn-test{
+  background-color: transparent !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+.dark-mode .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
   color: white;
 }

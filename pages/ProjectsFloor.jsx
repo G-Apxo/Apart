@@ -18,7 +18,7 @@ const ProjectsFloor = () => {
         </Row>
         <Row className="justify-content-between mt-5">
           <Col xs="2">
-            <Image src={Taghi} />
+            <Image src={Taghi} className="Taghi" />
           </Col>
           <Col xs="4">
           <h3 className="projects-floor-title">Chose Apartment</h3>
