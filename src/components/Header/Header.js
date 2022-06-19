@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Nav, Button, Row, Container, input, Col, Navbar, FormSelect } from "react-bootstrap";
+import { Nav, Button, Row, Container, input, Col, Navbar, FormSelect,Form} from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../assets/logo.svg";
@@ -74,6 +74,8 @@ function Header() {
       </p>
       </Link>
     </li>
+    <li>
+    </li>
       <li >
       <FormSelect className="Language__select text-white">
         <option>ENG</option>
@@ -125,11 +127,20 @@ function Header() {
           </Col>
           <Col xs="3" lg="3" md="3" sm="3" xl="3" xxl="3" className="d-flex justify-content-end align-items-center">
             <ul className="navbar-nav ">
-              <li className="nav-item text-nowrap">
+            
+              <li className="nav-item text-nowrap d-flex">
                 <FormSelect className="Language__select">
                   <option>ENG</option>
                   <option>Geo</option>
                 </FormSelect>
+              </li>
+              <li className="nav-item text-nowrap">
+              <Form>
+                <Form.Check 
+                  type="switch"
+                  id="custom-switch"
+                />
+              </Form>
               </li>
             </ul>
             <ol className="d-flex navbar-nav mr-auto custom_ol align-items-center">

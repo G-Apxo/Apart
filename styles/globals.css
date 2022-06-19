@@ -794,7 +794,7 @@ h2 {
   font-size: 24px;
 }
 .nav-link {
-  font-size: 12px;
+  font-size: 14px;
 }
 .cursor {
   cursor: pointer;
@@ -1045,4 +1045,17 @@ h2 {
     }
   }
   
+}
+.form-switch .form-check-input{
+  background-image: url("../assets/sun.svg") !important;
+  border-radius: 0em !important;
+  width: 60px !important;
+  height: 30px;
+}
+.form-switch .form-check-input:checked{
+  background-color: black;
+  background-image: url("../assets/moon.svg") !important;
+}
+.form-select{
+  font-size: 14px !important;
 }
