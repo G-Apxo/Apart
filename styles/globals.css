@@ -1056,6 +1056,36 @@ h2 {
   background-color: black;
   background-image: url("../assets/moon.svg") !important;
 }
+
 .form-select{
   font-size: 14px !important;
+}
+.dark-mode {
+  background-color: #121927;
+  color: white;
+}
+.dark-mode p{
+
+  color: white;
+}
+.dark-mode .nav-link{
+  color: white;
+}
+.dark-mode .navbar-light .navbar-nav .nav-link{
+  color: white;
+}
+.dark-mode .form-select{
+  color: white;
+}
+.dark-mode .section1-title{
+  color: white;
+}
+.dark-mode .navbar-brand{
+  filter: brightness(1000);
+}
+.dark-mode .form-check-label{
+  color: white;
+}
+.dark-mode .section-1-form-subtext{
+  color: white;
 }

@@ -16,6 +16,10 @@ const path = [
   { uid: 61, name: "Contact", id: 6, path: "/Contact" },
 ];
 function Header() {
+  function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }
   return (
     <div>
       <Head>
@@ -136,7 +140,7 @@ function Header() {
               </li>
               <li className="nav-item text-nowrap">
               <Form>
-                <Form.Check 
+                <Form.Check  onClick={myFunction}
                   type="switch"
                   id="custom-switch"
                 />
