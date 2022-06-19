@@ -36,7 +36,7 @@ function Dslider() {
     infinite: true,
     lazyLoad: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     centerMode: true,
     centerPadding: 0,
     nextArrow: <NextArrow />,
