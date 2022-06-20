@@ -704,6 +704,9 @@ a.nav-link {
 .hundredtwenty-bot {
   margin-bottom: 120px;
 }
+.hundredtwenty-top {
+  margin-top: 120px;
+}
 .sixty-row:last-child {
   margin-bottom: 60px !important;
 }
@@ -867,38 +870,38 @@ h2 {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.parent_only_mobile{
+.parent_only_mobile {
   display: none;
 }
-.parent_only_desktop{
+.parent_only_desktop {
   display: block;
 }
-.desktop_Menu{
+.desktop_Menu {
   display: block;
 }
-.mobile_menu{
+.mobile_menu {
   display: none;
 }
 @media screen and (max-width: 568px) {
-  .parent_only_mobile{
+  .parent_only_mobile {
     display: block;
   }
-  .mobile_menu{
+  .mobile_menu {
     display: block;
   }
-  .desktop_Menu{
+  .desktop_Menu {
     display: none;
   }
-  .project--see{
+  .project--see {
     max-width: 70%;
   }
-  .parent_only_desktop{
+  .parent_only_desktop {
     display: none;
   }
   body {
     width: auto;
   }
-  .section1-title{
+  .section1-title {
     font-size: 25px;
   }
   .App {
@@ -910,16 +913,16 @@ h2 {
     opacity: 1;
     margin-left: -10vh;
   }
-  .test{
+  .test {
     height: 30vh;
   }
-  .arrow{
+  .arrow {
     display: none;
   }
-  .additional__padding{
+  .additional__padding {
     padding-top: 150px;
   }
-  .no_mobile{
+  .no_mobile {
     display: none;
   }
   .top-nav {
@@ -929,11 +932,11 @@ h2 {
     align-items: center;
     justify-content: space-between;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #FFF;
+    color: #fff;
     height: 50px;
     padding: 1em;
   }
-  
+
   .menu {
     display: flex;
     flex-direction: row;
@@ -941,12 +944,12 @@ h2 {
     margin: 0;
     padding: 0;
   }
-  
+
   .menu > li {
     margin: 0 1rem;
     overflow: hidden;
   }
-  
+
   .menu-button-container {
     display: none;
     height: 100%;
@@ -956,11 +959,11 @@ h2 {
     justify-content: center;
     align-items: center;
   }
-  
+
   #menu-toggle {
     display: none;
   }
-  
+
   .menu-button,
   .menu-button::before,
   .menu-button::after {
@@ -972,36 +975,36 @@ h2 {
     transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
     border-radius: 2px;
   }
-  
+
   .menu-button::before {
     content: "";
     margin-top: -8px;
   }
-  
+
   .menu-button::after {
     content: "";
     margin-top: 8px;
   }
-  
+
   #menu-toggle:checked + .menu-button-container .menu-button::before {
     margin-top: 0px;
     transform: rotate(405deg);
   }
-  
+
   #menu-toggle:checked + .menu-button-container .menu-button {
     background: rgba(255, 255, 255, 0);
   }
-  
+
   #menu-toggle:checked + .menu-button-container .menu-button::after {
     margin-top: 0px;
     transform: rotate(-405deg);
   }
-  
+
   @media (max-width: 700px) {
     .menu-button-container {
       display: flex;
     }
-  
+
     .menu {
       position: absolute;
       top: 0;
@@ -1013,7 +1016,7 @@ h2 {
       align-items: center;
       z-index: 9;
     }
-  
+
     #menu-toggle ~ .menu li {
       height: 0;
       margin: 0;
@@ -1021,14 +1024,14 @@ h2 {
       border: 0;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
-  
+
     #menu-toggle:checked ~ .menu li {
       border: 1px solid #333;
       height: 2.5em;
       padding: 0.5em;
       transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
-  
+
     .menu > li {
       display: flex;
       justify-content: center;
@@ -1038,110 +1041,109 @@ h2 {
       color: white;
       background-color: #222;
     }
-  
+
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
     }
   }
-  
 }
 
-.form-switch .form-check-input{
+.form-switch .form-check-input {
   background-image: url("../assets/sun.svg") !important;
   border-radius: 0em !important;
   width: 60px !important;
   height: 30px;
   background-size: 30%;
 }
-.form-switch .form-check-input:checked{
+.form-switch .form-check-input:checked {
   background-color: #121927;
   border: 1px solid #32343982;
   background-image: url("../assets/moon.svg") !important;
   background-size: 30%;
-  background-position-x: -5% ;
+  background-position-x: -5%;
 }
 
-.form-select{
+.form-select {
   font-size: 14px !important;
 }
 .dark-mode {
   background-color: #121927;
   color: white;
 }
-.dark-mode p{
-
+.dark-mode p {
   color: white;
 }
-.dark-mode .nav-link{
+.dark-mode .nav-link {
   color: white;
 }
-.dark-mode .navbar-light .navbar-nav .nav-link{
+.dark-mode .navbar-light .navbar-nav .nav-link {
   color: white;
 }
-.dark-mode .form-select{
+.dark-mode .form-select {
   background-color: transparent;
   color: white;
 }
-.dark-mode .section1-title{
+.dark-mode .section1-title {
   color: white;
 }
-.dark-mode .navbar-brand{
+.dark-mode .navbar-brand {
   filter: brightness(1000);
 }
-.dark-mode .form-check-label{
+.dark-mode .form-check-label {
   color: white;
 }
-.dark-mode .section-1-form-subtext{
+.dark-mode .section-1-form-subtext {
   color: white;
 }
-.dark-mode .Taghi{
-filter: brightness(0) invert(1);
+.dark-mode .Taghi {
+  filter: brightness(0) invert(1);
 }
-.dark-mode .form-check-input{
+.dark-mode .form-check-input {
   background-color: transparent !important;
   border: 1px solid white;
 }
-.dark-mode .form-control{
+.dark-mode .form-control {
   background-color: transparent !important;
-  border: 1px solid white !important;; 
+  border: 1px solid white !important;
 }
-.dark-mode .btn-send{
+.dark-mode .btn-send {
   background-color: transparent !important;
   border: 1px solid white !important;
   color: white !important;
 }
-.dark-mode .partners_wite{
+.dark-mode .partners_wite {
   filter: brightness(0) invert(1);
 }
-.dark-mode .about-title{
+.dark-mode .about-title {
   color: white;
 }
-.dark-mode h3{
+.dark-mode h3 {
   color: white;
 }
-.dark-mode h1{
+.dark-mode h1 {
   color: white;
 }
-.dark-mode h2{
+.dark-mode h2 {
   color: white;
 }
-.dark-mode h5{
+.dark-mode h5 {
   color: white;
 }
-.dark-mode h4{
+.dark-mode h4 {
   color: white;
 }
-.dark-mode .project--see{
+.dark-mode .project--see {
   border-bottom: 1px solid white;
 }
-.dark-mode .arrow{
+.dark-mode .arrow {
   filter: brightness(0) invert(1);
 }
-.dark-mode .btn-test{
+.dark-mode .btn-test {
   background-color: transparent !important;
   border: 1px solid white !important;
   color: white !important;
 }
-.dark-mode .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+.dark-mode .navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
   color: white;
 }
