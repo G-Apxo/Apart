@@ -1630,9 +1630,9 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-darwin-x64@12.1.5":
-  "integrity" "sha512-wqJ3X7WQdTwSGi0kIDEmzw34QHISRIQ5uvC+VXmsIlCPFcMA+zM5723uh8NfuKGquDMiEMS31a83QgkuHMYbwQ=="
-  "resolved" "https://registry.npmjs.org/@next/swc-darwin-x64/-/swc-darwin-x64-12.1.5.tgz"
+"@next/swc-darwin-arm64@12.1.5":
+  "integrity" "sha512-y8mhldb/WFZ6lFeowkGfi0cO/lBdiBqDk4T4LZLvCpoQp4Or/NzUN6P5NzBQZ5/b4oUHM/wQICEM+1wKA4qIVw=="
+  "resolved" "https://registry.npmjs.org/@next/swc-darwin-arm64/-/swc-darwin-arm64-12.1.5.tgz"
   "version" "12.1.5"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -10281,12 +10281,10 @@
     "lodash.debounce" "^4.0.8"
     "resize-observer-polyfill" "^1.5.0"
 
-"react-spline@^1.2.1":
-  "integrity" "sha512-d17gOvoKjWfHmsXm7H1YbK715dDEVuIc72eNcrrpNp7T/H8zH2yfNvk1NSJQSuGchTXaa90hbiGRC3FGpJHMZA=="
-  "resolved" "https://registry.npmjs.org/react-spline/-/react-spline-1.2.1.tgz"
-  "version" "1.2.1"
-  dependencies:
-    "three" "0.123.0"
+"react-spline@^1.1.0":
+  "integrity" "sha512-c7ND96kzWuXibhl18+zU2wF6TiaL9wtuqSZDxwHjzjEG/9JbZ8fJjXVsDT5BMRKTuK5yeHqqbEGfuBdm/Zikcg=="
+  "resolved" "https://registry.npmjs.org/react-spline/-/react-spline-1.1.0.tgz"
+  "version" "1.1.0"
 
 "react-spring@^9.4.5":
   "integrity" "sha512-FRIXQGR+jG+Fx4UcqhF0b5jMEU3Q5QcZ8rEVWKqZgrrn92C1HcqtuZy7dH+rZ6uNGjnlV7HBf8iprJaJ+350LA=="
@@ -11734,7 +11732,7 @@
     "potpack" "^1.0.1"
     "zstddec" "^0.0.2"
 
-"three@^0.140.2", "three@>= 0.123.0", "three@>=0.103.0", "three@>=0.122.0", "three@>=0.126", "three@>=0.133", "three@>=0.137":
+"three@^0.125.2", "three@^0.140.2", "three@>= 0.123.0", "three@>=0.103.0", "three@>=0.122.0", "three@>=0.126", "three@>=0.133", "three@>=0.137":
   "integrity" "sha512-DdT/AHm/TbZXEhQKQpGt5/iSgBrmXpjU26FNtj1KhllVPTKj1eG4X/ShyD5W2fngE+I1s1wa4ttC4C3oCJt7Ag=="
   "resolved" "https://registry.npmjs.org/three/-/three-0.140.2.tgz"
   "version" "0.140.2"
@@ -11743,11 +11741,6 @@
   "integrity" "sha512-vy6jMYs7CDwn47CejYHNi+++OdQue7xGIBhbLfekQ/G6MDxKRm0QB0/xWScz46/JvQAvF6pJAS5Q907l0i5iQA=="
   "resolved" "https://registry.npmjs.org/three/-/three-0.95.0.tgz"
   "version" "0.95.0"
-
-"three@0.123.0":
-  "integrity" "sha512-KNnx/IbilvoHRkxOtL0ouozoDoElyuvAXhFB21RK7F5IPWSmqyFelICK6x3hJerLNSlAdHxR0hkuvMMhH9pqXg=="
-  "resolved" "https://registry.npmjs.org/three/-/three-0.123.0.tgz"
-  "version" "0.123.0"
 
 "throat@^5.0.0":
   "integrity" "sha512-fcwX4mndzpLQKBS1DVYhGAcYaYt7vsHNIvQV+WXMvnow5cgjPphq5CaayLaGsjRdSCKZFNGt7/GYAuXaNOiYCA=="
