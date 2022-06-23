@@ -4,13 +4,17 @@ function contact() {
   return (
     <Container className="container-marginer additional__padding">
       <Row className="justify-content-between">
-        <Col xs="12" lg="5" md="5" sm="5" xl="5" xxl="5">
+        <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
           <Row>
             <Col xs="12" lg="3" md="3" sm="3" xl="3" xxl="3">
               <p className="home--section__texts">About us</p>
             </Col>
-            <Col xs="12" lg="9" md="9" sm="9" xl="9" xxl="9">
-              <h1 className="section1-title">RENEWED LIFE OF OLD TBILISI</h1>
+            <Col></Col>
+            <Col xs="12" lg="8" md="8" sm="8" xl="8" xxl="8">
+              <h1 className="section1-title">
+                RENEWED LIFE
+                <br /> OF OLD TBILISI
+              </h1>
 
               <p className="section1-subtitle">
                 For our team, it is important and a priority to preserve the charm of the old city, to use the
@@ -20,7 +24,7 @@ function contact() {
             </Col>
           </Row>
         </Col>
-        <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
+        <Col xs="12" lg="5" md="5" sm="5" xl="5" xxl="5">
           <Col xs="12" className="col-5 padding-0">
             <p className="section1-form-text">
               Leave us your contact information and our team will reach out to you.
@@ -57,7 +61,7 @@ function contact() {
                     <div key={`inline-${type}`} className="mb-3 home--inputs">
                       <Form.Check
                         inline
-                        label="2 and more bedrooms"
+                        label="2+ Bedrooms"
                         name="group1"
                         type={type}
                         id={`inline-${type}-3`}

@@ -1346,3 +1346,8 @@ flickity-enabled {
 .home--get-contacted {
   margin-top: 20px;
 }
+.form-check-inline {
+  margin-right: 0 !important;
+}
+.testerSh {
+}
