@@ -26,7 +26,7 @@
     "react-3d-viewer": "^1.0.12",
     "react-bootstrap": "^2.3.0",
     "react-dom": "^18.0.0",
-    "react-flickity-component": "^3.6.2",
+    "react-flickity-component": "^3.4.0",
     "react-icons": "^4.3.1",
     "react-slick": "^0.29.0",
     "react-spline": "^1.1.0",
