@@ -186,9 +186,10 @@ const Slider = () => {
       </Container>
     </Flickity> */}
         <Container>
-              <Row>
+              <Row className='justify-content-between'>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" >
                 <iframe
+                    className='iframe'
                     allowFullScreen
                     width="640"
                     height="480"
@@ -198,7 +199,7 @@ const Slider = () => {
                   ></iframe>
              
                 </Col>
-                <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="d-flex">
+                <Col xs="12" lg="5" md="5" sm="5" xl="5" xxl="5" className="d-flex">
                   <Col className="d-flex align-items-center">
                     <div className="test">
 

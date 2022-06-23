@@ -1340,3 +1340,6 @@ flickity-enabled {
   max-width: 100% !important;
   margin: 0  !important;
 }
+.iframe{
+  width: 31vw;
+}
