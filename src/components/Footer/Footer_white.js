@@ -13,7 +13,7 @@ const path = [
 function Footer_white() {
   return (
     <div className="footer-outside-white mt-60">
-      <div className="footer-inside-white mt-60">
+      <div className="footer-inside-white footer-inside-black mt-60">
         <Container>
           <Row>
             <Col md={2}>

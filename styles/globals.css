@@ -1327,6 +1327,10 @@ flickity-enabled {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 60px;
 }
+.dark-mode .footer-inside-black {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 60px;
+}
 .navbar-brand {
   padding: 0;
 }
@@ -1340,7 +1344,7 @@ flickity-enabled {
   max-width: 100% !important;
   margin: 0 !important;
 }
-.iframe{
+.iframe {
   width: 100%;
 }
 .home--get-contacted {
@@ -1348,6 +1352,4 @@ flickity-enabled {
 }
 .form-check-inline {
   margin-right: 0 !important;
-}
-.testerSh {
 }
