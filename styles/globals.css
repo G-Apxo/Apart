@@ -870,6 +870,7 @@ h2 {
 .projects-margin-fixer {
   padding-bottom: 30px;
   padding-top: 30px;
+  height: 456px;
 }
 .parent_only_mobile {
   display: none;
