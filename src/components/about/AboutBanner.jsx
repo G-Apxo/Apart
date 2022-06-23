@@ -123,27 +123,27 @@ export const AboutBanner = () => {
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team8} alt="banner immage" />
             {/* //8 */}
-            <h3>Tata Dgebuadze</h3>
-            <p>Dir</p>
+            <h3>თათა დგებუაძე </h3>
+            <p>აღმასრულებელი დირექტორი</p>
           </Col>
 
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team10} alt="banner immage" />
             {/* //10 */}
-            <h3>Tornike Tsilosani</h3>
-            <p>Dir</p>
+            <h3>თორნიკე წილოსანი </h3>
+            <p>კომერციული დირექტორი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team13} alt="banner immage" />
             {/* //13 */}
-            <h3>Lasha Khabadze</h3>
-            <p>Finance</p>
+            <h3>ლაშა საბაძე</h3>
+            <p>ფინანსური მენეჯერი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team6} alt="banner immage" />
             {/* //6 */}
-            <h3>Vakhtang Chikhradze</h3>
-            <p>Strategic</p>
+            <h3>ვახტანგ ჩიხრაძე</h3>
+            <p>სტრატეგიული გაყიდვების მენეჯერი</p>
           </Col>
         </Row>
 
@@ -151,26 +151,26 @@ export const AboutBanner = () => {
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team2} alt="banner immage" />
             {/* //2 */}
-            <h3>Ani Murvanidze</h3>
-            <p>Sales</p>
+            <h3>ანი მურვანიძე </h3>
+            <p>გაყიდვების სამსახურის უფროსი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team19} alt="banner immage" />
             {/* //19 */}
-            <h3>Saba Janashia</h3>
-            <p>Security Head</p>
+            <h3>საბა ჯანაშია</h3>
+            <p> უსაფრთხოების სამსახურის უფროსი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team3} alt="banner immage" />
             {/* //3 */}
-            <h3>Archil Kurtskhalia</h3>
-            <p>Architect-Designer</p>
+            <h3>არჩილ კურცხალია</h3>
+            <p> არქიტექტორ-დიზაინერი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team18} alt="banner immage" />
             {/* //18 */}
-            <h3>Natuka Khoperia</h3>
-            <p>Office Manager</p>
+            <h3>ნატუკა ხოფერია </h3>
+            <p>ოფისის მენეჯერი</p>
           </Col>
         </Row>
 
@@ -178,26 +178,26 @@ export const AboutBanner = () => {
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team5} alt="banner immage" />
             {/* //5 */}
-            <h3>Giorgi Japaridze</h3>
-            <p>Accounting Head</p>
+            <h3>გიორგი ჯაფარიძე </h3>
+            <p>მთავარი ბუღალტერი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team12} alt="banner immage" />
             {/* //12 */}
-            <h3>Irakli Chrikashvili</h3>
-            <p>lawyer</p>
+            <h3>ირაკლი ჭრიკაშვილი</h3>
+            <p>მთავარი იურისტი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team11} alt="banner immage" />
             {/* //11 */}
-            <h3>Irakli Iobashvili</h3>
-            <p>Logistics Head</p>
+            <h3>ირაკლი იობაშვილი</h3>
+            <p>ლოჯისტიკის მენეჯერი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team15} alt="banner immage" />
             {/* //15 */}
-            <h3>Levan Kandelaki</h3>
-            <p>Project Manager</p>
+            <h3>ლევან კანდელაკი </h3>
+            <p>პროექტის მენეჯერი</p>
           </Col>
         </Row>
 
@@ -205,58 +205,34 @@ export const AboutBanner = () => {
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team1} alt="banner immage" />
             {/* //1 */}
-            <h3>Avto Sepiashvili</h3>
-            <p>Project Manager</p>
+            <h3>ავთო სეფიაშვილი</h3>
+            <p> პროექტის მენეჯერი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team17} alt="banner immage" />
             {/* //17 */}
-            <h3>Mamuka Baratashvili</h3>
-            <p>Architect</p>
+            <h3>მამუკა ბარათაშილი </h3>
+            <p>არქიტექტორი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team16} alt="banner immage" />
             {/* //16 */}
-            <h3>Liza Lazashvili</h3>
-            <p>Jr. Lawyer</p>
+            <h3>ლიზა ლაზაშვილი</h3>
+            <p>უმცროსი იურისტი</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team16} alt="banner immage" />
-            {/* //16 */}
-            <h3>Lasha Chiqobava</h3>
-            <p>Distribution Manager</p>
+            <Image src={Team14} alt="banner immage" />
+            {/* //14 */}
+            <h3>ლაშა ჩიქობავა</h3>
+            <p>მომარაგების მენეჯერი</p>
           </Col>
         </Row>
 
         <Row className="sixty-row">
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team9} alt="banner immage" />
-            {/* /9 */}
-            <h3>Avto Sepiashvili</h3>
-            <p>Project Manager</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team18} alt="banner immage" />
-
-            <h3>Mamuka Baratashvili</h3>
-            <p>Architect</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team19} alt="banner immage" />
-            <h3>Liza Lazashvili</h3>
-            <p>Jr. Lawyer</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team9} alt="banner immage" />
-            <h3>Liza Chiqobava</h3>
-            <p>Distribution Manager</p>
-          </Col>
-        </Row>
-        <Row className="sixty-row">
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team20} alt="banner immage" />
-            <h3>Tornike Sikharulidze</h3>
-            <p>Storage Manager</p>
+            <h3>თორნიკე სიხარულიძე</h3>
+            <p>საწყობის მენეჯერი</p>
           </Col>
         </Row>
       </Container>

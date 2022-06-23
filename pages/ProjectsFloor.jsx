@@ -11,7 +11,7 @@ const ProjectsFloor = () => {
   return (
     <Layout>
       <Container>
-        <Row className="mt-5">
+        <Row className="mt-120-important">
           <Col xs="2">
             <p>Go back</p>
           </Col>
@@ -21,23 +21,22 @@ const ProjectsFloor = () => {
             <Image src={Taghi} className="Taghi" />
           </Col>
           <Col xs="4">
-          <h3 className="projects-floor-title">Chose Apartment</h3>
+            <h3 className="projects-floor-title">Chose Apartment</h3>
             <p>Chose floor</p>
           </Col>
         </Row>
         <Row className="justify-content-between mt-5">
           <Col xs="2">
             <hr />
-            <p className="projects-floor-yard">Tree’s planted</p>
+            <p className="">Tree’s planted</p>
             <h3 className="projects-floor-yard">132</h3>
           </Col>
           <Col xs="3">
             <hr />
-            <p>exhibition spaces</p>
-            <h3>3245 m2</h3>
+            <p className="">exhibition spaces</p>
+            <h3 className="projects-floor-yard">3245 m2</h3>
           </Col>
           <Col xs="4">
-           
             <Form.Select aria-label="Default select example">
               <option>Chose floor 1-10</option>
               <option value="1">One</option>
@@ -115,39 +114,39 @@ const ProjectsFloor = () => {
             <Col xs="12">
               <Row>
                 <h3>Advantages</h3>
-                <h5 className="projects-floor-first-one">Fisrt one</h5>
+                <h5 className="projects-floor-first-one">First ONE</h5>
                 <Col xs="4">
-                  <h5>Big brain</h5>
+                  <h5>BIG BRAIN</h5>
                 </Col>
                 <Col xs="4">
-                  <h5>Big brain</h5>
+                  <h5>BIG BRAIN</h5>
                 </Col>
                 <Col xs="4">
-                  <h5>Big brain</h5>
-                </Col>
-              </Row>
-              <Row>
-                <h5 className="projects-floor-first-one">Fisrt one</h5>
-                <Col xs="4">
-                  <h5>Big brain</h5>
-                </Col>
-                <Col xs="4">
-                  <h5>Big brain</h5>
-                </Col>
-                <Col xs="4">
-                  <h5>Big brain</h5>
+                  <h5>BIG BRAIN</h5>
                 </Col>
               </Row>
               <Row>
-                <h5 className="projects-floor-first-one">Fisrt one</h5>
+                <h5 className="projects-floor-first-one">First ONE</h5>
                 <Col xs="4">
-                  <h5>Big brain</h5>
+                  <h5>BIG BRAIN</h5>
                 </Col>
                 <Col xs="4">
-                  <h5>Big brain</h5>
+                  <h5>BIG BRAIN</h5>
                 </Col>
                 <Col xs="4">
-                  <h5>Big brain</h5>
+                  <h5>BIG BRAIN</h5>
+                </Col>
+              </Row>
+              <Row>
+                <h5 className="projects-floor-first-one">First ONE</h5>
+                <Col xs="4">
+                  <h5>BIG BRAIN</h5>
+                </Col>
+                <Col xs="4">
+                  <h5>BIG BRAIN</h5>
+                </Col>
+                <Col xs="4">
+                  <h5>BIG BRAIN</h5>
                 </Col>
               </Row>
             </Col>
@@ -156,7 +155,7 @@ const ProjectsFloor = () => {
             <div className="Calculator"></div>
           </Col>
         </Row>
-        <Col xs="12" className="mt-5">
+        <Col xs="12" className="mt-120">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.8267523333143!2d44.80759311572699!3d41.70267558435236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440dcf1f317faf%3A0x6ef08f8fb9222cb9!2sApart%20Development!5e0!3m2!1sen!2sge!4v1651489892357!5m2!1sen!2sge"
             width="100%"
