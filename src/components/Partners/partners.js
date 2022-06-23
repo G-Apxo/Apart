@@ -23,9 +23,9 @@ function Partners() {
                   </div>  
                 </div>
                 <div className='col-2'>
-                <div className='partners'>
+                {/* <div className='partners'>
                 <Image src={Greenlife} alt="banner immage" className='partners_wite'/>
-                  </div>  
+                  </div>   */}
                 </div>
                 <div className='col-2'>
                 <div className='partners'>

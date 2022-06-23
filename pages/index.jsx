@@ -1,4 +1,4 @@
-import Slider from '../src/components/Slider/slider'
+import Slider from '../src/components/BetterSlider/slider'
 import Contact from '../src/components/Contactform/contact'
 import Partners from '../src/components/Partners/partners'
 import Projectsmap from '../src/components/Projectsmap/Projectsmap'
