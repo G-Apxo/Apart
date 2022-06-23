@@ -194,7 +194,7 @@ const Slider = () => {
                     height="480"
                     loading="lazy"
                     frameBorder="0"
-                    src="https://62b4daba41b2130008b80a32--resilient-ganache-549f6c.netlify.app/frame/"
+                    src="https://62b4e729297917007cd28bcc--jovial-eclair-7745d5.netlify.app/frame/"
                   ></iframe>
              
                 </Col>

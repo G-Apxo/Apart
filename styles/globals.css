@@ -1336,3 +1336,7 @@ flickity-enabled {
 .custom__width{
   width: 100vh !important;
 }
+#product_viewer{
+  max-width: 100% !important;
+  margin: 0  !important;
+}
