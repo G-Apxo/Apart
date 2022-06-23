@@ -4,27 +4,26 @@ import BannerImg from "../../../assets/aboutbannerimg.svg";
 import Beqa from "../../../assets/beqa.svg";
 import Beqafull from "../../../assets/beqafull.svg";
 import Image from "next/image";
-// import Team1 from "../../../assets/team/team1.jpg";
-// import Team2 from "../../../assets/team/team2.jpg";
-// import Team3 from "../../../assets/team/team3.jpg";
-// import Team4 from "../../../assets/team/team4.jpeg";
-// import Team5 from "../../../assets/team/team5.jpg";
-// import Team6 from "../../../assets/team/team6.jpg";
-// import Team7 from "../../../assets/team/team7.jpg";
-// import Team8 from "../../../assets/team/team8.jpg";
-// import Team9 from "../../../assets/team/team9.jpg";
-// import Team10 from "../../../assets/team/team10.jpg";
-// import Team11 from "../../../assets/team/team11.jpg";
-// import Team12 from "../../../assets/team/team12.jpg";
-// import Team13 from "../../../assets/team/team13.jpg";
-// import Team14 from "../../../assets/team/team14.jpg";
-// import Team15 from "../../../assets/team/team15.jpg";
-// import Team16 from "../../../assets/team/team16.jpg";
-// import Team17 from "../../../assets/team/team17.jpg";
-// import Team18 from "../../../assets/team/team18.jpg";
-// import Team19 from "../../../assets/team/team19.jpg";
-// import Team20 from "../../../assets/team/team20.jpg";
-// import Team21 from "../../../assets/team/team21.jpg";
+import Team1 from "../../../assets/apartteam/team1.webp";
+import Team2 from "../../../assets/apartteam/team2.webp";
+import Team3 from "../../../assets/apartteam/team3.webp";
+import Team4 from "../../../assets/apartteam/team4.webp";
+import Team5 from "../../../assets/apartteam/team5.webp";
+import Team6 from "../../../assets/apartteam/team6.webp";
+import Team7 from "../../../assets/apartteam/team7.webp";
+import Team8 from "../../../assets/apartteam/team8.webp";
+import Team9 from "../../../assets/apartteam/team9.webp";
+import Team10 from "../../../assets/apartteam/team10.webp";
+import Team11 from "../../../assets/apartteam/team11.webp";
+import Team12 from "../../../assets/apartteam/team12.webp";
+import Team13 from "../../../assets/apartteam/team13.webp";
+import Team14 from "../../../assets/apartteam/team14.webp";
+import Team15 from "../../../assets/apartteam/team15.webp";
+import Team16 from "../../../assets/apartteam/team16.webp";
+import Team17 from "../../../assets/apartteam/team17.webp";
+import Team18 from "../../../assets/apartteam/team18.webp";
+import Team19 from "../../../assets/apartteam/team19.webp";
+import Team20 from "../../../assets/apartteam/team20.webp";
 import Quote from "../../../assets/quote.svg";
 import Video from "../../../assets/video.svg";
 export const AboutBanner = () => {
@@ -122,121 +121,143 @@ export const AboutBanner = () => {
         </Row>
         <Row className="sixty-row">
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Beqafull} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
+            <Image src={Team8} alt="banner immage" />
+            {/* //8 */}
+            <h3>Tata Dgebuadze</h3>
+            <p>Dir</p>
           </Col>
 
-          {/* <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team2} alt="banner immage"/>
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team10} alt="banner immage" />
+            {/* //10 */}
+            <h3>Tornike Tsilosani</h3>
+            <p>Dir</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team3} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team4} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-        </Row>
-        <Row className="sixty-row">
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team5} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
+            <Image src={Team13} alt="banner immage" />
+            {/* //13 */}
+            <h3>Lasha Khabadze</h3>
+            <p>Finance</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team6} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team7} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team8} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
+            {/* //6 */}
+            <h3>Vakhtang Chikhradze</h3>
+            <p>Strategic</p>
           </Col>
         </Row>
+
         <Row className="sixty-row">
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team9} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team10} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team11} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team12} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-        </Row>
-        <Row className="sixty-row">
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team13} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team14} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team15} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team16} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-        </Row>
-        <Row className="sixty-row">
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team17} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>
-          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team18} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
+            <Image src={Team2} alt="banner immage" />
+            {/* //2 */}
+            <h3>Ani Murvanidze</h3>
+            <p>Sales</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team19} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
+            {/* //19 */}
+            <h3>Saba Janashia</h3>
+            <p>Security Head</p>
           </Col>
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team20} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
+            <Image src={Team3} alt="banner immage" />
+            {/* //3 */}
+            <h3>Archil Kurtskhalia</h3>
+            <p>Architect-Designer</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team18} alt="banner immage" />
+            {/* //18 */}
+            <h3>Natuka Khoperia</h3>
+            <p>Office Manager</p>
+          </Col>
+        </Row>
+
+        <Row className="sixty-row">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team5} alt="banner immage" />
+            {/* //5 */}
+            <h3>Giorgi Japaridze</h3>
+            <p>Accounting Head</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team12} alt="banner immage" />
+            {/* //12 */}
+            <h3>Irakli Chrikashvili</h3>
+            <p>lawyer</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team11} alt="banner immage" />
+            {/* //11 */}
+            <h3>Irakli Iobashvili</h3>
+            <p>Logistics Head</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team15} alt="banner immage" />
+            {/* //15 */}
+            <h3>Levan Kandelaki</h3>
+            <p>Project Manager</p>
+          </Col>
+        </Row>
+
+        <Row className="sixty-row">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team1} alt="banner immage" />
+            {/* //1 */}
+            <h3>Avto Sepiashvili</h3>
+            <p>Project Manager</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team17} alt="banner immage" />
+            {/* //17 */}
+            <h3>Mamuka Baratashvili</h3>
+            <p>Architect</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team16} alt="banner immage" />
+            {/* //16 */}
+            <h3>Liza Lazashvili</h3>
+            <p>Jr. Lawyer</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team16} alt="banner immage" />
+            {/* //16 */}
+            <h3>Liza Chiqobava</h3>
+            <p>Distribution Manager</p>
+          </Col>
+        </Row>
+
+        <Row className="sixty-row">
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team9} alt="banner immage" />
+            {/* /9 */}
+            <h3>Avto Sepiashvili</h3>
+            <p>Project Manager</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team18} alt="banner immage" />
+
+            <h3>Mamuka Baratashvili</h3>
+            <p>Architect</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team19} alt="banner immage" />
+            <h3>Liza Lazashvili</h3>
+            <p>Jr. Lawyer</p>
+          </Col>
+          <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
+            <Image src={Team9} alt="banner immage" />
+            <h3>Liza Chiqobava</h3>
+            <p>Distribution Manager</p>
           </Col>
         </Row>
         <Row className="sixty-row">
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
-            <Image src={Team21} alt="banner immage" />
-            <h3>Beka Khoperia</h3>
-            <p>Founder</p>
-          </Col>*/}
+            <Image src={Team20} alt="banner immage" />
+            <h3>Tornike Sikharulidze</h3>
+            <p>Storage Manager</p>
+          </Col>
         </Row>
       </Container>
     </div>
