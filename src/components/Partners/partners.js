@@ -12,7 +12,7 @@ function Partners() {
       <Row className="justify-content-between align-items-center">
         <Col xs="12" lg="2" md="2" sm="2" xl="2" xxl="2">
           <div className="partners home--section__texts">
-            <p>Sponsors</p>
+            <p className="home--section__texts">Sponsors</p>
           </div>
         </Col>
         <div className="col-2 ">
