@@ -34,7 +34,7 @@ a {
 .App {
   height: 570px;
   width: 100%;
-  margin-left: 15%;
+  margin-left: 9%;
 }
 .custom_row {
   display: flex;
@@ -1332,4 +1332,7 @@ flickity-enabled {
 }
 .home--section__texts {
   font-size: 14px;
+}
+.custom__width{
+  width: 100vh !important;
 }
