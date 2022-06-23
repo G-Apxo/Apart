@@ -537,7 +537,7 @@ a.nav-link {
   border: 1px solid black !important;
   color: #000 !important;
   border-radius: 0 !important;
-  height: 50px;
+  height: 40px;
   margin: 0 !important;
   /* max-width: 70%; */
 }
@@ -761,7 +761,7 @@ a.nav-link {
 .projects-floor-yard {
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 12px;
   line-height: 14px;
 
   color: #121927;
@@ -806,9 +806,6 @@ h2 {
 .mt-120 {
   margin-top: 120px;
 }
-.mt-120-important {
-  margin-top: 120px !important;
-}
 .mb-120 {
   margin-bottom: 120px;
 }
@@ -830,15 +827,14 @@ h2 {
   margin-bottom: 60px;
 }
 .btn-test {
-  height: 50px;
-  width: 100%;
+  padding: 6px;
 }
 .projects--floor-about-text {
   margin-top: 30px;
   margin-bottom: 60px;
 }
 .projects-floor-first-one {
-  margin-top: 30px !important;
+  margin-top: 30px;
   margin-bottom: 10px;
 }
 .blog__1 {
@@ -1163,7 +1159,11 @@ h2 {
 .dark-mode .test1313 {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+<<<<<<< Updated upstream
 .carousel-indicators {
+=======
+.carousel-indicators{
+>>>>>>> Stashed changes
   display: none !important;
 }
 
@@ -1327,6 +1327,7 @@ flickity-enabled {
 .flickity-page-dots {
   display: none;
 }
+<<<<<<< Updated upstream
 .footer-inside-white {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 60px;
@@ -1337,3 +1338,5 @@ flickity-enabled {
 .home--section__texts {
   font-size: 14px;
 }
+=======
+>>>>>>> Stashed changes

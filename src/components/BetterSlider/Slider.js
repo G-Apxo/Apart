@@ -19,11 +19,14 @@ const Slider = () => {
               <Row>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" >
                  <Image src={Slide1} />
+             
                 </Col>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="d-flex">
                   <Col className="d-flex align-items-center">
                     <div className="test">
-                      <Image src={Taghi} alt="banner immage" className="Taghi" />
+
+                
+                     <Image src={Taghi} alt="banner immage" className="Taghi" /> 
                       <p className="mt-40">
                         For our team, it is important and a priority to preserve <br />
                         the charm of the old city, to use the old
