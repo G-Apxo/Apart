@@ -223,7 +223,7 @@ export const AboutBanner = () => {
           <Col xs="6" lg="3" md="3" sm="3" xl="3" xxl="3">
             <Image src={Team16} alt="banner immage" />
             {/* //16 */}
-            <h3>Liza Chiqobava</h3>
+            <h3>Lasha Chiqobava</h3>
             <p>Distribution Manager</p>
           </Col>
         </Row>

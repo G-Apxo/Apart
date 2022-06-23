@@ -94,7 +94,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3" className="border__right">
+              <Col xs="3" className="">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -123,7 +123,8 @@ const Projects = () => {
                   </Link>
                 </div>
               </Col>
-              <Col xs="9" className="projects-margin-fixer">
+              <Col className="border__left"></Col>
+              <Col xs="8" className="projects-margin-fixer">
                 <Carousel style={{ opacity: 1 }}>
                   <Carousel.Item className="fuul__width">
                     <Image src={Slide1} alt="banner immage" className="full_width" />
@@ -149,7 +150,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3" className="border__right">
+              <Col xs="3" className="">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -178,7 +179,8 @@ const Projects = () => {
                   </Link>
                 </div>
               </Col>
-              <Col xs="9" className="projects-margin-fixer">
+              <Col className="border__left"></Col>
+              <Col xs="8" className="projects-margin-fixer">
                 <Carousel style={{ opacity: 1 }}>
                   <Carousel.Item className="fuul__width">
                     <Image src={Slide1} alt="banner immage" className="full_width" />
@@ -203,7 +205,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3" className="border__right">
+              <Col xs="3" className="">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -232,7 +234,8 @@ const Projects = () => {
                   </Link>
                 </div>
               </Col>
-              <Col xs="9" className="projects-margin-fixer">
+              <Col className="border__left"></Col>
+              <Col xs="8" className="projects-margin-fixer">
                 <Carousel style={{ opacity: 1 }}>
                   <Carousel.Item className="fuul__width">
                     <Image src={Slide1} alt="banner immage" className="full_width" />
@@ -257,7 +260,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3" className="border__right">
+              <Col xs="3" className="">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -286,7 +289,8 @@ const Projects = () => {
                   </Link>
                 </div>
               </Col>
-              <Col xs="9" className="projects-margin-fixer">
+              <Col className="border__left"></Col>
+              <Col xs="8" className="projects-margin-fixer">
                 <Carousel style={{ opacity: 1 }}>
                   <Carousel.Item className="fuul__width">
                     <Image src={Slide1} alt="banner immage" className="full_width" />
@@ -311,7 +315,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3" className="border__right">
+              <Col xs="3" className="">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -340,7 +344,8 @@ const Projects = () => {
                   </Link>
                 </div>
               </Col>
-              <Col xs="9" className="projects-margin-fixer">
+              <Col className="border__left"></Col>
+              <Col xs="8" className="projects-margin-fixer">
                 <Carousel style={{ opacity: 1 }}>
                   <Carousel.Item className="fuul__width">
                     <Image src={Slide1} alt="banner immage" className="full_width" />
