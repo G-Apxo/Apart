@@ -22,7 +22,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <Layout className="line-test">
-      <div className="line-creator"></div>
+      {/* <div className="line-creator"></div> */}
 
       <Container className="projects-title-distance">
         <Row>
@@ -94,7 +94,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3">
+              <Col xs="3" className="border__right">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -149,7 +149,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3">
+              <Col xs="3" className="border__right">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -203,7 +203,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3">
+              <Col xs="3" className="border__right">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -257,7 +257,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3">
+              <Col xs="3" className="border__right">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
@@ -311,7 +311,7 @@ const Projects = () => {
         <div className="test1313">
           <Container className="container-borderer">
             <Row>
-              <Col xs="3">
+              <Col xs="3" className="border__right">
                 <Link href="/ProjectsFloor">
                   <div className="mb-5 projects--title cursor">
                     <p>Done</p>
