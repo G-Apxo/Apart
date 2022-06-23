@@ -883,6 +883,7 @@ h2 {
   display: block;
 }
 .desktop_Menu {
+  margin-top: 50px;
   display: block;
 }
 .mobile_menu {
@@ -1190,7 +1191,7 @@ flickity-enabled {
 
 .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -1329,4 +1330,7 @@ flickity-enabled {
 .footer-inside-white {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 60px;
+}
+.navbar-brand {
+  padding: 0;
 }
