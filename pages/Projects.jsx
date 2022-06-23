@@ -22,7 +22,7 @@ import Link from "next/link";
 const Projects = () => {
   return (
     <Layout className="line-test">
-      {/* <div className="line-creator"></div> */}
+      <div className="line-creator"></div>
 
       <Container className="projects-title-distance">
         <Row>
