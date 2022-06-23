@@ -1340,8 +1340,8 @@ flickity-enabled {
   max-width: 100% !important;
   margin: 0 !important;
 }
-.iframe {
-  width: 44vw;
+.iframe{
+  width: 100%;
 }
 .home--get-contacted {
   margin-top: 20px;
