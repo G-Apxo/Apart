@@ -18,14 +18,21 @@ const Slider = () => {
     <Container>
               <Row>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" >
-                 <Image src={Slide1} />
+                <iframe
+                    allowFullScreen
+                    width="640"
+                    height="480"
+                    loading="lazy"
+                    frameBorder="0"
+                    src="https://62b4daba41b2130008b80a32--resilient-ganache-549f6c.netlify.app/frame/"
+                  ></iframe>
              
                 </Col>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="d-flex">
                   <Col className="d-flex align-items-center">
                     <div className="test">
 
-                
+              
                      <Image src={Taghi} alt="banner immage" className="Taghi" /> 
                       <p className="mt-40">
                         For our team, it is important and a priority to preserve <br />

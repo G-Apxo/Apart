@@ -1159,11 +1159,7 @@ h2 {
 .dark-mode .test1313 {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-<<<<<<< Updated upstream
 .carousel-indicators {
-=======
-.carousel-indicators{
->>>>>>> Stashed changes
   display: none !important;
 }
 
