@@ -549,7 +549,7 @@ a.nav-link {
   margin-top: 20px;
 }
 .form-check-label {
-  font-size: 11px;
+  font-size: 16px;
 }
 #contact-form {
   margin-top: 20px;
@@ -1331,15 +1331,18 @@ flickity-enabled {
   padding: 0;
 }
 .home--section__texts {
-  font-size: 14px;
+  font-size: 16px;
 }
-.custom__width{
+.custom__width {
   width: 100vh !important;
 }
-#product_viewer{
+#product_viewer {
   max-width: 100% !important;
-  margin: 0  !important;
+  margin: 0 !important;
 }
 .iframe{
   width: 100%;
+}
+.home--get-contacted {
+  margin-top: 20px;
 }
