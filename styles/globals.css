@@ -368,11 +368,11 @@ a {
   margin-left: 15px;
 }
 .section1-title {
-  font-size: 54px;
+  font-size: 40px;
 }
 .section1-subtitle {
   font-size: 14px;
-  opacity: 0.4;
+  /* opacity: 0.4; */
 }
 .section1-form-text {
   font-size: 14px;
@@ -1333,4 +1333,7 @@ flickity-enabled {
 }
 .navbar-brand {
   padding: 0;
+}
+.home--section__texts {
+  font-size: 14px;
 }
