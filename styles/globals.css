@@ -1162,8 +1162,7 @@ h2 {
 .dark-mode .test1313 {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-<<<<<<< Updated upstream
-.carousel-indicators{
+.carousel-indicators {
   display: none !important;
 }
 
@@ -1309,13 +1308,13 @@ flickity-enabled {
 .flickity-page-dots .dot.is-selected {
   opacity: 1;
 }
-.flickity-prev-next-button{
+.flickity-prev-next-button {
   top: 30% !important;
 }
-.flickity-prev-next-button.previous{
+.flickity-prev-next-button.previous {
   left: 15% !important;
 }
-.flickity-prev-next-button.next{
+.flickity-prev-next-button.next {
   right: 15% !important;
 }
 .read__more {
@@ -1324,12 +1323,10 @@ flickity-enabled {
   margin-bottom: 10px;
   line-height: 2rem;
 }
-.flickity-page-dots{
+.flickity-page-dots {
   display: none;
 }
-=======
 .footer-inside-white {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 60px;
 }
->>>>>>> Stashed changes
