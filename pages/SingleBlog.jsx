@@ -3,30 +3,49 @@ import Layout from "../src/components/Layout/Layout";
 import { Row, Container, Col } from "react-bootstrap";
 import BannerImg from "../assets/singleblog.png";
 import Image from "next/image";
+import { BsArrowUpLeft } from "react-icons/bs";
 
 const SingleBlog = () => {
   return (
     <Layout>
       <div>
         <Container>
-          <Col className="col-12">
+          <div className="mt-120 mb-80">
+            <p className="goback">
+              <BsArrowUpLeft />
+              Go back{" "}
+            </p>
+          </div>
+          <Col className="col-12 mb-80">
             <Image src={BannerImg} alt="banner immage" />
           </Col>
-          <Row className="align-items-center mt-5">
+          <Row className="align-items-center  mb-20 mb-10 ">
             <Col xs="2" lg="4" md="4" sm="4" xl="4" xxl="4">
-              <hr />
+              {/* <hr /> */}
             </Col>
             <Col xs="8" lg="4" md="4" sm="4" xl="4" xxl="4">
               <p className="text-center">November 23. 2021</p>
               <h4 className="text-center">WHY IS THE REAL ESTATE THE SAFEST INVESTMENT?</h4>
             </Col>
             <Col xs="2" lg="4" md="4" sm="4" xl="4" xxl="4">
+              {/* <hr /> */}
+            </Col>
+          </Row>
+          <Row className="align-items-center ">
+            <Col xs="2" lg="4" md="4" sm="4" xl="4" xxl="4">
+              <hr />
+            </Col>
+            <Col xs="8" lg="4" md="4" sm="4" xl="4" xxl="4">
+              {/* <p className="text-center">November 23. 2021</p>
+              <h4 className="text-center">WHY IS THE REAL ESTATE THE SAFEST INVESTMENT?</h4> */}
+            </Col>
+            <Col xs="2" lg="4" md="4" sm="4" xl="4" xxl="4">
               <hr />
             </Col>
           </Row>
-          <Col className="col-12 d-flex justify-content-center mt-5">
+          <Col className=" single-blog-texts col-12 d-flex justify-content-center mt-5">
             <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
-              <p>
+              <p className="mb-30">
                 The fact is that real estate is one of the most correct, secure and reliable areas for
                 investment. Moreover&lsquo; along with investing in gold and silver items&lsquo; real estate
                 is considered to be one of the most profitable ways to increase capital. For many well-known
@@ -51,14 +70,14 @@ const SingleBlog = () => {
                 and generating additional risk-free income. In this case, the real estate, after a certain
                 period, will deduct its own value fee and it will remain in your ownership.
               </p>
-              <p>
+              <p className="mb-30">
                 When there is no financial securities and capital market in Georgia, real estate can be
                 considered as one of the long-term investments associated with the lowest risks.
               </p>
 
               <Image src={BannerImg} />
 
-              <p>
+              <p className="mt-30">
                 Real estate is also one of the most reliable investments in the sense that the price of
                 property, by observing market trends, increases rather than decreases. The demand for rent and
                 the price are also growing.
@@ -77,12 +96,12 @@ const SingleBlog = () => {
               </p>
             </Col>
           </Col>
-          <Col  xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mb-5 mt-5">
+          <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mb-5 mt-5">
             <h2>Recent Blogs</h2>
             <hr />
           </Col>
           <Row>
-            <Col  xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mt-5">
+            <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mt-5">
               <div className="image__box">
                 <div className="blog-image__content">
                   <p>blog desc</p>
@@ -90,7 +109,7 @@ const SingleBlog = () => {
                 </div>
               </div>
             </Col>
-            <Col  xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mb-5 mt-5">
+            <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="mb-5 mt-5">
               <div className="image__box">
                 <div className="blog-image__content">
                   <p>blog desc</p>

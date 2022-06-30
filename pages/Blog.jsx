@@ -2,13 +2,14 @@ import Head from "next/head";
 import Layout from "../src/components/Layout/Layout";
 import { Nav, Button, Row, Container, input, Col } from "react-bootstrap";
 import Link from "next/link";
+// import blog1 from "../src/assets/apartAssets/blog1.png";
 export default function Blog() {
   return (
     <>
       <Layout>
         <div>
           <Container>
-            <h2 className="row-marginer">Blog</h2>
+            <h2 className="row-marginer mt-120 mb-60">Blog</h2>
             <Row>
               <Link className="blog-single-blog" href="/SingleBlog">
                 <Col className="cursor mt-5" xs="12" lg="6" md="6" sm="6" xl="6" xxl="6">
