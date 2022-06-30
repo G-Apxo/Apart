@@ -7,6 +7,7 @@ import Layout from "../src/components/Layout/Layout";
 import RoomImage from "../assets/apart assets/projects room/Asset41.png";
 import RoomImageModel from "../assets/apart assets/projects room/apex.png";
 import Vector from "../assets/seeprjvector.png";
+import { BsArrowUpLeft } from "react-icons/bs";
 
 import { Form } from "react-bootstrap";
 
@@ -16,7 +17,10 @@ const ProjectsFloorSelector = () => {
       <Container>
         <Row>
           <Col xs="6">
-            <p>Go back </p>
+            <p className="goback">
+              <BsArrowUpLeft />
+              Go back{" "}
+            </p>
             <Image src={RoomImage} alt="banner immage" className="rooom-select-img" />
           </Col>
           <Col xs="6">
