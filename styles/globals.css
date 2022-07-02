@@ -1393,10 +1393,13 @@ flickity-enabled {
   margin: 0 34px 0 0;
   font-size: 26px;
   counter-increment: css-counter 1;
+  position: relative;
 }
 .investing-services li::before {
   content: counter(css-counter);
   font-size: 16px;
+  position: absolute;
+  top: -40%;
 }
 .investing-goal {
   text-align: center;
