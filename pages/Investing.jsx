@@ -3,6 +3,7 @@ import Layout from "../src/components/Layout/Layout";
 import Video from "../assets/video.svg";
 import Image from "next/image";
 import { Nav, Button, Row, Container, Col, Form, FormGroup, Label, Input, FormText } from "react-bootstrap";
+import Sample from "../assets/apart assets/sample.png";
 
 const Investing = () => {
   return (
@@ -61,7 +62,7 @@ const Investing = () => {
         <Row>
           <Col xxl="4">
             <h3>Apartment for personal use</h3>
-            <p>
+            <p className="investing-title_subtext mt-30">
               Given the ecological situation or the chaotic architectural situation in the city, the streets
               of old Tbilisi can really be considered as a place to live: the most important thing is a quiet
               environment - which has a positive impact on our mental or physical health. The recreation area,
@@ -70,12 +71,12 @@ const Investing = () => {
               standards.
             </p>
           </Col>
-          <Col xxl="4">
-            <h3>Here is IMG</h3>
+          <Col className="mt-80" xxl="4">
+            <Image src={Sample} alt="#" />
           </Col>
           <Col xxl="4">
-            <h3>Apartment for commercial use</h3>
-            <p>
+            <h3 className="special-margin-class">Apartment for commercial use</h3>
+            <p className="investing-title_subtext mt-30">
               Real estate is considered to be one of the most profitable ways to increase capital. The company
               Apart Development is located in a tourist active zone, in particular in Old Tbilisi. Our
               projects meet all criteria, be it a unique location, quiet environment, greenery or special
@@ -87,10 +88,10 @@ const Investing = () => {
             </p>
           </Col>
         </Row>
-        <Row>
+        <Row className="special-margin-row">
           <Col xxl="6">
             <h3>Payment method and remote services</h3>
-            <p>
+            <p className="investing-title_subtext">
               We have also developed customer-tailored remote services that will simplify and facilitate
               apartment purchasing decisions for residents abroad. We will assist you in resolving legal
               issues remotely. We will provide you with an online consultation at a time convenient to you

@@ -761,7 +761,7 @@ a.nav-link {
 .projects-floor-yard {
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 26px;
   line-height: 14px;
 
   color: #121927;
@@ -824,6 +824,20 @@ h2 {
 .mb-80 {
   margin-bottom: 80px;
 }
+
+/* USE OF IMPORTANT */
+.mt-80 {
+  margin-top: 80px !important;
+}
+.special-margin-class {
+  margin-top: 350px;
+}
+.special-margin-row {
+  margin-top: 200px !important;
+}
+
+/* USE OF IMPORTANT  */
+
 .custom_ol {
   list-style: url("../assets/line.svg") !important;
 }
@@ -1405,3 +1419,9 @@ flickity-enabled {
   text-align: center;
   font-size: 26px;
 }
+.basic-texts-14 {
+  font-size: 14px;
+}
+/* .projects-floor-selector-hr {
+  border-top: 1px solid #121927;
+} */

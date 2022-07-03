@@ -28,12 +28,12 @@ const ProjectsFloor = () => {
         <Row className="justify-content-between mt-5">
           <Col xs="2">
             <hr />
-            <p className="">Tree’s planted</p>
+            <p className="basic-texts-14">Tree’s planted</p>
             <h3 className="projects-floor-yard">132</h3>
           </Col>
           <Col xs="3">
             <hr />
-            <p className="">exhibition spaces</p>
+            <p className="basic-texts-14">exhibition spaces</p>
             <h3 className="projects-floor-yard">3245 m2</h3>
           </Col>
           <Col xs="4">
@@ -102,7 +102,7 @@ const ProjectsFloor = () => {
         <Row className="justify-content-between">
           <Col xs="5">
             <h3>About this project</h3>
-            <p className="projects--floor-about-text">
+            <p className="projects--floor-about-text basic-texts-14">
               started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi. Project
               perfectly suits the architectural style of Old Tbilisi, It is located on Bukhaidze Street, in
               the historical part of Tbilisi. Our goal is to match the exterior of the project perfectly with

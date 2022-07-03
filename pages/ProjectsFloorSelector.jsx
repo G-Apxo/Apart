@@ -28,7 +28,7 @@ const ProjectsFloorSelector = () => {
             <p>Chose your appartment</p>
 
             <Row>
-              <Col xs="6">
+              <Col xs="3">
                 <Form.Select aria-label="Default select example">
                   <option>Chose floor 1-10</option>
                   <option value="1">One</option>
@@ -36,7 +36,7 @@ const ProjectsFloorSelector = () => {
                   <option value="3">Three</option>
                 </Form.Select>
               </Col>
-              <Col xs="6">
+              <Col xs="3">
                 {" "}
                 <Form.Select aria-label="Default select example">
                   <option>Chose floor 1-10</option>
@@ -52,36 +52,36 @@ const ProjectsFloorSelector = () => {
               </Row>
               <Row>
                 <Col xs="4">
-                  <hr />
-                  <p>Apartment number</p>
-                  <p>N323</p>
+                  <hr className="projects-floor-selector-hr" />
+                  <p className="basic-texts-14">Apartment number</p>
+                  <p className="projects-floor-yard">N323</p>
                 </Col>
                 <Col xs="4">
                   <hr />
-                  <p>Total area</p>
-                  <p>81.18 m2</p>
+                  <p className="basic-texts-14">Total area</p>
+                  <p className="projects-floor-yard">81.18 m2</p>
                 </Col>
                 <Col xs="4">
                   <hr />
-                  <p>BALCONY AREA</p>
-                  <p>15.57 m2</p>
+                  <p className="basic-texts-14">BALCONY AREA</p>
+                  <p className="projects-floor-yard">15.57 m2</p>
                 </Col>
               </Row>
               <Row>
                 <Col xs="4">
                   <hr />
-                  <p>Living Area</p>
-                  <p>65.61 m2</p>
+                  <p className="basic-texts-14">Living Area</p>
+                  <p className="projects-floor-yard">65.61 m2</p>
                 </Col>
                 <Col xs="4">
                   <hr />
-                  <p>Total area</p>
-                  <p>65.61 m2</p>
+                  <p className="basic-texts-14">Total area</p>
+                  <p className="projects-floor-yard">65.61 m2</p>
                 </Col>
                 <Col xs="4">
                   <hr />
-                  <p>SQ.M . Price</p>
-                  <p>2,200$</p>
+                  <p className="basic-texts-14">SQ.M . Price</p>
+                  <p className="projects-floor-yard">2,200$</p>
                 </Col>
               </Row>
             </Row>
@@ -138,7 +138,7 @@ const ProjectsFloorSelector = () => {
         <Row className="justify-content-between">
           <Col xs="5">
             <h3>About this project</h3>
-            <p className="projects--floor-about-text">
+            <p className="projects--floor-about-text basic-texts-14">
               started new project OLD CITY PANORAMA whitch is different and special poject in Tbilisi. Project
               perfectly suits the architectural style of Old Tbilisi, It is located on Bukhaidze Street, in
               the historical part of Tbilisi. Our goal is to match the exterior of the project perfectly with
