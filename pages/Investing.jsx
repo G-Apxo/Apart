@@ -98,7 +98,7 @@ const Investing = () => {
               (taking into account the time difference). Remote services also apply to people who are not
               Georgian citizens. The company also has an interest-free installment plan, the terms of which
               are as follows: if you buy an apartment with us, you can use the 15-month interest-free
-              installment plan, the down payment is 30% and the rest is distributed at the customer's request.
+              installment plan, the down payment is 30% and the rest is distributed at the customer s request.
             </p>
           </Col>
           <Col xxl="6">
