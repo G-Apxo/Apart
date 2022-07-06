@@ -1,5 +1,5 @@
 import React from 'react'
-// import Flickity from "react-flickity-component";
+import Flickity from "react-flickity-component";
 import { Row, Col,Container } from "react-bootstrap";
 import Slide1 from "../../../assets/slider.png";
 import Slide2 from "../../../assets/slider.png";
@@ -14,19 +14,19 @@ import Image from "next/image";
 const Slider = () => {
   return (
     <div>
-    {/* <Flickity  data-flickity='{ "freeScroll": true, "wrapAround": true }'>
+    <Flickity  data-flickity='{ "freeScroll": true, "wrapAround": true }'>
     <Container>
               <Row>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" >
                 <iframe
+                    className='iframe'
                     allowFullScreen
                     width="640"
                     height="480"
                     loading="lazy"
                     frameBorder="0"
-                    src="https://62b4daba41b2130008b80a32--resilient-ganache-549f6c.netlify.app/frame/"
+                    src="https://62b4e729297917007cd28bcc--jovial-eclair-7745d5.netlify.app/frame/"
                   ></iframe>
-             
                 </Col>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="d-flex">
                   <Col className="d-flex align-items-center">
@@ -184,8 +184,8 @@ const Slider = () => {
                 </Col>
               </Row>
       </Container>
-    </Flickity> */}
-        <Container>
+    </Flickity>
+        {/* <Container>
               <Row className='justify-content-between'>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" >
                 <iframe
@@ -202,8 +202,6 @@ const Slider = () => {
                 <Col xs="12" lg="5" md="5" sm="5" xl="5" xxl="5" className="d-flex">
                   <Col className="d-flex align-items-center">
                     <div className="test">
-
-              
                      <Image src={Taghi} alt="banner immage" className="Taghi" /> 
                       <p className="mt-40">
                         For our team, it is important and a priority to preserve <br />
@@ -226,15 +224,14 @@ const Slider = () => {
                           <Col  xs="6" lg="6" md="6" sm="6" xl="6" xxl="6">
                           <i className="read__more cursor">
                               View Projects <Image src={Vector} />
-                            </i>
+                          </i>
                           </Col>
                         </Row>
                     </div>
-                    
                   </Col>
                 </Col>
               </Row>
-      </Container>
+      </Container> */}
     </div>
     
   )
