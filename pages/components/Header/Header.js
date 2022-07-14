@@ -6,8 +6,8 @@ import Image from "next/image";
 import Logo from "../../assets/logo.svg";
 import { useRouter } from "next/router";
 import styles from "../../../styles/Home.module.css";
-import blogPosts from "../../../pages/assets/posts.json";
-import BlogCard from "../../../pages/components/BlogCard";
+// import blogPosts from "../../../pages/assets/posts.json";
+// import BlogCard from "../../../pages/components/BlogCard";
 
 // import Link from 'next/link';
 
@@ -24,7 +24,9 @@ function Header() {
     var element = document.body;
     element.classList.toggle("dark-mode");
  }
+ 
  const { locale, locales, asPath } = useRouter();
+
   return (
     
     <div>
