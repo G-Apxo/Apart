@@ -1,9 +1,9 @@
 import React from "react";
 import { Nav, Button, Row, Container, input, Col } from "react-bootstrap";
-import Apart_showroom from "../../../assets/apartshowroom.svg";
-import Greenlife from "../../../assets/greenlife.svg";
-import Malongo from "../../../assets/apart assets/partners/malongo2.png";
-import Tbc from "../../../assets/apart assets/partners/tbc-logo-geo2.svg";
+import Apart_showroom from "../../assets/apartshowroom.svg";
+import Greenlife from "../../assets/greenlife.svg";
+import Malongo from "../../assets/apart assets/partners/malongo2.png";
+import Tbc from "../../assets/apart assets/partners/tbc-logo-geo2.svg";
 
 import Image from "next/image";
 function Partners() {

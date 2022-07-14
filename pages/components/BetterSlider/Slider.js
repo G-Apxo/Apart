@@ -1,15 +1,15 @@
 import React from 'react'
 import Flickity from "react-flickity-component";
 import { Row, Col,Container } from "react-bootstrap";
-import Slide1 from "../../../assets/slider.png";
-import Slide2 from "../../../assets/slider.png";
-import Slide3 from "../../../assets/slider.png";
-import Slide4 from "../../../assets/slider.png";
-import Taghi from "../../../assets/taghi.svg";
-import Call from "../../../assets/Call.svg";
-import ThreeSixty from "../../../assets/ThreeSixtt.svg"
-import Video from "../../../assets/Videosmall.svg"
-import Vector from "../../../assets/seeprjvector.png"
+import Slide1 from "../../assets/slider.png";
+import Slide2 from "../../assets/slider.png";
+import Slide3 from "../../assets/slider.png";
+import Slide4 from "../../assets/slider.png";
+import Taghi from "../../assets/taghi.svg";
+import Call from "../../assets/Call.svg";
+import ThreeSixty from "../../assets/ThreeSixtt.svg"
+import Video from "../../assets/Videosmall.svg"
+import Vector from "../../assets/seeprjvector.png"
 import Image from "next/image";
 const Slider = () => {
   return (

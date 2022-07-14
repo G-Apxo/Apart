@@ -1,13 +1,8 @@
-import Slider from '../src/components/BetterSlider/Slider'
-import Contact from '../src/components/Contactform/contact'
-import Partners from '../src/components/Partners/partners'
-import Projectsmap from '../src/components/Projectsmap/Projectsmap'
-import Layout from '../src/components/Layout/Layout'
-import { useRouter } from "next/router";
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
-import blogPosts from "./assets/posts.json";
-import BlogCard from "./components/BlogCard";
+import Slider from './components/BetterSlider/Slider'
+import Contact from './components/Contactform/contact'
+import Partners from './components/Partners/partners'
+import Projectsmap from './components/Projectsmap/Projectsmap'
+import Layout from './components/Layout/Layout'
 // import Test from '../src/components/Test/Test'
 
 export default function Home() {

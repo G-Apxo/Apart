@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, Button, Row, Container, input, Col } from "react-bootstrap";
 import Image from "next/image";
-import Img from "../../../assets/logo.svg";
+import Img from "../../assets/logo.svg";
 import Link from "next/link";
 const path = [
   { uid: 31, name: "Blog", id: 2, path: "Blog" },

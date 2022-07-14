@@ -3,7 +3,7 @@ import Head from "next/head";
 import { Nav, Button, Row, Container, input, Col, Navbar, FormSelect,Form} from "react-bootstrap";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "../../../assets/logo.svg";
+import Logo from "../../assets/logo.svg";
 import { useRouter } from "next/router";
 import styles from "../../../styles/Home.module.css";
 import blogPosts from "../../../pages/assets/posts.json";
