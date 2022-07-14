@@ -1,22 +1,20 @@
-import Slider from './components/BetterSlider/Slider'
-import Contact from './components/Contactform/contact'
-import Partners from './components/Partners/partners'
-import Projectsmap from './components/Projectsmap/Projectsmap'
-import Layout from './components/Layout/Layout'
+import Slider from "./components/BetterSlider/Slider";
+import Contact from "./components/Contactform/contact";
+import Partners from "./components/Partners/partners";
+import Projectsmap from "./components/Projectsmap/Projectsmap";
+import Layout from "./components/Layout/Layout";
 // import Test from '../src/components/Test/Test'
 
 export default function Home() {
-  const { locale, locales, asPath } = useRouter();
   return (
     <div>
-   
       <Layout>
         {/* <Test/> */}
-        <Slider/>
-        <Contact/>
+        <Slider />
+        <Contact />
         <Partners />
-        <Projectsmap/>
+        <Projectsmap />
       </Layout>
-      </div>
-  )
+    </div>
+  );
 }
