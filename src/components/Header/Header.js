@@ -4,6 +4,10 @@ import { Nav, Button, Row, Container, input, Col, Navbar, FormSelect,Form} from 
 import Link from "next/link";
 import Image from "next/image";
 import Logo from "../../../assets/logo.svg";
+import { useRouter } from "next/router";
+import styles from "../../../styles/Home.module.css";
+import blogPosts from "../../../pages/assets/posts.json";
+import BlogCard from "../../../pages/components/BlogCard";
 
 // import Link from 'next/link';
 
@@ -20,7 +24,9 @@ function Header() {
     var element = document.body;
     element.classList.toggle("dark-mode");
  }
+ const { locale, locales, asPath } = useRouter();
   return (
+    
     <div>
       <Head>
         <title>Apart</title>
@@ -29,6 +35,7 @@ function Header() {
       <Container className="mobile_menu">
       <section className="top-nav">
     <div>
+  
     <Link href="/" className="cursor">
               <a className="navbar-brand">
                 <Image src={Logo} alt="Picture of the author" />
@@ -116,6 +123,23 @@ function Header() {
           </Col>
           <Col xs="7" lg="7" md="7" sm="7" xl="7" xxl="7" className="d-flex justify-content-center">
             <Navbar  >
+            <div >
+                <main>
+                  <div >
+                    {locales.map((l, i) => {
+                      return (
+                        <span key={i} className={l === locale ? styles.selected : ""}>
+                          <Link href={asPath} locale={l}>
+                            {l}
+                          </Link>
+                        </span>
+                      );
+                    })}
+                  </div>
+                  <div>
+                  </div>
+                </main>
+              </div>
               <ul className="navbar-nav mr-auto">
                 {path.map(value => {
                   return (
