@@ -43,16 +43,18 @@ const Investing = () => {
           <h3>Services</h3>
         </Row>
         <Row>
-          <ul className="investing-services">
-            <li>Spa</li>
-            <li>Pool</li>
-            <li>Fitness</li>
-            <li>Cofe-Restaurant</li>
-            <li>Room Service</li>
-            <li>Consierge</li>
-            <li>24 Hour Security</li>
-            <li>Cleaning</li>
-          </ul>
+          <Col xs="12" lg="12" md="12" sm="12" xl="12" xxl="12">
+            <ul className="investing-services">
+              <li>Spa</li>
+              <li>Pool</li>
+              <li>Fitness</li>
+              <li>Cafe-Restaurant</li>
+              <li>Room Service</li>
+              <li>Consierge</li>
+              <li>24 Hour Security</li>
+              <li>Cleaning</li>
+            </ul>
+          </Col>
         </Row>
       </Container>
       <Container>
