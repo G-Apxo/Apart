@@ -1,6 +1,7 @@
 import Head from "next/head";
-import { AboutBanner } from "../src/components/about/AboutBanner";
-import Layout from "../src/components/Layout/Layout";
+import AboutBanner from "../pages/components/about/AboutBanner";
+
+import Layout from "../pages/components/Layout/Layout";
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
       </Head>
       {/* Layout wayper in nextjs */}
       <Layout>
-        <AboutBanner/>
+        <AboutBanner />
       </Layout>
     </>
   );
