@@ -3,7 +3,7 @@ import { Nav, Button, Row, Container, input, Col, Navbar, FormSelect } from "rea
 import Image from "next/image";
 import Taghi from "../assets/Taghi_old_tbilisi.svg";
 import Bukhaidze from "../assets/projects_floor.png";
-import Layout from "../src/components/Layout/Layout";
+import Layout from "../pages/components/Layout/Layout";
 import RoomImage from "../assets/apart assets/projects room/Asset41.png";
 import RoomImageModel from "../assets/apart assets/projects room/apex.png";
 import Vector from "../assets/seeprjvector.png";

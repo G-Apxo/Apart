@@ -1,9 +1,9 @@
 import React from "react";
-import Layout from "../src/components/Layout/Layout";
-import Video from "../assets/video.svg";
+import Layout from "../pages/components/Layout/Layout";
+import Video from "./assets/video.svg";
 import Image from "next/image";
 import { Nav, Button, Row, Container, Col, Form, FormGroup, Label, Input, FormText } from "react-bootstrap";
-import Sample from "../assets/apart assets/sample.png";
+import Sample from "./assets/apart assets/sample.png";
 
 const Investing = () => {
   return (

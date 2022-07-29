@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Layout from "../pages/Geo/src/components/Layout/Layout";
+import Layout from "../pages/components/Layout/Layout";
 import { Nav, Button, Row, Container, input, Col } from "react-bootstrap";
 import Link from "next/link";
 // import blog1 from "../src/assets/apartAssets/blog1.png";

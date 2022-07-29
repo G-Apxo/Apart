@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../src/components/Layout/Layout";
+import Layout from "../pages/components/Layout/Layout";
 import { Nav, Button, Row, Container, Col, Form, FormGroup, Label, Input, FormText } from "react-bootstrap";
 const Contact = () => {
   return (

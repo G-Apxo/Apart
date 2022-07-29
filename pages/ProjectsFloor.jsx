@@ -3,7 +3,7 @@ import { Nav, Button, Row, Container, input, Col, Navbar, FormSelect } from "rea
 import Image from "next/image";
 import Taghi from "../assets/Taghi_old_tbilisi.svg";
 import Bukhaidze from "../assets/projects_floor.png";
-import Layout from "../src/components/Layout/Layout";
+import Layout from "../pages/components/Layout/Layout";
 import { Form } from "react-bootstrap";
 import Link from "next/link";
 import { BsArrowUpLeft } from "react-icons/bs";

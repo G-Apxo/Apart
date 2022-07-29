@@ -12,10 +12,10 @@ import {
   Input,
   FormText,
 } from "react-bootstrap";
-import Layout from "../src/components/Layout/Layout";
-import Slide1 from "../assets/oldcitypanorama.png";
-import Vector from "../assets/seeprjvector.png";
-import Bukh from "../assets/apart assets/projects/Frame154.png";
+import Layout from "../pages/components/Layout/Layout";
+import Slide1 from "./assets/oldcitypanorama.png";
+import Vector from "./assets/seeprjvector.png";
+import Bukh from "./assets/apart assets/projects/Frame154.png";
 
 import Image from "next/image";
 import Link from "next/link";

@@ -25,7 +25,7 @@ import Team18 from "../../assets/apartteam/team18.webp";
 import Team19 from "../../assets/apartteam/team19.webp";
 // import Team20 from "../../../assets/apartteam/team20.webp";
 import Quote from "../../assets/quote.svg";
-import Video from "../../../assets/video.svg";
+// import Video from "../../../assets/video.svg";
 export const AboutBanner = () => {
   return (
     <div>
@@ -111,7 +111,7 @@ export const AboutBanner = () => {
         </Row>
 
         <Col xs="12" className="mb-60 mt-60">
-          <Image src={Video} alt="banner immage" />
+          {/* <Image src={Video} alt="banner immage" /> */}
         </Col>
       </Container>
       <section className="cover mt-120"></section>
