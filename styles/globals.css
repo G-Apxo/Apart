@@ -1088,6 +1088,7 @@ h2 {
   width: 60px !important;
   height: 30px;
   background-size: 30%;
+  border: 1px solid black;
 }
 .form-switch .form-check-input:checked {
   background-color: #121927;
