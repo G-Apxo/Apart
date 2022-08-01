@@ -1433,3 +1433,6 @@ flickity-enabled {
 .projects-floor-goback {
   margin-top: 120px !important;
 }
+.form-text-area {
+  border: 0.5px solid #00000064 !important;
+}

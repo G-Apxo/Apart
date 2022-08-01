@@ -157,6 +157,7 @@ const Investing = () => {
                       as="textarea"
                       type="text"
                       id="text"
+                      className="form-text-area"
                       name="text"
                       // className="form-control input__main"
                       placeholder="Text"
