@@ -6,9 +6,11 @@ const nextConfig = {
 module.exports = {
   i18n: {
     // providing the locales supported by your application
-    locales: ["geo-Geo","en-US", "ru-Ru" ],
+    locales: ["geo","en", "ru" ],
     //  default locale used when the non-locale paths are visited
-    defaultLocale: "geo-Geo"
+    defaultLocale: "geo",
+    // detetcting from were was person connected
+    localeDetection:true
   }
 };
 

@@ -39,9 +39,9 @@ function Header() {
     <div>
   
     <Link href="/" className="cursor">
-              <a className="navbar-brand">
-                <Image src={Logo} alt="Picture of the author" />
-              </a>
+    <a className="navbar-brand">
+      <Image src={Logo} alt="Picture of the author" />
+    </a>
     </Link>
     </div>
     <input id="menu-toggle" type="checkbox" />
@@ -128,15 +128,7 @@ function Header() {
             <div >
                 <main>
                   <div >
-                    {locales.map((l, i) => {
-                      return (
-                        <span key={i} className={l === locale ? styles.selected : ""}>
-                          <Link href={asPath} locale={l}>
-                            {l}
-                          </Link>
-                        </span>
-                      );
-                    })}
+                  
                   </div>
                   <div>
                   </div>
@@ -153,14 +145,24 @@ function Header() {
                   );
                 })}
               </ul>
+              {locales.map((l, i) => {
+                      return (
+                        <span key={i} className={l === locale ? styles.selected : ""}>
+                          <Link href={asPath} locale={l}>
+                            {l}
+                          </Link>
+                        </span>
+                      );
+                    })}
             </Navbar>
+           
           </Col>
+       
           <Col xs="3" lg="3" md="3" sm="3" xl="3" xxl="3" className="d-flex justify-content-end align-items-center">
             <ul className="navbar-nav ">
-            
               <li className="nav-item text-nowrap d-flex">
                 <FormSelect className="Language__select">
-                  <option>ENG</option>
+                  <option>en</option>
                   <option>Geo</option>
                 </FormSelect>
               </li>

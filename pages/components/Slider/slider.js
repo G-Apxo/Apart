@@ -4,11 +4,11 @@ import Slider from "react-slick";
 // import D3scene from "../3dscene/3dscene";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import { Row, Col,Container } from "react-bootstrap";
-import Slide1 from "../../../assets/slider.png";
-import Slide2 from "../../../assets/slider.png";
-import Slide3 from "../../../assets/slider.png";
-import Slide4 from "../../../assets/slider.png";
-import Taghi from "../../../assets/taghi.svg";
+import Slide1 from "../../assets/slider.png";
+import Slide2 from "../../assets/slider.png";
+import Slide3 from "../../assets/slider.png";
+import Slide4 from "../../assets/slider.png";
+import Taghi from "../../assets/taghi.svg";
 
 import Image from "next/image";
 
@@ -57,15 +57,15 @@ function Dslider() {
               <Container className="custom__width">
               <Row>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" >
-                 {/* <Image src={img} alt={img} /> */}
-                   <iframe
+                 <Image src={img} alt={img} />
+                   {/* <iframe
                     allowFullScreen
                     width="640"
                     height="480"
                     loading="lazy"
                     frameBorder="0"
                     src="https://resilient-ganache-549f6c.netlify.app/frame/"
-                  ></iframe> 
+                  ></iframe>  */}
                 </Col>
                 <Col xs="12" lg="6" md="6" sm="6" xl="6" xxl="6" className="d-flex">
                   <Col className="d-flex align-items-center">

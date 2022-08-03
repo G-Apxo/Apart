@@ -1,4 +1,4 @@
-import Slider from "./components/BetterSlider/Slider";
+import Slider from "./components/Slider/Slider";
 import Contact from "./components/Contactform/contact";
 import Partners from "./components/Partners/partners";
 import Projectsmap from "./components/Projectsmap/Projectsmap";
