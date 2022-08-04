@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../pages/components/Layout/Layout";
 import { Row, Container, Col } from "react-bootstrap";
-import BannerImg from "../assets/singleblog.png";
+import BannerImg from "../pages/assets/singleblog.png";
 import Image from "next/image";
 import { BsArrowUpLeft } from "react-icons/bs";
 
